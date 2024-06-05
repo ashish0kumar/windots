@@ -72,110 +72,168 @@ focus_borders:
 bar:
   height: "35px"
   position: "top"
-  opacity: "0.8"
-  background: *crust
+  opacity: "1.0"
+  background: "transparent"
   foreground: *mauve
   font_family: "JetBrains Mono"
   font_size: "12px"
-  padding: "0 10px"
+  padding: "0"
   offset_x: "13px"
   offset_y: "8px"
   border_radius: "10px"
   components_left:
     - type: "workspaces"
-      focused_workspace_background: "#ffffff33"
-      displayed_workspace_background: "#00000033"
+      focused_workspace_background: *surface0
+      displayed_workspace_background: *surface0
       default_workspace_background: "transparent"
+      foreground: *mauve
+      background: *base
+      border_color: *base
+      border_radius: "10px"
+      border_width: "10px"
+
+    - type: "window title"
+      foreground: *text
+      background: *base
+      border_color: *base
+      border_radius: "10px"
+      border_width: "10px"
+      margin: "0 0 0 5px"
 
     - type: "music"
       label_not_playing: ""
-      label_paused: "| {song_title} - {artist_name} ▶"
-      label_playing: "| {song_title} - {artist_name} ❚❚"
+      label_paused: "{song_title} - {artist_name} ▶"
+      label_playing: "{song_title} - {artist_name} ❚❚"
       max_title_length: 30
       max_artist_length: 20
-      margin: 0 10px
+      margin: "0 10px"
 
   components_center:
-    # - type: "window title"
     - type: "clock"
       # Documentation on formatting date/time string:
       # https://learn.microsoft.com/en-us/dotnet/standard/base-types/custom-date-and-time-format-strings
-      time_formatting: "🗓️ ddd d/MM | 🕓 hh:mm tt |"
+      time_formatting: "🕓 hh:mm tt  🗓️ ddd d/MM"
+      foreground: *mauve
+      background: *base
+      border_color: *base
+      border_radius: "10px"
+      border_width: "10px"
 
-    - type: "weather"
-      latitude: 28.7041
-      longitude: 77.1025
-      label: "{temperature_celsius}°C"
-      label_sun: "☀️ {temperature_celsius}°C"
-      label_moon: "🌙 {temperature_celsius}°C"
-      label_cloud_moon: "☁️ {temperature_celsius}°C"
-      label_cloud_sun: "⛅ {temperature_celsius}°C"
-      label_cloud_moon_rain: "🌧️ {temperature_celsius}°C"
-      label_cloud_sun_rain: "🌦️ {temperature_celsius}°C"
-      label_cloud_rain: "🌧️ {temperature_celsius}°C"
-      label_snow_flake: "❄️ {temperature_celsius}°C"
-      label_thunderstorm: "⚡ {temperature_celsius}°C"
-      label_cloud: "☁️ {temperature_celsius}°C"
-      margin: 0 5px
+    # - type: "weather"
+    #   latitude: 28.7041
+    #   longitude: 77.1025
+    #   label: "{temperature_celsius}°C"
+    #   label_sun: "☀️ {temperature_celsius}°C"
+    #   label_moon: "🌙 {temperature_celsius}°C"
+    #   label_cloud_moon: "☁️ {temperature_celsius}°C"
+    #   label_cloud_sun: "⛅ {temperature_celsius}°C"
+    #   label_cloud_moon_rain: "🌧️ {temperature_celsius}°C"
+    #   label_cloud_sun_rain: "🌦️ {temperature_celsius}°C"
+    #   label_cloud_rain: "🌧️ {temperature_celsius}°C"
+    #   label_snow_flake: "❄️ {temperature_celsius}°C"
+    #   label_thunderstorm: "⚡ {temperature_celsius}°C"
+    #   label_cloud: "☁️ {temperature_celsius}°C"
+    #   margin: 0 5px
+    #   background: *base
+    #   border_color: *base
+    #   border_radius: "10px"
+    #   border_width: "10px"
 
   components_right:
-    # - type: "system tray"
     - type: "tiling direction"
-      label_horizontal: "⮂ |"
-      label_vertical: "⮁ |"
+      label_horizontal: "⮂"
+      label_vertical: "⮁"
       background: "transparent"
-      margin: "0 5px"
+      margin: "0px"
+      background: *base
+      border_color: *base
+      border_radius: "10px"
+      border_width: "10px"
 
     # - type: "binding mode"
     #   background: "#ffffff33"
     #   margin: "0 5px 0 5px"
     #   padding: "5px 8px"
 
-    # - type: "cpu"
-    #   label: "⚙️{percent_usage}%"
-    #   # How often this counter is refreshed.
-    #   refresh_interval_ms: 1000
-    #   margin: "0 5px"
+    - type: "cpu"
+      label: "⚙️ {percent_usage}%"
+      # How often this counter is refreshed.
+      refresh_interval_ms: 1000
+      margin: "0 0 0 5px"
+      foreground: *maroon
+      background: *base
+      border_color: *base
+      border_radius: "10px"
+      border_width: "10px"
 
-    # - type: "memory"
-    #   label: "💾{percent_usage}%"
-    #   # How often this counter is refreshed.
-    #   refresh_interval_ms: 1000
-    #   margin: "0 5px"
+    - type: "memory"
+      label: "🎟 {percent_usage}%"
+      # How often this counter is refreshed.
+      refresh_interval_ms: 1000
+      margin: "0 0 0 5px"
+      foreground: *pink
+      background: *base
+      border_color: *base
+      border_radius: "10px"
+      border_width: "10px"
 
     - type: "network"
       label_no_internet: "NC"
       label_ethernet: "Eth"
-      label_wifi_strength_0: "WiFi: 0%"
+      label_wifi_strength_0: "WiFi: 0% WiFi_name"
       label_wifi_strength_25: "WiFi: 25%"
       label_wifi_strength_50: "WiFi: 50%"
       label_wifi_strength_75: "WiFi: 75%"
       label_wifi_strength_100: "WiFi: 100%"
       margin: "0 0 0 5px"
+      foreground: *yellow
+      background: *base
+      border_color: *base
+      border_radius: "10px"
+      border_width: "10px"
 
     - type: "volume"
-      label_low: "| 🔊{volume_level}% |"
-      label_medium: "| 🔊{volume_level}% |"
-      label_high: "| 🔊{volume_level}% |"
-      label_mute: "| 🔊{volume_level}% |"
-      margin: "0 0 0 10px"
+      label_low: "🔊{volume_level}%"
+      label_medium: "🔊{volume_level}%"
+      label_high: "🔊{volume_level}%"
+      label_mute: "🔊{volume_level}%"
+      margin: "0 0 0 5px"
+      foreground: *blue
+      background: *base
+      border_color: *base
+      border_radius: "10px"
+      border_width: "10px"
 
     - type: "battery"
       label_draining: "{battery_level}% 🔋"
       label_power_saver: "{battery_level}% 🔋"
       label_charging: "{battery_level}% ⚡"
       margin: "0 0 0 5px"
+      foreground: *green
+      background: *base
+      border_color: *base
+      border_radius: "10px"
+      border_width: "10px"
 
 workspaces:
   - name: "1"
+    display_name: "⬤"
   - name: "2"
+    display_name: "⬤"
   - name: "3"
+    display_name: "⬤"
   - name: "4"
+    display_name: "⬤"
   - name: "5"
+    display_name: "⬤"
   - name: "6"
+    display_name: "⬤"
   - name: "7"
+    display_name: "⬤"
   - name: "8"
+    display_name: "⬤"
   - name: "9"
+    display_name: "⬤"
 
 window_rules:
   # Task Manager requires admin privileges to manage and should be ignored unless running
@@ -349,4 +407,4 @@ keybindings:
     binding: "Alt+Shift+8"
   - commands: ["move to workspace 9", "focus workspace 9"]
     bindings: ["Alt+Shift+9"]
-
+    
