@@ -73,6 +73,7 @@ focus_borders:
     enabled: false
     color: "#ff0000"
 
+# glazewm bar config
 bar:
   height: "45px"
   position: "top"
