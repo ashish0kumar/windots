@@ -1,2 +1,2 @@
 # dotfiles
-My windows dev setup and dotfiles
+My windows 11 dotfiles
