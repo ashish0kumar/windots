@@ -1,2 +1,2 @@
 # dotfiles
-My windows 11 + WSL2 dotfiles
+Dotfiles of my Windows 11 + WSL2 setup
