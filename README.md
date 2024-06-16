@@ -13,7 +13,7 @@ This repository contains my configuration files to create a visually appealing a
 
 ## Screenshots
 
-!(/rice-preview/1.png)
-!(/rice-preview/2.png)
-!(/rice-preview/5.png)
-!(/rice-preview/6.png)
+![](/rice-preview/1.png)
+![](/rice-preview/2.png)
+![](/rice-preview/5.png)
+![](/rice-preview/6.png)
