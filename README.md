@@ -1,1 +1,1 @@
-# 🍙 My Ricing dotfiles for Windows 11 + WSL2
+# 🍙 My Ricing Dotfiles for Windows 11 + WSL2
