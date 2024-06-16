@@ -1,2 +1,2 @@
 # dotfiles
-My Windows 11 + WSL2 setup dotfiles
+🍙 My Ricing dotfiles for Windows 11 + WSL2 setup
