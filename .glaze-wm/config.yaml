@@ -74,17 +74,17 @@ focus_borders:
     color: "#ff0000"
 
 bar:
-  height: "45px"
+  height: "40px"
   position: "top"
-  opacity: 1
+  opacity: 0.9
   background: *mantle
   foreground: *mauve
   font_family: "JetBrains Mono"
-  font_size: "13px"
-  padding: "0px 15px"
-  offset_x: "0px"
-  offset_y: "0px"
-  border_radius: "0px"
+  font_size: "12px"
+  padding: "0px 10px"
+  offset_x: "14px"
+  offset_y: "10px"
+  border_radius: "10px"
   components_left:
     - type: "workspaces"
       focused_workspace_background: "transparent"
