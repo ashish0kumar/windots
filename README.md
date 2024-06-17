@@ -11,6 +11,7 @@ Welcome to my dotfiles repository! This repository contains my configuration fil
 ## 📸 Screenshots
 
 ![](/rice-previews/1.png)
+*Catppuccin mocha*
 ![](/rice-previews/2.png)
 ![](/rice-previews/5.png)
 ![](/rice-previews/6.png)
