@@ -10,14 +10,13 @@ Welcome to my dotfiles repository! This repository contains my configuration fil
 
 ## 📸 Screenshots
 
-<p align="center">
-  <b>Catppuccin mocha 🐈🍵</b>
-</p>
 
-![](/rice-previews/1.png)
-![](/rice-previews/2.png)
-![](/rice-previews/5.png)
-![](/rice-previews/6.png)
+| Catppuccin mocha 🐈🍵 |
+| :---: |
+| ![](/rice-previews/1.png) |
+| ![](/rice-previews/2.png) |
+| ![](/rice-previews/5.png) |
+| ![](/rice-previews/6.png) |
 
 ## Useful keybindings 
 You can always change them in your glaze config file.
