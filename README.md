@@ -24,7 +24,7 @@ Welcome to my dotfiles repository! This repository contains my configuration fil
 | Keys                                                                 | Action                                      |
 |----------------------------------------------------------------------|---------------------------------------------|
 | <kbd>alt</kbd> + <kbd>enter</kbd>                                    | Open terminal                               |
-| <kbd>alt</kbd> + <kbd>h</kbd> \| <kbd>j</kbd> \| <kbd>k</kbd> \| <kbd>l</kbd>   | Focus window left \| top \| bottom \| right |
+| <kbd>alt</kbd> + <kbd>h \| j \| k \| l</kbd>   | Focus window left \| top \| bottom \| right |
 | <kbd>alt</kbd> + <kbd>shift</kbd> + <kbd>h</kbd> \| <kbd>j</kbd> \| <kbd>k</kbd> \| <kbd>l</kbd> | Move focusing window left \| top \| bottom \| right |
 | <kbd>alt</kbd> + <kbd>q</kbd>                                        | Close focusing window                       |
 | <kbd>alt</kbd> + <kbd>1</kbd> \| <kbd>2</kbd> \| <kbd>3</kbd> \| <kbd>4</kbd> \| <kbd>5</kbd> \| <kbd>6</kbd> \| <kbd>7</kbd> \| <kbd>8</kbd> \| <kbd>9</kbd> \| <kbd>0</kbd> | Focus workspace {n} |
