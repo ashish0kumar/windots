@@ -21,18 +21,19 @@ Welcome to my dotfiles repository! This repository contains my configuration fil
 
 ## Useful keybindings 
 
-| Keys                        | Action                                      |
-|-----------------------------|---------------------------------------------|
-| `alt + enter`               | Open terminal                               |
-| `alt + h` \| `j` \| `k` \| `l` | Focus window left \| top \| bottom \| right |
-| `alt + shift + h` \| `j` \| `k` \| `l` | Move focusing window left \| top \| bottom \| right |
-| `alt + q`                   | Close focusing window                       |
-| `alt + 1` \| `2` \| `3` \| `4` \| `5` \| `6` \| `7` \| `8` \| `9` \| `0` | Focus workspace {n}                         |
-| `alt + shift + 1` \| `2` \| `3` \| `4` \| `5` \| `6` \| `7` \| `8` \| `9` \| `0` | Move focusing window to workspace {n}         |
-| `alt + m`                   | Minimize current window          |
-| `alt + x`                   | Maximize current window          |
-| `alt + v`                   | Change direction where the next window open should be placed |
-| `alt + f`                   | Make focusing window float/tiled            |
-| `alt + shift + e`    | Exit glazewm                                |
+| Keys                                                                 | Action                                      |
+|----------------------------------------------------------------------|---------------------------------------------|
+| <kbd>alt</kbd> + <kbd>enter</kbd>                                    | Open terminal                               |
+| <kbd>alt</kbd> + <kbd>h</kbd> \| <kbd>j</kbd> \| <kbd>k</kbd> \| <kbd>l</kbd>   | Focus window left \| top \| bottom \| right |
+| <kbd>alt</kbd> + <kbd>shift</kbd> + <kbd>h</kbd> \| <kbd>j</kbd> \| <kbd>k</kbd> \| <kbd>l</kbd> | Move focusing window left \| top \| bottom \| right |
+| <kbd>alt</kbd> + <kbd>q</kbd>                                        | Close focusing window                       |
+| <kbd>alt</kbd> + <kbd>1</kbd> \| <kbd>2</kbd> \| <kbd>3</kbd> \| <kbd>4</kbd> \| <kbd>5</kbd> \| <kbd>6</kbd> \| <kbd>7</kbd> \| <kbd>8</kbd> \| <kbd>9</kbd> \| <kbd>0</kbd> | Focus workspace {n} |
+| <kbd>alt</kbd> + <kbd>shift</kbd> + <kbd>1</kbd> \| <kbd>2</kbd> \| <kbd>3</kbd> \| <kbd>4</kbd> \| <kbd>5</kbd> \| <kbd>6</kbd> \| <kbd>7</kbd> \| <kbd>8</kbd> \| <kbd>9</kbd> \| <kbd>0</kbd> | Move focusing window to workspace {n}         |
+| <kbd>alt</kbd> + <kbd>m</kbd>                                        | Minimize current window          |
+| <kbd>alt</kbd> + <kbd>x</kbd>                                        | Maximize current window          |
+| <kbd>alt</kbd> + <kbd>v</kbd>                                        | Change direction where the next window open should be placed |
+| <kbd>alt</kbd> + <kbd>f</kbd>                                        | Make focusing window float/tiled            |
+| <kbd>alt</kbd> + <kbd>shift</kbd> + <kbd>e</kbd>   | Exit glazewm                                |
+
 
  You can always change them in your glaze config file.
