@@ -20,6 +20,7 @@ Welcome to my dotfiles repository! This repository contains my configuration fil
 ![](/rice-previews/6.png)
 
 ## Useful keybindings 
+You can always change them in your glaze config file.
 
 | Keys                                                                   | Action                                              |
 |------------------------------------------------------------------------|-----------------------------------------------------|
@@ -34,5 +35,3 @@ Welcome to my dotfiles repository! This repository contains my configuration fil
 | <kbd>alt</kbd> + <kbd>v</kbd>                                          | Change direction where the next window open should be placed |
 | <kbd>alt</kbd> + <kbd>f</kbd>                                          | Make focusing window float/tiled                    |
 | <kbd>alt</kbd> + <kbd>shift</kbd> + <kbd>e</kbd>                       | Exit glazewm                                        |
-
- You can always change them in your glaze config file.
