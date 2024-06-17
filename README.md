@@ -18,3 +18,19 @@ Welcome to my dotfiles repository! This repository contains my configuration fil
 ![](/rice-previews/2.png)
 ![](/rice-previews/5.png)
 ![](/rice-previews/6.png)
+
+## Useful keybindings 
+
+| Keys                        | Action                                      |
+|-----------------------------|---------------------------------------------|
+| `alt + enter`               | Open terminal                               |
+| `alt + Space`               | Open powertoy run                           |
+| `alt + h` \| `j` \| `k` \| `l` | Focus window left \| top \| bottom \| right |
+| `alt + shift + h` \| `j` \| `k` \| `l` | Move focusing window left \| top \| bottom \| right |
+| `alt + w`                   | Close focusing window                       |
+| `alt + 1` \| `2` \| `3` \| `4` \| `5` \| `6` \| `7` \| `8` \| `9` \| `0` | Focus workspace {n}                         |
+| `alt + shift + 1` \| `2` \| `3` \| `4` \| `5` \| `6` \| `7` \| `8` \| `9` \| `0` | Move focusing window to workspace {n}         |
+| `alt + m`                   | Maximize/Unmaximize current window          |
+| `alt + d`                   | Change direction where the next window open should be placed |
+| `alt + f`                   | Make focusing window float/tiled            |
+| `ctrl + alt + shift + w`    | Exit glazewm                                |
