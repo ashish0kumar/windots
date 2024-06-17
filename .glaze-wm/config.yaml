@@ -28,9 +28,6 @@ crust: &crust "#11111b"
 
 general:
 
-  terminal: "WindowsTerminal"
-  launcher: "FlowLauncher"
-
   # Whether to automatically focus windows underneath the cursor.
   focus_follows_cursor: false
 
@@ -288,7 +285,7 @@ keybindings:
 
   # Change the focused window to be floating / tiling.
   - command: "toggle floating"
-    binding: "Alt+Shift+Space"
+    binding: "Alt+F"
 
   # Change the focused window to be maximized / unmaximized.
   - command: "toggle maximized"
@@ -312,7 +309,7 @@ keybindings:
 
   # Launch CMD terminal (alternatively `exec wt` or `exec %ProgramFiles%/Git/git-bash.exe`
   # to start Windows Terminal and Git Bash respectively.
-  - command: "exec cmd"
+  - command: "exec wt"
     binding: "Alt+Enter"
 
   # Focus the workspace that last had focus.
