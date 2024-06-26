@@ -1,4 +1,4 @@
-#mocha.yamlU
+#mocha.yamlU catppuccin mocha colors
 rosewater: &rosewater "#f5e0dc"
 flamingo: &flamingo "#f2cdcd"
 pink: &pink "#f5c2e7"
