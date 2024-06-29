@@ -1,4 +1,4 @@
-#mocha.yamlU catppuccin mocha colors
+#mocha.yamlU
 rosewater: &rosewater "#f5e0dc"
 flamingo: &flamingo "#f2cdcd"
 pink: &pink "#f5c2e7"
@@ -71,14 +71,14 @@ focus_borders:
     color: "#ff0000"
 
 bar:
-  height: "40px"
+  height: "30px"
   position: "top"
-  opacity: 0.9
+  opacity: 1
   background: *mantle
   foreground: *mauve
   font_family: "JetBrains Mono"
   font_size: "12px"
-  padding: "0px 10px"
+  padding: "0px 5px"
   offset_x: "14px"
   offset_y: "10px"
   border_radius: "10px"
@@ -123,13 +123,13 @@ bar:
 
   components_right:
     - type: "tiling direction"
-      label_horizontal: "⮂ |"
-      label_vertical: "⮁ |"
+      label_horizontal: "⮂ "
+      label_vertical: "⮁ "
       background: "transparent"
       margin: "0px"
 
     - type: "network"
-      label_no_internet: "NC |"
+      label_no_internet: "NC "
       label_ethernet: "Eth"
       label_wifi_strength_0: "WiFi: 0% WiFi_name"
       label_wifi_strength_25: "WiFi: 25%"
@@ -148,7 +148,6 @@ bar:
     #   # How often this counter is refreshed.
     #   refresh_interval_ms: 1000
     #   # margin: "0 0 0 5px"
-    #   foreground: *maroon
     #   background: *base
     #   border_color: *base
     #   border_radius: "10px"
@@ -159,22 +158,21 @@ bar:
     #   # How often this counter is refreshed.
     #   refresh_interval_ms: 1000
     #   # margin: "0 0 0 5px"
-    #   foreground: *pink
     #   background: *base
     #   border_color: *base
     #   border_radius: "10px"
     #   border_width: "10px"
 
     - type: "volume"
-      label_low: "| 🔊{volume_level}% |"
-      label_medium: "| 🔊{volume_level}% |"
-      label_high: "| 🔊{volume_level}% |"
-      label_mute: "| 🔊{volume_level}% |"
+      label_low: " 🔊{volume_level}% "
+      label_medium: " 🔊{volume_level}% "
+      label_high: " 🔊{volume_level}% "
+      label_mute: " 🔊{volume_level}% "
 
     - type: "battery"
-      label_draining: "{battery_level}% 🔋 |"
-      label_power_saver: "{battery_level}% 🔋 |"
-      label_charging: "{battery_level}% ⚡ |"
+      label_draining: "{battery_level}% 🔋 "
+      label_power_saver: "{battery_level}% 🔋 "
+      label_charging: "{battery_level}% ⚡ "
       margin: "0 0 0 10px"
 
     - type: "clock"
@@ -297,7 +295,7 @@ keybindings:
 
   # Close focused window.
   - command: "close"
-    binding: "Alt+Shift+Q"
+    binding: "Alt+Q"
 
   # Kill GlazeWM process safely.
   - command: "exit wm"
