@@ -73,7 +73,7 @@ focus_borders:
 bar:
   height: "30px"
   position: "top"
-  opacity: 1
+  opacity: 0.9
   background: *mantle
   foreground: *mauve
   font_family: "JetBrains Mono"
@@ -123,13 +123,13 @@ bar:
 
   components_right:
     - type: "tiling direction"
-      label_horizontal: "⮂ "
-      label_vertical: "⮁ "
+      label_horizontal: "⮂"
+      label_vertical: "⮁"
       background: "transparent"
       margin: "0px"
 
     - type: "network"
-      label_no_internet: "NC "
+      label_no_internet: "NC"
       label_ethernet: "Eth"
       label_wifi_strength_0: "WiFi: 0% WiFi_name"
       label_wifi_strength_25: "WiFi: 25%"
@@ -164,15 +164,15 @@ bar:
     #   border_width: "10px"
 
     - type: "volume"
-      label_low: " 🔊{volume_level}% "
-      label_medium: " 🔊{volume_level}% "
-      label_high: " 🔊{volume_level}% "
-      label_mute: " 🔊{volume_level}% "
+      label_low: " 🔊{volume_level}%"
+      label_medium: " 🔊{volume_level}%"
+      label_high: " 🔊{volume_level}%"
+      label_mute: " 🔊{volume_level}%"
 
     - type: "battery"
-      label_draining: "{battery_level}% 🔋 "
-      label_power_saver: "{battery_level}% 🔋 "
-      label_charging: "{battery_level}% ⚡ "
+      label_draining: "{battery_level}% 🔋"
+      label_power_saver: "{battery_level}% 🔋"
+      label_charging: "{battery_level}% ⚡"
       margin: "0 0 0 10px"
 
     - type: "clock"
