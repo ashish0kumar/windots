@@ -73,7 +73,7 @@ focus_borders:
 bar:
   height: "30px"
   position: "top"
-  opacity: 0.9
+  opacity: 1
   background: *mantle
   foreground: *mauve
   font_family: "JetBrains Mono"
@@ -99,7 +99,27 @@ bar:
       margin: "0 0 0 20px"
 
   components_center:
-    - type: "window title"
+    # - type: "window title"
+
+    - type: "text"
+      text: "📁"
+      left_click_command: exec explorer
+      margin: "0 8px"
+
+    - type: "text"
+      text: "🌍"
+      left_click_command: exec firefox
+      margin: "0 8px"
+    
+    - type: "text"
+      text: ">_"
+      left_click_command: exec wt
+      margin: "0 8px"
+
+    - type: "text"
+      text: "</>"
+      left_click_command: exec C:\Users\ashis\Desktop\VSCode.lnk
+      margin: "0 8px"
 
     # - type: "weather"
     #   latitude: 28.7041
@@ -136,7 +156,13 @@ bar:
       label_wifi_strength_50: "WiFi: 50%"
       label_wifi_strength_75: "WiFi: 75%"
       label_wifi_strength_100: "WiFi: 100%"
-      margin: "0 8px"
+      margin: "0 0 0 8px"
+
+    - type: "text"
+      text: " "
+      left_click_command: "exec explorer ms-availablenetworks:"
+      font_size: 20
+      margin: "0 0 0 -8px"
 
     # - type: "binding mode"
     #   background: "#ffffff33"
@@ -179,8 +205,19 @@ bar:
     - type: "clock"
       # Documentation on formatting date/time string:
       # https://learn.microsoft.com/en-us/dotnet/standard/base-types/custom-date-and-time-format-strings
-      time_formatting: "🕒 hh:mm tt  🗓️ ddd d/MM"
+      time_formatting: "🗓️ ddd d/MM"
       margin: "0 10px 0 8px"
+
+    - type: "clock"
+      # Documentation on formatting date/time string:
+      # https://learn.microsoft.com/en-us/dotnet/standard/base-types/custom-date-and-time-format-strings
+      time_formatting: "🕒 hh:mm tt"
+      margin: "0 10px 0 0px"
+
+    - type: "text"
+      text: "🔔"
+      margin: "0 10px 0 6px"
+      left_click_command: "exec ms-actioncenter:"
 
 workspaces:
   - name: "1"
@@ -306,11 +343,6 @@ keybindings:
   - command: "reload config"
     binding: "Alt+Shift+R"
 
-  # Launch CMD terminal (alternatively `exec wt` or `exec %ProgramFiles%/Git/git-bash.exe`
-  # to start Windows Terminal and Git Bash respectively.
-  - command: "exec wt"
-    binding: "Alt+Enter"
-
   # Focus the workspace that last had focus.
   - command: "focus workspace recent"
     binding: "Alt+Y"
@@ -372,3 +404,12 @@ keybindings:
   - commands: ["move to workspace 9", "focus workspace 9"]
     bindings: ["Alt+Shift+9"]
     
+
+
+  # Launch CMD terminal (alternatively `exec wt` or `exec %ProgramFiles%/Git/git-bash.exe`
+  # to start Windows Terminal and Git Bash respectively.
+  - command: "exec wt"
+    binding: "Alt+Enter"
+
+  - command: exec firefox
+    bindings: ["Alt+B"]
