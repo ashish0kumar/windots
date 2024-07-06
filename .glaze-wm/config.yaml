@@ -148,6 +148,10 @@ bar:
       background: "transparent"
       margin: "0 8px"
 
+    - type: "text"
+      text: "|"
+      foreground: *surface2
+
     - type: "network"
       label_no_internet: "NC"
       label_ethernet: "Eth"
@@ -156,13 +160,17 @@ bar:
       label_wifi_strength_50: "WiFi: 50%"
       label_wifi_strength_75: "WiFi: 75%"
       label_wifi_strength_100: "WiFi: 100%"
-      margin: "0 0 0 8px"
+      margin: "0 8px 0 8px"
 
     - type: "text"
       text: " "
       left_click_command: "exec explorer ms-availablenetworks:"
       font_size: 20
-      margin: "0 0 0 -8px"
+      margin: "0 0 0 -16px"
+
+    - type: "text"
+      text: "|"
+      foreground: *surface2
 
     # - type: "binding mode"
     #   background: "#ffffff33"
@@ -196,11 +204,19 @@ bar:
       label_mute: " 🔊{volume_level}%"
       margin: "0 8px 0 4px"
 
+    - type: "text"
+      text: "|"
+      foreground: *surface2
+
     - type: "battery"
-      label_draining: "{battery_level}% 🔋"
-      label_power_saver: "{battery_level}% 🔋"
-      label_charging: "{battery_level}% ⚡"
+      label_draining: "🔋 {battery_level}%"
+      label_power_saver: "🔋 {battery_level}%"
+      label_charging: "⚡ {battery_level}%"
       margin: "0 8px"
+
+    - type: "text"
+      text: "|"
+      foreground: *surface2
 
     - type: "clock"
       # Documentation on formatting date/time string:
@@ -213,6 +229,10 @@ bar:
       # https://learn.microsoft.com/en-us/dotnet/standard/base-types/custom-date-and-time-format-strings
       time_formatting: "🕒 hh:mm tt"
       margin: "0 10px 0 0px"
+
+    - type: "text"
+      text: "|"
+      foreground: *surface2
 
     - type: "text"
       text: "🔔"
