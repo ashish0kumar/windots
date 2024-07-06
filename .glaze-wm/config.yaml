@@ -83,6 +83,14 @@ bar:
   offset_y: "10px"
   border_radius: "10px"
   components_left:
+    - type: "text"
+      text: "🐈" 
+      margin: "0 10px"
+    
+    - type: "text"
+      text: "|"
+      foreground: *surface2
+
     - type: "workspaces"
       focused_workspace_background: "transparent"
       displayed_workspace_background: "transparent"
