@@ -115,7 +115,7 @@ bar:
       margin: "0 8px"
 
     - type: "text"
-      text: "🌍"
+      text: "🌐"
       left_click_command: exec firefox
       margin: "0 8px"
     
