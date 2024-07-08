@@ -81,8 +81,6 @@ bar:
   padding: "0px 5px"
   offset_x: "10px"
   offset_y: "10px"
-  # border_color: *mauve
-  # border_width: "1px"
   border_radius: "10px"
   components_left:
     - type: "text"
