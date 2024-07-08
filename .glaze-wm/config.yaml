@@ -57,7 +57,7 @@ gaps:
   inner_gap: "15px"
 
   # Gap between windows and the screen edge.
-  outer_gap: "15px"
+  outer_gap: "10px"
 
 # Highlight active/inactive windows with a colored border.
 # ** Exclusive to Windows 11 due to API limitations.
@@ -79,12 +79,14 @@ bar:
   font_family: "JetBrains Mono"
   font_size: "12px"
   padding: "0px 5px"
-  offset_x: "14px"
+  offset_x: "10px"
   offset_y: "10px"
+  # border_color: *mauve
+  # border_width: "1px"
   border_radius: "10px"
   components_left:
     - type: "text"
-      text: "🐈" 
+      text: "🐈"
       margin: "0 10px"
     
     - type: "text"
@@ -107,27 +109,27 @@ bar:
       margin: "0 0 0 20px"
 
   components_center:
-    # - type: "window title"
+    - type: "window title"
 
-    - type: "text"
-      text: "📁"
-      left_click_command: exec explorer
-      margin: "0 8px"
+    # - type: "text"
+    #   text: "📁"
+    #   left_click_command: exec explorer
+    #   margin: "0 8px"
 
-    - type: "text"
-      text: "🌐"
-      left_click_command: exec firefox
-      margin: "0 8px"
+    # - type: "text"
+    #   text: "🌐"
+    #   left_click_command: exec firefox
+    #   margin: "0 8px"
     
-    - type: "text"
-      text: ">_"
-      left_click_command: exec wt
-      margin: "0 8px"
+    # - type: "text"
+    #   text: ">_"
+    #   left_click_command: exec wt
+    #   margin: "0 8px"
 
-    - type: "text"
-      text: "</>"
-      left_click_command: exec C:\Users\ashis\Desktop\VSCode.lnk
-      margin: "0 8px"
+    # - type: "text"
+    #   text: "</>"
+    #   left_click_command: exec C:\Users\ashis\Desktop\VSCode.lnk
+    #   margin: "0 8px"
 
     # - type: "weather"
     #   latitude: 28.7041
@@ -441,3 +443,9 @@ keybindings:
 
   - command: exec firefox
     bindings: ["Alt+B"]
+
+  - command: exec explorer
+    bindings: ["Alt+E"]
+
+  - command: exec C:\Users\ashis\Desktop\VSCode.lnk
+    bindings: ["Alt+C"]
