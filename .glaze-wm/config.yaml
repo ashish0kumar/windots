@@ -217,9 +217,9 @@ bar:
       foreground: *surface2
 
     - type: "battery"
-      label_draining: "🔋 {battery_level}%"
-      label_power_saver: "🔋 {battery_level}%"
-      label_charging: "⚡ {battery_level}%"
+      label_draining: "🔋{battery_level}%"
+      label_power_saver: "🔋{battery_level}%"
+      label_charging: "⚡{battery_level}%"
       margin: "0 8px"
 
     - type: "text"
