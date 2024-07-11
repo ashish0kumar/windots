@@ -71,9 +71,9 @@ focus_borders:
     color: "#ff0000"
 
 bar:
-  height: "30px"
+  height: "28px"
   position: "top"
-  opacity: 0.9
+  opacity: 1
   background: *mantle
   foreground: *mauve
   font_family: "JetBrains Mono"
@@ -81,6 +81,8 @@ bar:
   padding: "0px 5px"
   offset_x: "10px"
   offset_y: "10px"
+  # border_color: *mauve
+  # border_width: "1px"
   border_radius: "10px"
   components_left:
     - type: "text"
@@ -210,7 +212,7 @@ bar:
       label_medium: " 🔊{volume_level}%"
       label_high: " 🔊{volume_level}%"
       label_mute: " 🔊{volume_level}%"
-      margin: "0 8px 0 4px"
+      margin: "0 8px 0 0"
 
     - type: "text"
       text: "|"
@@ -219,7 +221,7 @@ bar:
     - type: "battery"
       label_draining: "🔋{battery_level}%"
       label_power_saver: "🔋{battery_level}%"
-      label_charging: "⚡{battery_level}%"
+      label_charging: "⚡ {battery_level}%"
       margin: "0 8px"
 
     - type: "text"
@@ -229,13 +231,13 @@ bar:
     - type: "clock"
       # Documentation on formatting date/time string:
       # https://learn.microsoft.com/en-us/dotnet/standard/base-types/custom-date-and-time-format-strings
-      time_formatting: "🗓️ ddd d/MM"
+      time_formatting: "ddd d/MM"
       margin: "0 10px 0 8px"
 
     - type: "clock"
       # Documentation on formatting date/time string:
       # https://learn.microsoft.com/en-us/dotnet/standard/base-types/custom-date-and-time-format-strings
-      time_formatting: "🕒 hh:mm tt"
+      time_formatting: "hh:mm"
       margin: "0 10px 0 0px"
 
     - type: "text"
@@ -243,9 +245,10 @@ bar:
       foreground: *surface2
 
     - type: "text"
-      text: "🔔"
-      margin: "0 10px 0 6px"
-      left_click_command: "exec ms-actioncenter:"
+      text: "⏻"
+      left_click_command: exec shutdown /s /f /t 05
+      margin: "0 12px 0 10px"
+      font_size: "16px"
 
 workspaces:
   - name: "1"
