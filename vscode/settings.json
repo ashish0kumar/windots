@@ -44,4 +44,5 @@
     "apc.font.family": "JetBrains Mono",
     "apc.monospace.font.family": "JetBrains Mono",
     "editor.fontSize": 13,
+    "workbench.sideBar.location": "right",
 }
