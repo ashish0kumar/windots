@@ -71,19 +71,19 @@ focus_borders:
     color: "#ff0000"
 
 bar:
-  height: "28px"
+  height: "30px"
   position: "top"
   opacity: 0.9
   background: *mantle
   foreground: *mauve
   font_family: "JetBrains Mono"
   font_size: "12px"
-  padding: "0px 5px"
-  offset_x: "10px"
-  offset_y: "10px"
+  padding: "8px 5px"
+  # offset_x: "10px"
+  # offset_y: "10px"
   # border_color: *mauve
   # border_width: "1px"
-  border_radius: "10px"
+  # border_radius: "10px"
   components_left:
     - type: "text"
       text: "🐈"
@@ -109,7 +109,19 @@ bar:
       margin: "0 0 0 20px"
 
   components_center:
-    - type: "window title"
+    # - type: "window title"
+
+    - type: "clock"
+      # Documentation on formatting date/time string:
+      # https://learn.microsoft.com/en-us/dotnet/standard/base-types/custom-date-and-time-format-strings
+      time_formatting: "🗓️ ddd d/MM"
+      margin: "0 10px 0 8px"
+
+    - type: "clock"
+      # Documentation on formatting date/time string:
+      # https://learn.microsoft.com/en-us/dotnet/standard/base-types/custom-date-and-time-format-strings
+      time_formatting: "🕑 hh:mm"
+      margin: "0 10px 0 0px"
 
     # - type: "text"
     #   text: "📁"
@@ -163,7 +175,7 @@ bar:
       foreground: *surface2
 
     - type: "network"
-      label_no_internet: "NC"
+      label_no_internet: "🚫"
       label_ethernet: "Eth"
       label_wifi_strength_0: "WiFi: 0% WiFi_name"
       label_wifi_strength_25: "WiFi: 25%"
@@ -228,21 +240,9 @@ bar:
       text: "|"
       foreground: *surface2
 
-    - type: "clock"
-      # Documentation on formatting date/time string:
-      # https://learn.microsoft.com/en-us/dotnet/standard/base-types/custom-date-and-time-format-strings
-      time_formatting: "ddd d/MM"
-      margin: "0 10px 0 8px"
-
-    - type: "clock"
-      # Documentation on formatting date/time string:
-      # https://learn.microsoft.com/en-us/dotnet/standard/base-types/custom-date-and-time-format-strings
-      time_formatting: "hh:mm"
-      margin: "0 10px 0 0px"
-
-    - type: "text"
-      text: "|"
-      foreground: *surface2
+    # - type: "text"
+    #   text: "|"
+    #   foreground: *surface2
 
     - type: "text"
       text: "⏻"
