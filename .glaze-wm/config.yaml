@@ -71,14 +71,14 @@ focus_borders:
     color: "#ff0000"
 
 bar:
-  height: "30px"
+  height: "35px"
   position: "top"
   opacity: 0.9
   background: *mantle
   foreground: *mauve
   font_family: "JetBrains Mono"
   font_size: "12px"
-  padding: "8px 5px"
+  padding: "10px 5px"
   # offset_x: "10px"
   # offset_y: "10px"
   # border_color: *mauve
@@ -239,10 +239,6 @@ bar:
     - type: "text"
       text: "|"
       foreground: *surface2
-
-    # - type: "text"
-    #   text: "|"
-    #   foreground: *surface2
 
     - type: "text"
       text: "⏻"
