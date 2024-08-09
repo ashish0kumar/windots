@@ -73,7 +73,7 @@ focus_borders:
 bar:
   height: "35px"
   position: "top"
-  opacity: 0.9
+  opacity: 1
   background: *mantle
   foreground: *mauve
   font_family: "JetBrains Mono"
