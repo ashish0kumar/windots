@@ -54,7 +54,7 @@ general:
 
 gaps:
   # Gap between adjacent windows.
-  inner_gap: "15px"
+  inner_gap: "10px"
 
   # Gap between windows and the screen edge.
   outer_gap: "10px"
@@ -71,27 +71,27 @@ focus_borders:
     color: "#ff0000"
 
 bar:
-  height: "35px"
+  height: "38px"
   position: "top"
   opacity: 1
   background: *mantle
   foreground: *mauve
-  font_family: "JetBrains Mono"
-  font_size: "12px"
-  padding: "10px 5px"
+  font_family: "JetBrainsMono Nerd Font"
+  font_size: "13px"
+  padding: "10px"
   # offset_x: "10px"
   # offset_y: "10px"
   # border_color: *mauve
   # border_width: "1px"
   # border_radius: "10px"
   components_left:
-    - type: "text"
-      text: "🐈"
-      margin: "0 10px"
+    # - type: "text"
+    #   text: "🐈"
+    #   margin: "0 10px"
     
-    - type: "text"
-      text: "|"
-      foreground: *surface2
+    # - type: "text"
+    #   text: "|"
+    #   foreground: *surface2
 
     - type: "workspaces"
       focused_workspace_background: "transparent"
@@ -102,8 +102,8 @@ bar:
 
     - type: "music"
       label_not_playing: ""
-      label_paused: "🎵 {song_title} - {artist_name}"
-      label_playing: "🎵 {song_title} - {artist_name}"
+      label_paused: "  {song_title} - {artist_name}"
+      label_playing: "  {song_title} - {artist_name}"
       max_title_length: 30
       max_artist_length: 20
       margin: "0 0 0 20px"
@@ -114,32 +114,32 @@ bar:
     - type: "clock"
       # Documentation on formatting date/time string:
       # https://learn.microsoft.com/en-us/dotnet/standard/base-types/custom-date-and-time-format-strings
-      time_formatting: "🗓️ ddd d/MM"
-      margin: "0 10px 0 8px"
+      time_formatting: "  ddd d/MM"
+      margin: "0 8px"
 
     - type: "clock"
       # Documentation on formatting date/time string:
       # https://learn.microsoft.com/en-us/dotnet/standard/base-types/custom-date-and-time-format-strings
-      time_formatting: "🕑 hh:mm"
-      margin: "0 10px 0 0px"
+      time_formatting: "  hh:mm"
+      margin: "0 8px"
 
     # - type: "text"
-    #   text: "📁"
+    #   text: " "
     #   left_click_command: exec explorer
     #   margin: "0 8px"
 
     # - type: "text"
-    #   text: "🌐"
+    #   text: "󰈹 "
     #   left_click_command: exec firefox
     #   margin: "0 8px"
     
     # - type: "text"
-    #   text: ">_"
+    #   text: " "
     #   left_click_command: exec wt
     #   margin: "0 8px"
 
     # - type: "text"
-    #   text: "</>"
+    #   text: " "
     #   left_click_command: exec C:\Users\ashis\Desktop\VSCode.lnk
     #   margin: "0 8px"
 
@@ -158,41 +158,42 @@ bar:
     #   label_thunderstorm: "⚡ {temperature_celsius}°C"
     #   label_cloud: "☁️ {temperature_celsius}°C"
     #   margin: 0 5px
-    #   background: *base
-    #   border_color: *base
-    #   border_radius: "10px"
-    #   border_width: "10px"
+      # background: *base
+      # border_color: *base
+      # border_radius: "10px"
+      # border_width: "10px"
 
   components_right:
     - type: "tiling direction"
       label_horizontal: "⮂"
       label_vertical: "⮁"
       background: "transparent"
-      margin: "0 8px"
+      margin: "0 10px"
 
-    - type: "text"
-      text: "|"
-      foreground: *surface2
+    # - type: "text"
+    #   text: "|"
+    #   foreground: *surface2
 
     - type: "network"
-      label_no_internet: "🚫"
+      label_no_internet: "󰖪 "
       label_ethernet: "Eth"
       label_wifi_strength_0: "WiFi: 0% WiFi_name"
-      label_wifi_strength_25: "WiFi: 25%"
-      label_wifi_strength_50: "WiFi: 50%"
-      label_wifi_strength_75: "WiFi: 75%"
-      label_wifi_strength_100: "WiFi: 100%"
-      margin: "0 8px 0 8px"
+      label_wifi_strength_25: "WiFi: 25% WiFi_name"
+      label_wifi_strength_50: "WiFi: 50% WiFi_name"
+      label_wifi_strength_75: "WiFi: 75% WiFi_name"
+      label_wifi_strength_100: "WiFi: 100% WiFi_name"
+      margin: "0 10px"
+      font_size: "12px"
 
     - type: "text"
       text: " "
       left_click_command: "exec explorer ms-availablenetworks:"
       font_size: 20
-      margin: "0 0 0 -16px"
+      margin: "0 0 0 -20px"
 
-    - type: "text"
-      text: "|"
-      foreground: *surface2
+    # - type: "text"
+    #   text: "|"
+    #   foreground: *surface2
 
     # - type: "binding mode"
     #   background: "#ffffff33"
@@ -200,71 +201,71 @@ bar:
     #   padding: "5px 8px"
 
     # - type: "cpu"
-    #   label: "⚙️ {percent_usage}%"
+    #   label: "  {percent_usage}%"
     #   # How often this counter is refreshed.
     #   refresh_interval_ms: 1000
-    #   # margin: "0 0 0 5px"
-    #   background: *base
-    #   border_color: *base
-    #   border_radius: "10px"
-    #   border_width: "10px"
+    #   margin: "0 10px"
+      # background: *base
+      # border_color: *base
+      # border_radius: "10px"
+      # border_width: "10px"
 
     # - type: "memory"
-    #   label: "🎟 {percent_usage}%"
+    #   label: "  {percent_usage}%"
     #   # How often this counter is refreshed.
     #   refresh_interval_ms: 1000
-    #   # margin: "0 0 0 5px"
+    #   margin: "0 10px"
     #   background: *base
     #   border_color: *base
     #   border_radius: "10px"
     #   border_width: "10px"
 
     - type: "volume"
-      label_low: " 🔊{volume_level}%"
-      label_medium: " 🔊{volume_level}%"
-      label_high: " 🔊{volume_level}%"
-      label_mute: " 🔊{volume_level}%"
-      margin: "0 8px 0 0"
+      label_low: "  {volume_level}%"
+      label_medium: "  {volume_level}%"
+      label_high: "  {volume_level}%"
+      label_mute: " 󰝟 {volume_level}%"
+      margin: "0 10px 0 5px"
 
-    - type: "text"
-      text: "|"
-      foreground: *surface2
+    # - type: "text"
+    #   text: "|"
+    #   foreground: *surface2
 
     - type: "battery"
-      label_draining: "🔋{battery_level}%"
-      label_power_saver: "🔋{battery_level}%"
-      label_charging: "⚡ {battery_level}%"
-      margin: "0 8px"
+      label_draining: "󰂀 {battery_level}%"
+      label_power_saver: "󱈏 {battery_level}%"
+      label_charging: "󰂅 {battery_level}%"
+      margin: "0 10px"
 
-    - type: "text"
-      text: "|"
-      foreground: *surface2
+    # - type: "text"
+    #   text: "|"
+    #   foreground: *surface2
 
-    - type: "text"
-      text: "⏻"
-      left_click_command: exec shutdown /s /f /t 05
-      margin: "0 12px 0 10px"
-      font_size: "16px"
+    # - type: "text"
+    #   text: "⏻"
+    #   left_click_command: exec shutdown /s /f /t 05
+    #   margin: "0 12px 0 10px"
+    #   font_size: "16px"
 
 workspaces:
   - name: "1"
-    display_name: "⬤"
+    display_name: " "
   - name: "2"
-    display_name: "⬤"
+    display_name: " "
   - name: "3"
-    display_name: "⬤"
+    display_name: " "
   - name: "4"
-    display_name: "⬤"
+    display_name: " "
   - name: "5"
-    display_name: "⬤"
+    display_name: " "
   - name: "6"
-    display_name: "⬤"
+    display_name: " "
   - name: "7"
-    display_name: "⬤"
+    display_name: " "
   - name: "8"
-    display_name: "⬤"
+    display_name: " "
   - name: "9"
-    display_name: "⬤"
+    display_name: " "
 
 window_rules:
   # Task Manager requires admin privileges to manage and should be ignored unless running
