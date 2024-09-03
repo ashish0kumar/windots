@@ -15,8 +15,7 @@ Welcome to my dotfiles repository! This repository contains my configuration fil
 | :---: |
 | ![](/rice-previews/1.png) |
 | ![](/rice-previews/2.png) |
-| ![](/rice-previews/5.png) |
-| ![](/rice-previews/6.png) |
+| ![](/rice-previews/3.png) |
 
 ## ⌨️ Useful keybindings 
 You can always change them in your glaze config file.
