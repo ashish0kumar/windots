@@ -105,4 +105,12 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-neofetch --ascii ~/.config/neofetch/cat.txt
+# neofetch --ascii ~/.config/neofetch/cat.txt
+nitch
+
+# bun completions
+[ -s "/home/ashish/.bun/_bun" ] && source "/home/ashish/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
