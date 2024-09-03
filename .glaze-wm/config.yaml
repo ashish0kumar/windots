@@ -64,20 +64,20 @@ gaps:
 focus_borders:
   active:
     enabled: true
-    color: *sapphire
+    color: *mauve
 
   inactive:
     enabled: false
     color: "#ff0000"
 
 bar:
-  height: "38px"
+  height: "40px"
   position: "top"
-  opacity: 1
+  opacity: 0.8
   background: *mantle
-  foreground: *mauve
+  foreground: *subtext1
   font_family: "JetBrainsMono Nerd Font"
-  font_size: "13px"
+  font_size: "14px"
   padding: "10px"
   # offset_x: "10px"
   # offset_y: "10px"
@@ -85,9 +85,10 @@ bar:
   # border_width: "1px"
   # border_radius: "10px"
   components_left:
-    # - type: "text"
-    #   text: "🐈"
-    #   margin: "0 10px"
+    - type: "text"
+      text: " "
+      margin: "0 20px 0 10px"
+      foreground: *blue
     
     # - type: "text"
     #   text: "|"
@@ -97,8 +98,8 @@ bar:
       focused_workspace_background: "transparent"
       displayed_workspace_background: "transparent"
       default_workspace_background: "transparent"
-      focused_workspace_foreground: *mauve
-      default_workspace_foreground: *overlay0
+      focused_workspace_foreground: *lavender
+      default_workspace_foreground: *overlay1
 
     - type: "music"
       label_not_playing: ""
@@ -111,17 +112,50 @@ bar:
   components_center:
     # - type: "window title"
 
-    - type: "clock"
-      # Documentation on formatting date/time string:
-      # https://learn.microsoft.com/en-us/dotnet/standard/base-types/custom-date-and-time-format-strings
-      time_formatting: "  ddd d/MM"
-      margin: "0 8px"
+    - type: "weather"
+      latitude: 28.7041
+      longitude: 77.1025
+      label: "{temperature_celsius}°C"
+      label_sun: "  {temperature_celsius}°C"
+      label_moon: "  {temperature_celsius}°C"
+      label_cloud_moon: "  {temperature_celsius}°C"
+      label_cloud_sun: "  {temperature_celsius}°C"
+      label_cloud_moon_rain: "  {temperature_celsius}°C"
+      label_cloud_sun_rain: " {temperature_celsius}°C"
+      label_cloud_rain: "  {temperature_celsius}°C"
+      label_snow_flake: "  {temperature_celsius}°C"
+      label_thunderstorm: "󰖓  {temperature_celsius}°C"
+      label_cloud: "  {temperature_celsius}°C"
+      margin: "0 10px"
+      # foreground: *text
+      # background: *base
+      # border_color: *base
+      # border_radius: "10px"
+      # border_width: "10px"
+
+    - type: "text"
+      text: "  "
+      foreground: *peach
+      margin: "0 0 0 10px"
 
     - type: "clock"
       # Documentation on formatting date/time string:
       # https://learn.microsoft.com/en-us/dotnet/standard/base-types/custom-date-and-time-format-strings
-      time_formatting: "  hh:mm"
-      margin: "0 8px"
+      time_formatting: "ddd d/MM"
+      margin: "0 10px 0 0"
+      # foreground: *text
+
+    - type: "text"
+      text: "  "
+      foreground: *peach
+      margin: "0 0 0 10px"
+
+    - type: "clock"
+      # Documentation on formatting date/time string:
+      # https://learn.microsoft.com/en-us/dotnet/standard/base-types/custom-date-and-time-format-strings
+      time_formatting: "hh:mm"
+      margin: "0 10px 0 0"
+      # foreground: *text
 
     # - type: "text"
     #   text: " "
@@ -143,32 +177,13 @@ bar:
     #   left_click_command: exec C:\Users\ashis\Desktop\VSCode.lnk
     #   margin: "0 8px"
 
-    # - type: "weather"
-    #   latitude: 28.7041
-    #   longitude: 77.1025
-    #   label: "{temperature_celsius}°C"
-    #   label_sun: "☀️ {temperature_celsius}°C"
-    #   label_moon: "🌙 {temperature_celsius}°C"
-    #   label_cloud_moon: "☁️ {temperature_celsius}°C"
-    #   label_cloud_sun: "⛅ {temperature_celsius}°C"
-    #   label_cloud_moon_rain: "🌧️ {temperature_celsius}°C"
-    #   label_cloud_sun_rain: "🌦️ {temperature_celsius}°C"
-    #   label_cloud_rain: "🌧️ {temperature_celsius}°C"
-    #   label_snow_flake: "❄️ {temperature_celsius}°C"
-    #   label_thunderstorm: "⚡ {temperature_celsius}°C"
-    #   label_cloud: "☁️ {temperature_celsius}°C"
-    #   margin: 0 5px
-      # background: *base
-      # border_color: *base
-      # border_radius: "10px"
-      # border_width: "10px"
-
   components_right:
     - type: "tiling direction"
       label_horizontal: "⮂"
       label_vertical: "⮁"
       background: "transparent"
       margin: "0 10px"
+      foreground: *text
 
     # - type: "text"
     #   text: "|"
@@ -184,6 +199,7 @@ bar:
       label_wifi_strength_100: "WiFi: 100% WiFi_name"
       margin: "0 10px"
       font_size: "12px"
+      foreground: *yellow
 
     - type: "text"
       text: " "
@@ -200,32 +216,47 @@ bar:
     #   margin: "0 5px 0 5px"
     #   padding: "5px 8px"
 
-    # - type: "cpu"
-    #   label: "  {percent_usage}%"
-    #   # How often this counter is refreshed.
-    #   refresh_interval_ms: 1000
-    #   margin: "0 10px"
+    - type: "text"
+      text: " "
+      foreground: *red
+      margin: "0 0 0 10px"
+
+    - type: "cpu"
+      label: "{percent_usage}%"
+      # How often this counter is refreshed.
+      refresh_interval_ms: 1000
+      margin: "0 10px 0 0"
       # background: *base
       # border_color: *base
       # border_radius: "10px"
       # border_width: "10px"
 
-    # - type: "memory"
-    #   label: "  {percent_usage}%"
-    #   # How often this counter is refreshed.
-    #   refresh_interval_ms: 1000
-    #   margin: "0 10px"
-    #   background: *base
-    #   border_color: *base
-    #   border_radius: "10px"
-    #   border_width: "10px"
+    - type: "text"
+      text: " "
+      margin: "0 0 0 10px"
+      foreground: *peach
+
+    - type: "memory"
+      label: "{percent_usage}%"
+      # How often this counter is refreshed.
+      refresh_interval_ms: 1000
+      margin: "0 10px 0 0"
+      # background: *base
+      # border_color: *base
+      # border_radius: "10px"
+      # border_width: "10px"
+
+    - type: "text"
+      text: " "
+      margin: "0 0 0 10px"
+      foreground: *rosewater
 
     - type: "volume"
-      label_low: "  {volume_level}%"
-      label_medium: "  {volume_level}%"
-      label_high: "  {volume_level}%"
-      label_mute: " 󰝟 {volume_level}%"
-      margin: "0 10px 0 5px"
+      label_low: "{volume_level}%"
+      label_medium: "{volume_level}%"
+      label_high: "{volume_level}%"
+      label_mute: "{volume_level}%"
+      margin: "0 10px 0 0"
 
     # - type: "text"
     #   text: "|"
@@ -236,6 +267,7 @@ bar:
       label_power_saver: "󱈏 {battery_level}%"
       label_charging: "󰂅 {battery_level}%"
       margin: "0 10px"
+      foreground: *green
 
     # - type: "text"
     #   text: "|"
