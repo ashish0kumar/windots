@@ -75,7 +75,7 @@ bar:
   position: "top"
   opacity: 0.8
   background: *mantle
-  foreground: *subtext1
+  foreground: *text
   font_family: "JetBrainsMono Nerd Font"
   font_size: "14px"
   padding: "10px"
@@ -100,6 +100,7 @@ bar:
       default_workspace_background: "transparent"
       focused_workspace_foreground: *lavender
       default_workspace_foreground: *overlay1
+      font_size: "13px"
 
     - type: "music"
       label_not_playing: ""
@@ -127,6 +128,7 @@ bar:
       label_thunderstorm: "󰖓  {temperature_celsius}°C"
       label_cloud: "  {temperature_celsius}°C"
       margin: "0 10px"
+      font_size: "13px"
       # foreground: *text
       # background: *base
       # border_color: *base
@@ -143,6 +145,7 @@ bar:
       # https://learn.microsoft.com/en-us/dotnet/standard/base-types/custom-date-and-time-format-strings
       time_formatting: "ddd d/MM"
       margin: "0 10px 0 0"
+      font_size: "13px"
       # foreground: *text
 
     - type: "text"
@@ -155,6 +158,7 @@ bar:
       # https://learn.microsoft.com/en-us/dotnet/standard/base-types/custom-date-and-time-format-strings
       time_formatting: "hh:mm"
       margin: "0 10px 0 0"
+      font_size: "13px"
       # foreground: *text
 
     # - type: "text"
@@ -198,7 +202,6 @@ bar:
       label_wifi_strength_75: "WiFi: 75% WiFi_name"
       label_wifi_strength_100: "WiFi: 100% WiFi_name"
       margin: "0 10px"
-      font_size: "12px"
       foreground: *yellow
 
     - type: "text"
@@ -226,6 +229,7 @@ bar:
       # How often this counter is refreshed.
       refresh_interval_ms: 1000
       margin: "0 10px 0 0"
+      font_size: "13px"
       # background: *base
       # border_color: *base
       # border_radius: "10px"
@@ -241,6 +245,7 @@ bar:
       # How often this counter is refreshed.
       refresh_interval_ms: 1000
       margin: "0 10px 0 0"
+      font_size: "13px"
       # background: *base
       # border_color: *base
       # border_radius: "10px"
@@ -257,6 +262,7 @@ bar:
       label_high: "{volume_level}%"
       label_mute: "{volume_level}%"
       margin: "0 10px 0 0"
+      font_size: "13px"
 
     # - type: "text"
     #   text: "|"
@@ -268,6 +274,7 @@ bar:
       label_charging: "󰂅 {battery_level}%"
       margin: "0 10px"
       foreground: *green
+      font_size: "13px"
 
     # - type: "text"
     #   text: "|"
