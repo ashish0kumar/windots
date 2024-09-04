@@ -35,9 +35,9 @@
     "copyFormatting": "none",
     "copyOnSelect": false,
     "defaultProfile": "{51855cb2-8cce-5362-8f54-464b92b32386}",
-    "initialCols": 57,
+    "initialCols": 55,
     "initialPosition": ",",
-    "initialRows": 12,
+    "initialRows": 22,
     "launchMode": "focus",
     "newTabMenu": 
     [
@@ -51,6 +51,7 @@
         {
             "colorScheme": "Catppuccin Mocha",
             "cursorShape": "filledBox",
+            "elevate": false,
             "font": 
             {
                 "face": "JetBrainsMono Nerd Font"
@@ -62,12 +63,12 @@
                 "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
                 "font": 
                 {
-                    "size": 10.0
+                    "size": 12.0
                 },
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": false,
                 "name": "Windows PowerShell",
-                "opacity": 100
+                "opacity": 90
             },
             {
                 "commandline": "%SystemRoot%\\System32\\cmd.exe",
@@ -99,14 +100,14 @@
                 {
                     "cellHeight": "1.3",
                     "face": "JetBrainsMono Nerd Font",
-                    "size": 10.0,
+                    "size": 12.0,
                     "weight": "normal"
                 },
                 "guid": "{51855cb2-8cce-5362-8f54-464b92b32386}",
                 "hidden": false,
                 "intenseTextStyle": "bright",
                 "name": "Ubuntu",
-                "opacity": 100,
+                "opacity": 90,
                 "padding": "10",
                 "scrollbarState": "hidden",
                 "source": "CanonicalGroupLimited.Ubuntu_79rhkp1fndgsc",
@@ -478,7 +479,7 @@
             "tab": 
             {
                 "background": "#24273AFF",
-                "iconStyle": "default",
+                // "iconStyle": "default",
                 "showCloseButton": "always",
                 "unfocusedBackground": null
             },
