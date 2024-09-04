@@ -73,8 +73,8 @@ focus_borders:
 bar:
   height: "40px"
   position: "top"
-  opacity: 0.8
-  background: *mantle
+  opacity: 0.9
+  background: *base
   foreground: *text
   font_family: "JetBrainsMono Nerd Font"
   font_size: "14px"
@@ -109,6 +109,7 @@ bar:
       max_title_length: 30
       max_artist_length: 20
       margin: "0 0 0 20px"
+      font_size: "13px"
 
   components_center:
     # - type: "window title"
@@ -150,7 +151,7 @@ bar:
 
     - type: "text"
       text: "  "
-      foreground: *peach
+      foreground: *blue
       margin: "0 0 0 10px"
 
     - type: "clock"
@@ -238,7 +239,7 @@ bar:
     - type: "text"
       text: " "
       margin: "0 0 0 10px"
-      foreground: *peach
+      foreground: *blue
 
     - type: "memory"
       label: "{percent_usage}%"
@@ -254,7 +255,7 @@ bar:
     - type: "text"
       text: " "
       margin: "0 0 0 10px"
-      foreground: *rosewater
+      foreground: *peach
 
     - type: "volume"
       label_low: "{volume_level}%"
