@@ -2,11 +2,13 @@
 Welcome to my dotfiles repository! This repository contains my configuration files to create a visually appealing and highly customized setup on Windows 11 with WSL2. The configurations include setups for GlazeWM, Neofetch, Windows Terminal, and Zsh.
 
 ## ✨ Features
-- GlazeWM: Window manager configurations for a customized desktop environment.
-- Neofetch: Configuration for displaying system information with aesthetic appeal.
-- Windows Terminal: Custom themes and settings.
-- Zsh: Custom .zshrc configuration.
-- Wallpapers: My wallpaper collection.
+- GlazeWM config for a customized desktop environment.
+- Neofetch config
+- Windows Terminal settings.json
+- Vscode settings.json
+- Windhawk configs
+- zsh config
+- My wallpaper collection
 
 ## 📸 Screenshots
 
