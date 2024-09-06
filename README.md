@@ -1,8 +1,8 @@
 # 🍙 My Ricing Dotfiles for Windows 11 + WSL2
-Welcome to my dotfiles repository! This repository contains my configuration files to create a visually appealing and highly customized setup on Windows 11 with WSL2. The configurations include setups for GlazeWM, Neofetch, Windows Terminal, and Zsh.
+Welcome to my dotfiles repository! This repository contains my configuration files to create a visually appealing and highly customized setup on Windows 11 with WSL2.
 
 ## ✨ Features
-- GlazeWM config for a customized desktop environment.
+- GlazeWM config
 - Neofetch config
 - Windows Terminal settings.json
 - Vscode settings.json
