@@ -87,12 +87,19 @@ bar:
   components_left:
     - type: "text"
       text: " "
-      margin: "0 20px 0 10px"
+      margin: "0 10px 0 10px"
       foreground: *blue
     
     # - type: "text"
     #   text: "|"
     #   foreground: *surface2
+
+    - type: "tiling direction"
+      label_horizontal: "⮂"
+      label_vertical: "⮁"
+      background: "transparent"
+      margin: "0 15px 0 5px"
+      foreground: *text
 
     - type: "workspaces"
       focused_workspace_background: "transparent"
@@ -183,17 +190,6 @@ bar:
     #   margin: "0 8px"
 
   components_right:
-    - type: "tiling direction"
-      label_horizontal: "⮂"
-      label_vertical: "⮁"
-      background: "transparent"
-      margin: "0 10px"
-      foreground: *text
-
-    # - type: "text"
-    #   text: "|"
-    #   foreground: *surface2
-
     - type: "network"
       label_no_internet: "󰖪 "
       label_ethernet: "Eth"
