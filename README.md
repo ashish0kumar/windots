@@ -3,7 +3,6 @@ Welcome to my dotfiles repository! This repository contains my configuration fil
 
 ## ✨ Features
 - GlazeWM config
-- Neofetch config
 - Windows Terminal settings.json
 - Vscode settings.json
 - Windhawk configs
