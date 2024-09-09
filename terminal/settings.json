@@ -1,11 +1,9 @@
 {
     "$help": "https://aka.ms/terminal-documentation",
     "$schema": "https://aka.ms/terminal-profiles-schema",
-    "actions": 
-    [
+    "actions": [
         {
-            "command": 
-            {
+            "command": {
                 "action": "copy",
                 "singleLine": false
             },
@@ -16,8 +14,7 @@
             "keys": "ctrl+v"
         },
         {
-            "command": 
-            {
+            "command": {
                 "action": "splitPane",
                 "split": "auto",
                 "splitMode": "duplicate"
@@ -39,30 +36,24 @@
     "initialPosition": ",",
     "initialRows": 22,
     "launchMode": "focus",
-    "newTabMenu": 
-    [
+    "newTabMenu": [
         {
             "type": "remainingProfiles"
         }
     ],
-    "profiles": 
-    {
-        "defaults": 
-        {
+    "profiles": {
+        "defaults": {
             "colorScheme": "Catppuccin Mocha",
             "cursorShape": "filledBox",
             "elevate": false,
-            "font": 
-            {
+            "font": {
                 "face": "JetBrainsMono Nerd Font"
             }
         },
-        "list": 
-        [
+        "list": [
             {
                 "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
-                "font": 
-                {
+                "font": {
                     "size": 12.0
                 },
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
@@ -72,8 +63,7 @@
             },
             {
                 "commandline": "%SystemRoot%\\System32\\cmd.exe",
-                "font": 
-                {
+                "font": {
                     "size": 10.0
                 },
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
@@ -96,8 +86,7 @@
                 "cursorShape": "filledBox",
                 "elevate": false,
                 "experimental.retroTerminalEffect": false,
-                "font": 
-                {
+                "font": {
                     "cellHeight": "1.3",
                     "face": "JetBrainsMono Nerd Font",
                     "size": 12.0,
@@ -121,8 +110,7 @@
             }
         ]
     },
-    "schemes": 
-    [
+    "schemes": [
         {
             "background": "#0C0C0C",
             "black": "#0C0C0C",
@@ -472,24 +460,20 @@
     "showTabsInTitlebar": true,
     "showTerminalTitleInTitlebar": false,
     "tabSwitcherMode": "mru",
-    "themes": 
-    [
+    "themes": [
         {
             "name": "Catppuccin Macchiato",
-            "tab": 
-            {
+            "tab": {
                 "background": "#24273AFF",
                 // "iconStyle": "default",
                 "showCloseButton": "always",
                 "unfocusedBackground": null
             },
-            "tabRow": 
-            {
+            "tabRow": {
                 "background": "#24273AFF",
                 "unfocusedBackground": "#24273AFF"
             },
-            "window": 
-            {
+            "window": {
                 "applicationTheme": "dark",
                 "experimental.rainbowFrame": false,
                 "frame": null,
