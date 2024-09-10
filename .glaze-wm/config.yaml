@@ -73,7 +73,7 @@ focus_borders:
 bar:
   height: "40px"
   position: "top"
-  opacity: 0.9
+  opacity: 1
   background: *base
   foreground: *text
   font_family: "JetBrainsMono Nerd Font"
