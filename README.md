@@ -1,5 +1,5 @@
 # 🍙 dotfiles
-Welcome to my dotfiles repo! This repository contains my config files to create a visually appealing and highly customized setup on Windows 11 with WSL2.
+Welcome to my dotfiles repo! This repo contains my config files to create a visually appealing and highly customized setup on Windows 11 with WSL2.
 
 ## ✨ Features
 
