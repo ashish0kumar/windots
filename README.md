@@ -24,27 +24,27 @@ Welcome to my dotfiles repository! This repository contains my configuration fil
 
 To use my GlazeWM setup:
 
-1. Install GlazeWM by following the instructions in their repository.
-2. Copy the config.yaml file from `dotfiles/.glaze-wm/` to your GlazeWM configuration directory `C:\Users\<YourUsername>\.glaze-wm`
-3. Restart GlazeWM for the changes to take effect.
+- Install [GlazeWM v2]([https://github.com/glzr-io/glazewm](https://github.com/glzr-io/glazewm/releases/tag/v2.1.1).
+- Copy the config.yaml file from `dotfiles/.glaze-wm/` to your GlazeWM configuration directory `C:\Users\<YourUsername>\.glaze-wm`
+- Restart GlazeWM for the changes to take effect.
 
 ### 2. Windows Terminal Setup
 
 To apply my custom settings:
 
-1. Open Windows Terminal.
-2. Copy `dotfiles/terminal/settings.json` to the terminal configuration directory <br/> `C:\Users\<YourUsername>\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json`
-3. Restart Windows Terminal to see the updated configurations.
+- Open Windows Terminal.
+- Copy `dotfiles/terminal/settings.json` to the terminal configuration directory `C:\Users\<YourUsername>\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json`
+- Restart Windows Terminal to see the updated configurations.
 
 ### 3. VSCode Configuration
 
 To use my VSCode settings:
 
-1. Install APC Customize UI and catppuccin theme extensions in vscode.
-2. Copy dotfiles/vscode/settings.json to your VSCode user configuration directory:
-  - On Windows: `C:\Users\<YourUsername>\AppData\Roaming\Code\User\settings.json`
-  - On WSL2: `~/.vscode-server/data/Machine/settings.json`
-3. Restart VSCode to load the updated settings.
+- Install APC Customize UI and catppuccin theme extensions in vscode.
+- Copy dotfiles/vscode/settings.json to your VSCode user configuration directory:
+    - On Windows: `C:\Users\<YourUsername>\AppData\Roaming\Code\User\settings.json`
+    - On WSL2: `~/.vscode-server/data/Machine/settings.json`
+- Restart VSCode to load the updated settings.
 
 ### 4. Windhawk Configurations
 
