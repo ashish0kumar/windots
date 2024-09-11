@@ -1,5 +1,5 @@
 # 🍙 dotfiles
-Welcome to my dotfiles repository! This repository contains my configuration files to create a visually appealing and highly customized setup on Windows 11 with WSL2.
+Welcome to my dotfiles repo! This repository contains my config files to create a visually appealing and highly customized setup on Windows 11 with WSL2.
 
 ## ✨ Features
 
@@ -25,7 +25,7 @@ Welcome to my dotfiles repository! This repository contains my configuration fil
 To use my GlazeWM setup:
 
 - Install [GlazeWM v2](https://github.com/glzr-io/glazewm/releases/tag/v2.1.1).
-- Copy the config.yaml file from `dotfiles/.glaze-wm/` to your GlazeWM configuration directory `C:\Users\<YourUsername>\.glaze-wm`
+- Copy the `config.yaml` file from `dotfiles/.glaze-wm/` to your GlazeWM configuration directory `C:\Users\<YourUsername>\.glaze-wm`
 - Restart GlazeWM for the changes to take effect.
 
 ### 2. Windows Terminal Setup
@@ -49,7 +49,7 @@ To use my VSCode settings:
 ### 4. Windhawk Configurations
 
 To set up my Windhawk tweaks:
-- Install Windhawk.
+- Install [Windhawk](https://windhawk.net/).
 - Copy the Windhawk configuration files from `dotfiles/windhawk/`
 - Apply the tweaks from the Windhawk UI.
 
