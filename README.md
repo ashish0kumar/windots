@@ -24,7 +24,7 @@ Welcome to my dotfiles repository! This repository contains my configuration fil
 
 To use my GlazeWM setup:
 
-- Install [GlazeWM v2]([https://github.com/glzr-io/glazewm](https://github.com/glzr-io/glazewm/releases/tag/v2.1.1).
+- Install [GlazeWM v2](https://github.com/glzr-io/glazewm/releases/tag/v2.1.1).
 - Copy the config.yaml file from `dotfiles/.glaze-wm/` to your GlazeWM configuration directory `C:\Users\<YourUsername>\.glaze-wm`
 - Restart GlazeWM for the changes to take effect.
 
@@ -40,7 +40,7 @@ To apply my custom settings:
 
 To use my VSCode settings:
 
-- Install APC Customize UI and catppuccin theme extensions in vscode.
+- Install APC Customize UI and catppuccin theme from vscode extensions.
 - Copy dotfiles/vscode/settings.json to your VSCode user configuration directory:
     - On Windows: `C:\Users\<YourUsername>\AppData\Roaming\Code\User\settings.json`
     - On WSL2: `~/.vscode-server/data/Machine/settings.json`
