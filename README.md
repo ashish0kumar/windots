@@ -1,16 +1,16 @@
-# 🍙 My Ricing Dotfiles for Windows 11 + WSL2
+# 🍙 dotfiles
 Welcome to my dotfiles repository! This repository contains my configuration files to create a visually appealing and highly customized setup on Windows 11 with WSL2.
 
 ## ✨ Features
-- GlazeWM config
-- Windows Terminal settings.json
-- Vscode settings.json
-- Windhawk configs
-- zsh config
-- My wallpaper collection
+
+- [GlazeWM](https://github.com/glzr-io/glazewm) config
+- [Windows Terminal](https://github.com/microsoft/terminal) settings.json
+- [VSCode](https://code.visualstudio.com/) settings.json
+- [Windhawk](https://windhawk.net/) configs
+- [Zsh](https://zsh.sourceforge.io/) config
+- [My Wallpapers](https://github.com/ashish0kumar/dotfiles/tree/main/walls)
 
 ## 📸 Screenshots
-
 
 | Catppuccin mocha 🐈🍵 |
 | :---: |
@@ -18,7 +18,66 @@ Welcome to my dotfiles repository! This repository contains my configuration fil
 | ![](/rice-previews/2.png) |
 | ![](/rice-previews/3.png) |
 
+## 🚀 Setup
+
+### 1. GlazeWM Configuration
+
+To use my GlazeWM setup:
+
+1. Install GlazeWM by following the instructions in their repository.
+2. Copy the config.yaml file from `dotfiles/.glaze-wm/` to your GlazeWM configuration directory `C:\Users\<YourUsername>\.glaze-wm`
+3. Restart GlazeWM for the changes to take effect.
+
+### 2. Windows Terminal Setup
+
+To apply my custom settings:
+
+1. Open Windows Terminal.
+2. Copy `dotfiles/terminal/settings.json` to the terminal configuration directory <br/> `C:\Users\<YourUsername>\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json`
+3. Restart Windows Terminal to see the updated configurations.
+
+### 3. VSCode Configuration
+
+To use my VSCode settings:
+
+1. Install APC Customize UI and catppuccin theme extensions in vscode.
+2. Copy dotfiles/vscode/settings.json to your VSCode user configuration directory:
+  - On Windows: `C:\Users\<YourUsername>\AppData\Roaming\Code\User\settings.json`
+  - On WSL2: `~/.vscode-server/data/Machine/settings.json`
+3. Restart VSCode to load the updated settings.
+
+### 4. Windhawk Configurations
+
+To set up my Windhawk tweaks:
+- Install Windhawk.
+- Copy the Windhawk configuration files from `dotfiles/windhawk/`
+- Apply the tweaks from the Windhawk UI.
+
+### 5. Zsh Configuration for WSL2
+
+To set up Zsh with my configurations:
+
+Install Zsh in WSL2 by running:
+
+```bash
+sudo apt install zsh
+chsh -s $(which zsh)
+```
+
+Install Oh My Zsh if you want more customization:
+
+```bash
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
+Copy the .zshrc file from dotfiles/.zshrc to your home directory in WSL2:
+
+```bash
+cp dotfiles/.zshrc ~/.zshrc
+```
+
 ## ⌨️ Useful keybindings 
+
 You can always change them in your glaze config file.
 
 | Keys                                                                   | Action                                              |
