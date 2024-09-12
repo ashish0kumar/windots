@@ -50,6 +50,7 @@
     "glassit.alpha": 230,
     "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
     "security.allowedUNCHosts": [
-        "wsl.localhost"
+        "wsl.localhost",
+        "wsl$"
     ],
 }

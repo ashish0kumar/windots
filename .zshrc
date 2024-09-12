@@ -116,3 +116,5 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 
 # neofetch --ascii ~/.config/neofetch/cat.txt
 nitch
+
+export NNN_OPENER=wslview
