@@ -114,6 +114,9 @@ eval $(keychain --eval --agents ssh id_ed25519 2>/dev/null)
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
 
+# snap
+export PATH=$PATH:/snap/bin
+
 # nnn file manager
 export NNN_OPENER=wslview
 

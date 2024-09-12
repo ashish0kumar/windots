@@ -53,4 +53,5 @@
         "wsl.localhost",
         "wsl$"
     ],
+    "workbench.editor.empty.hint": "hidden",
 }
