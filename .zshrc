@@ -129,3 +129,8 @@ export NNN_FCOLORS="$BLK$CHR$DIR$EXE$REG$HARDLINK$SYMLINK$MISSING$ORPHAN$FIFO$SO
 # fetch
 # neofetch --ascii ~/.config/neofetch/cat.txt
 nitch
+
+alias ls='exa --icons'
+alias la='exa -a --icons'
+alias l='exa -l --group-directories-first --icons'
+alias ll='exa -la --group-directories-first --icons'
