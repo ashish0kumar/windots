@@ -114,7 +114,18 @@ eval $(keychain --eval --agents ssh id_ed25519 2>/dev/null)
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
 
+# nnn file manager
+export NNN_OPENER=wslview
+
+# Define color values for file types using closest 256 color match
+BLK="E5" CHR="E5" DIR="99" EXE="97" REG="07" HARDLINK="E1" SYMLINK="E1" MISSING="08" ORPHAN="D3" FIFO="9F" SOCK="E5" UNKNOWN="D3"
+
+# Export context colors for nnn (256 color scheme)
+export NNN_COLORS="#9997E5D3;4231"
+
+# Export the file colors for nnn
+export NNN_FCOLORS="$BLK$CHR$DIR$EXE$REG$HARDLINK$SYMLINK$MISSING$ORPHAN$FIFO$SOCK$UNKNOWN"
+
+# fetch
 # neofetch --ascii ~/.config/neofetch/cat.txt
 nitch
-
-export NNN_OPENER=wslview
