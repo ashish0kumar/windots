@@ -22,6 +22,10 @@ Welcome to my dotfiles repo! This repo contains my config files to create a visu
 
 ### 1. GlazeWM Configuration
 
+> [!IMPORTANT]
+> This is using previous build of [GlazeWM](https://github.com/glzr-io/glazewm) and not the latest release.
+> So, this will not work with new [Zebar](https://github.com/glzr-io/zebar).
+
 To use my GlazeWM setup:
 
 - Install [GlazeWM v2](https://github.com/glzr-io/glazewm/releases/tag/v2.1.1).
@@ -75,6 +79,14 @@ Copy the .zshrc file from dotfiles/.zshrc to your home directory in WSL2:
 ```bash
 cp dotfiles/.zshrc ~/.zshrc
 ```
+
+### ✨ For CLI Lovers
+- [nitch](https://github.com/ssleert/nitch) - incredibly fast system fetch written in nim.
+- [btop](https://github.com/aristocratos/btop) - a resource monitor for the terminal.
+- [cmatrix](https://github.com/abishekvashok/cmatrix) - terminal based "The Matrix" like implementation.
+- [cbonsai](https://gitlab.com/jallbrit/cbonsai) - a bonsai tree generator, written in C using ncurses.
+- [nnn](https://github.com/jarun/nnn) - (n3) is a full-featured terminal file manager.
+- [fzf](https://github.com/junegunn/fzf) - a command-line fuzzy finder.
 
 ## ⌨️ Useful keybindings 
 
