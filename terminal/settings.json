@@ -56,7 +56,7 @@
             {
                 "face": "JetBrainsMono Nerd Font"
             },
-            "opacity": 90
+            "opacity": 100
         },
         "list": 
         [
@@ -108,7 +108,7 @@
                 "hidden": false,
                 "intenseTextStyle": "bright",
                 "name": "Ubuntu",
-                "opacity": 90,
+                "opacity": 100,
                 "padding": "10",
                 "scrollbarState": "hidden",
                 "source": "CanonicalGroupLimited.Ubuntu_79rhkp1fndgsc",
