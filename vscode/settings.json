@@ -47,7 +47,7 @@
     "update.mode": "none",
     "editor.cursorBlinking": "smooth",
     "editor.cursorSmoothCaretAnimation": "on",
-    "glassit.alpha": 230,
+    "glassit.alpha": 225,
     "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
     "security.allowedUNCHosts": [
         "wsl.localhost",
