@@ -122,6 +122,14 @@ eval $(keychain --eval --agents ssh id_ed25519 2>/dev/null)
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
 
+# pnpm
+export PNPM_HOME="/home/ashish/.local/share/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
+
 # nnn file manager
 export NNN_OPENER=wslview
 
@@ -138,11 +146,3 @@ export NNN_FCOLORS="$BLK$CHR$DIR$EXE$REG$HARDLINK$SYMLINK$MISSING$ORPHAN$FIFO$SO
 # neofetch --ascii ~/.config/neofetch/cat.txt
 nitch
 
-
-# pnpm
-export PNPM_HOME="/home/ashish/.local/share/pnpm"
-case ":$PATH:" in
-  *":$PNPM_HOME:"*) ;;
-  *) export PATH="$PNPM_HOME:$PATH" ;;
-esac
-# pnpm end
