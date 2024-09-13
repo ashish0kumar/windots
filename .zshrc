@@ -100,7 +100,13 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-alias ls="ls --color=never"
+alias ls='exa --group-directories-first'
+alias la='exa -a --group-directories-first'
+alias l='exa -l --group-directories-first'
+alias ll='exa -la --group-directories-first'
+
+alias nnn='nnn -e'
+
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
@@ -130,9 +136,3 @@ export NNN_FCOLORS="$BLK$CHR$DIR$EXE$REG$HARDLINK$SYMLINK$MISSING$ORPHAN$FIFO$SO
 # neofetch --ascii ~/.config/neofetch/cat.txt
 nitch
 
-alias ls='exa --group-directories-first'
-alias la='exa -a --group-directories-first'
-alias l='exa -l --group-directories-first'
-alias ll='exa -la --group-directories-first'
-
-alias nnn='nnn -e'
