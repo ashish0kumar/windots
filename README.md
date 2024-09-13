@@ -81,12 +81,12 @@ cp dotfiles/.zshrc ~/.zshrc
 ```
 
 ### ✨ For CLI Lovers
+- [nnn](https://github.com/jarun/nnn) - (n3) is a full-featured terminal file manager.
+- [fzf](https://github.com/junegunn/fzf) - a command-line fuzzy finder.
 - [nitch](https://github.com/ssleert/nitch) - incredibly fast system fetch written in nim.
 - [btop](https://github.com/aristocratos/btop) - a resource monitor for the terminal.
 - [cmatrix](https://github.com/abishekvashok/cmatrix) - terminal based "The Matrix" like implementation.
 - [cbonsai](https://gitlab.com/jallbrit/cbonsai) - a bonsai tree generator, written in C using ncurses.
-- [nnn](https://github.com/jarun/nnn) - (n3) is a full-featured terminal file manager.
-- [fzf](https://github.com/junegunn/fzf) - a command-line fuzzy finder.
 
 ## ⌨️ Useful keybindings 
 
