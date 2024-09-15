@@ -500,5 +500,5 @@
         }
     ],
     "useAcrylicInTabRow": true,
-    "windowingBehavior": "useAnyExisting"
+    "windowingBehavior": "useNew"
 }
