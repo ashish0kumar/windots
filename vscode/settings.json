@@ -49,9 +49,6 @@
     "editor.cursorSmoothCaretAnimation": "on",
     "glassit.alpha": 225,
     "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
-    "security.allowedUNCHosts": [
-        "wsl.localhost",
-        "wsl$"
-    ],
     "workbench.editor.empty.hint": "hidden",
+    "workbench.activityBar.location": "hidden",
 }
