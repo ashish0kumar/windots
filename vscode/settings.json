@@ -51,4 +51,8 @@
     "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
     "workbench.editor.empty.hint": "hidden",
     "workbench.activityBar.location": "hidden",
+    "security.allowedUNCHosts": [
+        "wsl.localhost",
+        "wsl$"
+    ],
 }
