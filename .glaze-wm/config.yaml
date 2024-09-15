@@ -57,7 +57,7 @@ gaps:
   inner_gap: "15px"
 
   # Gap between windows and the screen edge.
-  outer_gap: "25px"
+  outer_gap: "15px 25px 25px 25px"
 
 # Highlight active/inactive windows with a colored border.
 # ** Exclusive to Windows 11 due to API limitations.
@@ -71,7 +71,7 @@ focus_borders:
     color: "#ff0000"
 
 bar:
-  height: "40px"
+  height: "45px"
   position: "top"
   opacity: 0.9
   background: *base
