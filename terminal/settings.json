@@ -101,7 +101,7 @@
                 {
                     "cellHeight": "1.3",
                     "face": "JetBrainsMono Nerd Font",
-                    "size": 12.0,
+                    "size": 14.0,
                     "weight": "normal"
                 },
                 "guid": "{51855cb2-8cce-5362-8f54-464b92b32386}",
@@ -109,7 +109,7 @@
                 "intenseTextStyle": "bright",
                 "name": "Ubuntu",
                 "opacity": 100,
-                "padding": "10",
+                "padding": "15",
                 "scrollbarState": "hidden",
                 "source": "CanonicalGroupLimited.Ubuntu_79rhkp1fndgsc",
                 "useAcrylic": false

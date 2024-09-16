@@ -42,7 +42,6 @@
     "window.customTitleBarVisibility": "never",
     "apc.font.family": "JetBrainsMono Nerd Font",
     "apc.monospace.font.family": "JetBrainsMono Nerd Font",
-    "editor.fontSize": 13,
     "workbench.sideBar.location": "right",
     "update.mode": "none",
     "editor.cursorBlinking": "smooth",
