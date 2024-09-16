@@ -64,28 +64,35 @@
                 "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
                 "font": 
                 {
-                    "size": 12.0
+                    "size": 14.0
                 },
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": false,
                 "name": "Windows PowerShell",
-                "opacity": 90
+                "opacity": 100,
+                "padding": "15"
             },
             {
                 "commandline": "%SystemRoot%\\System32\\cmd.exe",
                 "font": 
                 {
-                    "size": 12.0
+                    "size": 14.0
                 },
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "hidden": false,
                 "name": "Command Prompt",
-                "opacity": 90
+                "opacity": 100,
+                "padding": "15"
             },
             {
+                "font": 
+                {
+                    "size": 14.0
+                },
                 "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
                 "hidden": false,
                 "name": "Azure Cloud Shell",
+                "padding": "15",
                 "source": "Windows.Terminal.Azure"
             },
             {
@@ -115,9 +122,14 @@
                 "useAcrylic": false
             },
             {
+                "font": 
+                {
+                    "size": 14.0
+                },
                 "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
                 "hidden": true,
                 "name": "Ubuntu",
+                "padding": "15",
                 "source": "Windows.Terminal.Wsl"
             }
         ]
