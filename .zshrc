@@ -147,6 +147,5 @@ export NNN_COLORS="#9997E5D3;4231"
 export NNN_FCOLORS="$BLK$CHR$DIR$EXE$REG$HARDLINK$SYMLINK$MISSING$ORPHAN$FIFO$SOCK$UNKNOWN"
 
 # fetch
-# neofetch --ascii ~/.config/neofetch/cat.txt
 nitch
 
