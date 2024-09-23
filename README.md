@@ -1,5 +1,5 @@
 # 🍙 dotfiles
-Welcome to my dotfiles repo! This repo contains my config files to create a visually appealing and highly customized setup on Windows 11 with WSL2.
+Welcome to my dotfiles repo! This repo contains my config files to create a visually appealing and highly customized setup on Windows 11 🪟
 
 ## ✨ Features
 
@@ -7,7 +7,6 @@ Welcome to my dotfiles repo! This repo contains my config files to create a visu
 - [Windows Terminal](https://github.com/microsoft/terminal) settings.json
 - [VSCode](https://code.visualstudio.com/) settings.json
 - [Windhawk](https://windhawk.net/) configs
-- [Zsh](https://zsh.sourceforge.io/) config
 - [My Wallpapers](https://github.com/ashish0kumar/dotfiles/tree/main/walls)
 
 ## 📸 Screenshots
@@ -56,29 +55,6 @@ To set up my Windhawk tweaks:
 - Install [Windhawk](https://windhawk.net/).
 - Copy the Windhawk configuration files from `dotfiles/windhawk/`
 - Apply the tweaks from the Windhawk UI.
-
-### 5. Zsh Configuration for WSL2
-
-To set up Zsh with my configurations:
-
-Install Zsh in WSL2 by running:
-
-```bash
-sudo apt install zsh
-chsh -s $(which zsh)
-```
-
-Install Oh My Zsh if you want more customization:
-
-```bash
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-```
-
-Copy the .zshrc file from dotfiles/.zshrc to your home directory in WSL2:
-
-```bash
-cp dotfiles/.zshrc ~/.zshrc
-```
 
 ### ✨ For CLI Lovers
 - [nnn](https://github.com/jarun/nnn) - (n3) is a full-featured terminal file manager.
