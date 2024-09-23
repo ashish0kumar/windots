@@ -28,7 +28,7 @@ This repo contains my config files to create a visually appealing and highly cus
 To use my GlazeWM setup:
 
 - Install [GlazeWM v2](https://github.com/glzr-io/glazewm/releases/tag/v2.1.1).
-- Copy the `config.yaml` file from `dotfiles/.glaze-wm/` to your GlazeWM configuration directory `C:\Users\<YourUsername>\.glaze-wm`
+- Copy the `dotfiles/.glaze-wm/config.yaml` to your GlazeWM configuration directory `C:\Users\<YourUsername>\.glaze-wm`
 - Restart GlazeWM for the changes to take effect.
 
 ### 2. Windows Terminal Setup
