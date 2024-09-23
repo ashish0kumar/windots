@@ -90,7 +90,6 @@ case ":$PATH:" in
 esac
 # pnpm end 
 
-
 # nnn file manager
 export NNN_OPENER=wslview
 
