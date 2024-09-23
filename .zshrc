@@ -25,7 +25,9 @@ zinit light zsh-users/zsh-autosuggestions
 zinit light Aloxaf/fzf-tab
 
 # Load completions
-autoload -U compinit && compinit
+autoload -Uz compinit && compinit
+
+zinit cdreplay -q
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
@@ -56,12 +58,50 @@ zstyle ':fzf-tab:complete:cd:*' fzf-preview 'ls --color $realpath'
 zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
 
 # Aliases
-alias ls='ls --color'
 alias vim='nvim'
 alias c='clear'
+alias nnn='nnn -e'
+alias pipes='Scripts/pipes.sh'
 
-# Shell integrations
-eval "$(fzf --zsh)"
-eval "$(zoxide init --cmd cd zsh)"
+# exa aliases
+alias ls='exa --group-directories-first'
+alias la='exa -a --group-directories-first'
+alias l='exa -l --group-directories-first'
+alias ll='exa -la --group-directories-first'
 
-export PATH="$HOME/.local/bin:$PATH"
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+eval $(keychain --eval --agents ssh id_ed25519 2>/dev/null)
+
+# bun completions
+[ -s "/home/ashish/.bun/_bun" ] && source "/home/ashish/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+
+# pnpm
+export PNPM_HOME="/home/ashish/.local/share/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end 
+
+
+# nnn file manager
+export NNN_OPENER=wslview
+
+# Define color values for file types using closest 256 color match
+BLK="E5" CHR="E5" DIR="99" EXE="97" REG="07" HARDLINK="E1" SYMLINK="E1" MISSING="08" ORPHAN="D3" FIFO="9F" SOCK="E5" UNKNOWN="D3"
+
+# Export context colors for nnn (256 color scheme)
+export NNN_COLORS="#9997E5D3;4231"
+
+# Export the file colors for nnn
+export NNN_FCOLORS="$BLK$CHR$DIR$EXE$REG$HARDLINK$SYMLINK$MISSING$ORPHAN$FIFO$SOCK$UNKNOWN"
+
+# fetch
+nitch
