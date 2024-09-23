@@ -1,5 +1,5 @@
-# 🍙 dotfiles
-Welcome to my dotfiles repo! This repo contains my config files to create a visually appealing and highly customized setup on Windows 11 🪟
+# 🍙 windots
+This repo contains my config files to create a visually appealing and highly customized setup on Windows 11 🪟
 
 ## ✨ Features
 
@@ -7,7 +7,7 @@ Welcome to my dotfiles repo! This repo contains my config files to create a visu
 - [Windows Terminal](https://github.com/microsoft/terminal) settings.json
 - [VSCode](https://code.visualstudio.com/) settings.json
 - [Windhawk](https://windhawk.net/) configs
-- [My Wallpapers](https://github.com/ashish0kumar/dotfiles/tree/main/walls)
+- [My Wallpapers](https://github.com/ashish0kumar/windots/tree/main/walls)
 
 ## 📸 Screenshots
 
@@ -36,7 +36,7 @@ To use my GlazeWM setup:
 To apply my custom settings:
 
 - Open Windows Terminal.
-- Copy `dotfiles/terminal/settings.json` to the terminal configuration directory `C:\Users\<YourUsername>\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json`
+- Copy `windots/terminal/settings.json` to the terminal configuration directory `C:\Users\<YourUsername>\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json`
 - Restart Windows Terminal to see the updated configurations.
 
 ### 3. VSCode Configuration
@@ -44,7 +44,7 @@ To apply my custom settings:
 To use my VSCode settings:
 
 - Install APC Customize UI and catppuccin theme from vscode extensions.
-- Copy dotfiles/vscode/settings.json to your VSCode user configuration directory:
+- Copy `windots/vscode/settings.json` to your VSCode user configuration directory:
     - On Windows: `C:\Users\<YourUsername>\AppData\Roaming\Code\User\settings.json`
     - On WSL2: `~/.vscode-server/data/Machine/settings.json`
 - Restart VSCode to load the updated settings.
@@ -53,7 +53,7 @@ To use my VSCode settings:
 
 To set up my Windhawk tweaks:
 - Install [Windhawk](https://windhawk.net/).
-- Copy the Windhawk configuration files from `dotfiles/windhawk/`
+- Copy the Windhawk configuration files from `windots/windhawk/`
 - Apply the tweaks from the Windhawk UI.
 
 ### ✨ For CLI Lovers
