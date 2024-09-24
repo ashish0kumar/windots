@@ -1,6 +1,8 @@
 # 🪟 windots
 This repo contains my config files to create a visually appealing and highly customized setup on Windows 11.
 
+For WSL2 dotfiles you can checkout this repo [dotfiles](https://github.com/ashish0kumar/dotfiles) 
+
 ## ✨ Features
 
 - [GlazeWM](https://github.com/glzr-io/glazewm) config
