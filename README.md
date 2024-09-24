@@ -1,5 +1,5 @@
-# 🍙 windots
-This repo contains my config files to create a visually appealing and highly customized setup on Windows 11 🪟
+# 🪟 windots
+This repo contains my config files to create a visually appealing and highly customized setup on Windows 11.
 
 ## ✨ Features
 
