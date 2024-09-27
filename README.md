@@ -1,17 +1,19 @@
 # 🪟 windots
-This repo contains my config files to create a visually appealing and highly customized setup on Windows 11.
 
-For WSL2 dotfiles you can checkout this repo [dotfiles](https://github.com/ashish0kumar/dotfiles) 
+### 💖 For the Ricing and Unixporn Enthusiasts
+Welcome, ricing enthusiasts! If you love customizing your desktop environment and making it your own, this collection of dotfiles is designed just for you. Tailored for a Windows setup, these configs will help you elevate your system's aesthetics and functionality to the next level.
 
-## ✨ Features
+> [!IMPORTANT]
+> For those using WSL2, my dedicated [dotfiles](https://github.com/ashish0kumar/dotfiles) repository includes configurations fine-tuned for Linux workflows within Windows.
 
-- [GlazeWM](https://github.com/glzr-io/glazewm) config
-- [Windows Terminal](https://github.com/microsoft/terminal) settings.json
-- [VSCode](https://code.visualstudio.com/) settings.json
-- [Windhawk](https://windhawk.net/) configs
-- [My Wallpapers](https://github.com/ashish0kumar/windots/tree/main/walls)
+## 🛠️ Core
 
-## 📸 Screenshots
+- Tiling Window Manager: [GlazeWM](https://github.com/glzr-io/glazewm)
+- Terminal: [Windows Terminal](https://github.com/microsoft/terminal)
+- Editor: [VSCode](https://code.visualstudio.com/)
+- Windows Customisation:  [Windhawk](https://windhawk.net/)
+
+## 🎨 Screenshots
 
 | Catppuccin mocha 🐈🍵 |
 | :---: |
@@ -21,11 +23,15 @@ For WSL2 dotfiles you can checkout this repo [dotfiles](https://github.com/ashis
 
 ## 🚀 Setup
 
-### 1. GlazeWM Configuration
+Throughout the setup, I use the **JetBrains Mono Nerd Font** for a clean and developer-friendly aesthetic, paired with the **Catppuccin Mocha** theme for a cohesive, soothing color palette.
+
+- [JetBrainsMono Nerd Font](https://www.programmingfonts.org/#jetbrainsmono)
+- [Catppuccin Theme](https://catppuccin.com)
+
+### GlazeWM Configuration
 
 > [!IMPORTANT]
-> This is using previous build of [GlazeWM](https://github.com/glzr-io/glazewm) and not the latest release.
-> So, this will not work with new [Zebar](https://github.com/glzr-io/zebar).
+> This setup uses an earlier version of GlazeWM and is not compatible with the latest release. <br/> As a result, it will not work with the new Zebar integration.
 
 To use my GlazeWM setup:
 
@@ -33,15 +39,15 @@ To use my GlazeWM setup:
 - Copy the `dotfiles/.glaze-wm/config.yaml` to your GlazeWM configuration directory `C:\Users\<YourUsername>\.glaze-wm`
 - Restart GlazeWM for the changes to take effect.
 
-### 2. Windows Terminal Setup
+### Windows Terminal Setup
 
 To apply my custom settings:
 
 - Open Windows Terminal.
-- Copy `windots/terminal/settings.json` to the terminal configuration directory `C:\Users\<YourUsername>\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json`
+- Copy `windots/terminal/settings.json` to the terminal configuration directory <br/> `C:\Users\<YourUsername>\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json`
 - Restart Windows Terminal to see the updated configurations.
 
-### 3. VSCode Configuration
+### VSCode Configuration
 
 To use my VSCode settings:
 
@@ -51,7 +57,7 @@ To use my VSCode settings:
     - On WSL2: `~/.vscode-server/data/Machine/settings.json`
 - Restart VSCode to load the updated settings.
 
-### 4. Windhawk Configurations
+### Windhawk Configurations
 
 To set up my Windhawk tweaks:
 - Install [Windhawk](https://windhawk.net/).
