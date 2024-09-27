@@ -36,7 +36,7 @@ Throughout the setup, I use the **JetBrains Mono Nerd Font** for a clean and dev
 To use my GlazeWM setup:
 
 - Install [GlazeWM v2](https://github.com/glzr-io/glazewm/releases/tag/v2.1.1).
-- Copy the `dotfiles/.glaze-wm/config.yaml` to your GlazeWM configuration directory `C:\Users\<YourUsername>\.glaze-wm`
+- Copy the `dotfiles/.glaze-wm/config.yaml` to your GlazeWM configuration directory <br/> `C:\Users\<Username>\.glaze-wm`
 - Restart GlazeWM for the changes to take effect.
 
 ### </> Windows Terminal
@@ -44,7 +44,7 @@ To use my GlazeWM setup:
 To apply my custom settings:
 
 - Open Windows Terminal.
-- Copy `windots/terminal/settings.json` to the terminal configuration directory <br/> `C:\Users\<YourUsername>\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json`
+- Copy `windots/terminal/settings.json` to the terminal configuration directory `C:\Users\<Username>\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json`
 - Restart Windows Terminal to see the updated configurations.
 
 ### 📝 VSCode
@@ -53,7 +53,7 @@ To use my VSCode settings:
 
 - Install APC Customize UI and catppuccin theme from vscode extensions.
 - Copy `windots/vscode/settings.json` to your VSCode user configuration directory:
-    - On Windows: `C:\Users\<YourUsername>\AppData\Roaming\Code\User\settings.json`
+    - On Windows: `C:\Users\<Username>\AppData\Roaming\Code\User\settings.json`
     - On WSL2: `~/.vscode-server/data/Machine/settings.json`
 - Restart VSCode to load the updated settings.
 
