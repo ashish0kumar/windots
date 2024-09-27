@@ -28,7 +28,7 @@ Throughout the setup, I use the **JetBrains Mono Nerd Font** for a clean and dev
 - [JetBrainsMono Nerd Font](https://www.programmingfonts.org/#jetbrainsmono)
 - [Catppuccin Theme](https://catppuccin.com)
 
-### GlazeWM Configuration
+### 🪟 GlazeWM
 
 > [!IMPORTANT]
 > This setup uses an earlier version of GlazeWM and is not compatible with the latest release. <br/> As a result, it will not work with the new Zebar integration.
@@ -39,7 +39,7 @@ To use my GlazeWM setup:
 - Copy the `dotfiles/.glaze-wm/config.yaml` to your GlazeWM configuration directory `C:\Users\<YourUsername>\.glaze-wm`
 - Restart GlazeWM for the changes to take effect.
 
-### Windows Terminal Setup
+### </> Windows Terminal
 
 To apply my custom settings:
 
@@ -47,7 +47,7 @@ To apply my custom settings:
 - Copy `windots/terminal/settings.json` to the terminal configuration directory <br/> `C:\Users\<YourUsername>\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json`
 - Restart Windows Terminal to see the updated configurations.
 
-### VSCode Configuration
+### 📝 VSCode
 
 To use my VSCode settings:
 
@@ -57,7 +57,7 @@ To use my VSCode settings:
     - On WSL2: `~/.vscode-server/data/Machine/settings.json`
 - Restart VSCode to load the updated settings.
 
-### Windhawk Configurations
+### 🦅 Windhawk
 
 To set up my Windhawk tweaks:
 - Install [Windhawk](https://windhawk.net/).
