@@ -3,7 +3,7 @@
 ### 💖 For the Ricing and Unixporn Enthusiasts
 Welcome, ricing enthusiasts! If you love customizing your desktop environment and making it your own, this collection of dotfiles is designed just for you. Tailored for a Windows setup, these configs will help you elevate your system's aesthetics and functionality to the next level.
 
-> [!IMPORTANT]
+> [!NOTE]
 > For those using WSL2, my dedicated [dotfiles](https://github.com/ashish0kumar/dotfiles) repository includes configurations fine-tuned for Linux workflows within Windows.
 
 ## 🛠️ Core
@@ -47,6 +47,14 @@ To apply my custom settings:
 - Copy `windots/terminal/settings.json` to the terminal configuration directory `C:\Users\<Username>\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json`
 - Restart Windows Terminal to see the updated configurations.
 
+### ✨ For CLI Lovers
+- [nnn](https://github.com/jarun/nnn) - (n3) is a full-featured terminal file manager.
+- [nitch](https://github.com/ssleert/nitch) - incredibly fast system fetch written in nim.
+- [btop](https://github.com/aristocratos/btop) - a resource monitor for the terminal.
+- [cmatrix](https://github.com/abishekvashok/cmatrix) - terminal based "The Matrix" like implementation.
+- [cbonsai](https://gitlab.com/jallbrit/cbonsai) - a bonsai tree generator, written in C using ncurses.
+
+
 ### 📝 VSCode
 
 To use my VSCode settings:
@@ -63,13 +71,6 @@ To set up my Windhawk tweaks:
 - Install [Windhawk](https://windhawk.net/).
 - Copy the Windhawk configuration files from `windots/windhawk/`
 - Apply the tweaks from the Windhawk UI.
-
-### ✨ For CLI Lovers
-- [nnn](https://github.com/jarun/nnn) - (n3) is a full-featured terminal file manager.
-- [nitch](https://github.com/ssleert/nitch) - incredibly fast system fetch written in nim.
-- [btop](https://github.com/aristocratos/btop) - a resource monitor for the terminal.
-- [cmatrix](https://github.com/abishekvashok/cmatrix) - terminal based "The Matrix" like implementation.
-- [cbonsai](https://gitlab.com/jallbrit/cbonsai) - a bonsai tree generator, written in C using ncurses.
 
 ## ⌨️ Useful keybindings 
 
