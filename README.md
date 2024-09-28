@@ -66,7 +66,6 @@ To set up my Windhawk tweaks:
 
 ### ✨ For CLI Lovers
 - [nnn](https://github.com/jarun/nnn) - (n3) is a full-featured terminal file manager.
-- [fzf](https://github.com/junegunn/fzf) - a command-line fuzzy finder.
 - [nitch](https://github.com/ssleert/nitch) - incredibly fast system fetch written in nim.
 - [btop](https://github.com/aristocratos/btop) - a resource monitor for the terminal.
 - [cmatrix](https://github.com/abishekvashok/cmatrix) - terminal based "The Matrix" like implementation.
