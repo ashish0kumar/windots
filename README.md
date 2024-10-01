@@ -90,7 +90,7 @@ To set up my Windhawk tweaks:
 
 <hr/>
 
-## ⌨️ Useful keybindings 
+## ⌨️ GlazeWM keybindings 
 
 You can always change these in your Glaze config.
 
