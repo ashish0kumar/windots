@@ -10,13 +10,10 @@ Welcome, ricing enthusiasts! If you're a Windows user feeling stuck in customiza
 
 <hr/>
 
-## 🖼️ Gallery
-
 ![](/Gallery/1.png)
 ![](/Gallery/2.png)
 ![](/Gallery/3.png)
 ![](/Gallery/4.png)
-
 
 <hr/>
 
