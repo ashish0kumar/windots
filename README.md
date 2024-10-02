@@ -39,8 +39,8 @@ Welcome, ricing enthusiasts! If you're a Windows user feeling stuck in customiza
 - **Text Editor:** [vscode](https://code.visualstudio.com/) and [neovim](https://neovim.io/) ⌨️
 - **App Launcher:** [flow launcher](https://www.flowlauncher.com/) 🚀
 - **File Manager:** [file explorer](https://www.microsoft.com/en-us/windows/tips/file-explorer) / [nnn](https://github.com/jarun/nnn) 📂
-- **Browser:** [Firefox](https://www.mozilla.org/en-US/firefox/) 🌐
-- **Colorscheme:** [Catppuccin](https://catppuccin.com/) 🐈🍵
+- **Browser:** [firefox](https://www.mozilla.org/en-US/firefox/) 🌐
+- **Colorscheme:** [catppuccin mocha](https://catppuccin.com/) 🐈🍵
 
 <hr/>
 
@@ -86,6 +86,12 @@ To set up my Windhawk tweaks:
 - Install [Windhawk](https://windhawk.net/).
 - Copy the Windhawk configuration files from `windots/windhawk/`
 - Apply the tweaks from the Windhawk UI.
+
+### 🚀 Flow Launcher
+
+To apply my settings:
+- Copy `windots/flowlauncher/Settings.json` to `C:\Users\<Username>\AppData\Roaming\FlowLauncher\Settings\Settings.json`
+- Restart Flow Launcher
 
 <hr/>
 
