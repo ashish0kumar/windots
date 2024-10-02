@@ -12,9 +12,10 @@ Welcome, ricing enthusiasts! If you're a Windows user feeling stuck in customiza
 
 ## 🖼️ Gallery
 
-![](/rice-previews/1.png)
-![](/rice-previews/2.png)
-![](/rice-previews/3.png)
+![](/Gallery/1.png)
+![](/Gallery/2.png)
+![](/Gallery/3.png)
+![](/Gallery/4.png)
 
 
 <hr/>
@@ -27,6 +28,7 @@ Welcome, ricing enthusiasts! If you're a Windows user feeling stuck in customiza
 - 🦅 Custom start menu and taskbar
 - 🔔 Notification center
 - 🚀 Flow launcher config
+- 💫 Beautiful [Wallpapers](https://github.com/ashish0kumar/windots/tree/main/walls)
 
 <hr/>
 
