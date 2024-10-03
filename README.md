@@ -77,7 +77,7 @@ Here is all the information about my setup:
 
 | 📚 Entry                           	 | ✨ App                  |
 |----------------------------------------|--------------------------|
-| **Music Player**                       | 💖 [Spotify](https://open.spotify.com/) (patched with [Spicetify](https://spicetify.app/)) [⚙️]() |
+| **Music Player**                       | 💖 [Spotify](https://open.spotify.com/) (patched with [Spicetify](https://spicetify.app/)) [⚙️](https://github.com/ashish0kumar/windots/tree/main/spicetify) |
 | **Fallback Text Editorr**              | [VSCode](https://code.visualstudio.com/) [⚙️](https://github.com/ashish0kumar/windots/blob/main/vscode/settings.json) |
 | **Web Browser**               	 | 💖 [Firefox](https://www.mozilla.org/en-US/firefox/) |
 | **Note Taking App**                    | 💖 [Obsidian](https://obsidian.md/) |
@@ -108,7 +108,8 @@ Here is all the information about my setup:
 To use my GlazeWM setup:
 
 - Install [GlazeWM v2](https://github.com/glzr-io/glazewm/releases/tag/v2.1.1).
-- Copy the `dotfiles/.glaze-wm/config.yaml` to your GlazeWM configuration directory <br/> `C:\Users\<Username>\.glaze-wm`
+- Copy the `dotfiles/.glaze-wm/config.yaml` to your GlazeWM configuration directory:
+	- `C:\Users\<Username>\.glaze-wm`
 - Restart GlazeWM for the changes to take effect.
 
 ### </> Windows Terminal
@@ -116,7 +117,8 @@ To use my GlazeWM setup:
 To apply my custom settings:
 
 - Open Windows Terminal.
-- Copy `windots/terminal/settings.json` to the terminal configuration directory `C:\Users\<Username>\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json`
+- Copy `windots/terminal/settings.json` to the terminal configuration directory:
+	-  `C:\Users\<Username>\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json`
 - Restart Windows Terminal to see the updated configurations.
 
 ### 📝 VSCode
@@ -139,8 +141,24 @@ To set up my Windhawk tweaks:
 ### 🚀 Flow Launcher
 
 To apply my settings:
-- Copy `windots/flowlauncher/Settings.json` to `C:\Users\<Username>\AppData\Roaming\FlowLauncher\Settings\Settings.json`
+- Copy `windots/flowlauncher/Settings.json` to the Flow Launcher config directory:
+	-  `C:\Users\<Username>\AppData\Roaming\FlowLauncher\Settings\Settings.json`
 - Restart Flow Launcher
+
+### 🎵 Spicetify
+
+To apply my custom Spicetify configuration:
+- Install Spicetify on your system.
+- Copy the Spicetify configuration files from `windots/spicetify/` to the Spicetify configuration directory:
+	- `C:\Users\<Username>\AppData\Roaming\spicetify\`
+
+- Apply the theme and configuration by running:
+
+```bash
+spicetify backup apply
+```
+
+- Restart Spotify to see the changes.
 
 <hr/>
 
