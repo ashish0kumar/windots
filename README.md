@@ -44,12 +44,61 @@ Welcome, ricing enthusiasts! If you're a Windows user feeling stuck in customiza
 
 <hr/>
 
+### ℹ️ Whole System Info
+
+Here is all the information about my setup:
+
+> [!Note]
+> Some of this apps have the config files included in the repo, which are marked with ⚙️. Also, my favorite programs and tools are marked with 💖.
+
+<details open>
+
+<summary><b>🖥️ CLI/TUI Apps</b></summary>
+
+| 📚 Entry                           	 | ✨ App                  |
+|----------------------------------------|--------------------------|
+| **Shell**                              | 💖 [zsh](https://zsh.sourceforge.io/) [⚙️](https://github.com/ashish0kumar/dotfiles/blob/master/.zshrc) |
+| **Terminal Emulator**                  | [windows terminal](https://github.com/microsoft/terminal) [⚙️](https://github.com/ashish0kumar/windots/blob/main/terminal/settings.json) |
+| **Terminal Multiplexer**               | 💖 [tmux](https://github.com/tmux/tmux) [⚙️](https://github.com/ashish0kumar/dotfiles/blob/master/.config/tmux/tmux.conf) |
+| **Shell Prompt**                       | [powerlevel10k](https://github.com/romkatv/powerlevel10k) [⚙️](https://github.com/ashish0kumar/dotfiles/blob/master/.p10k.zsh) |
+| **Text Editor**                        | 💖 [neovim](https://neovim.io/) [⚙️](https://github.com/ashish0kumar/dotfiles/tree/master/.config/nvim) |
+| **LS Replacement**                     | [eza](https://github.com/eza-community/eza) |
+| **File Manager**                       | 💖 [nnn](https://github.com/jarun/nnn) |
+| **Fuzzy File Finder**                  | 💖 [fzf](https://github.com/junegunn/fzf) |
+| **Git TUI**                            | [lazygit](https://github.com/jesseduffield/lazygit) |
+| **System Monitor**                     | [btop](https://github.com/aristocratos/btop) [⚙️](https://github.com/ashish0kumar/dotfiles/blob/master/.config/btop/btop.conf) |
+| **System Fetch**                       | [fastfetch](https://github.com/fastfetch-cli/fastfetch) [⚙️](https://github.com/ashish0kumar/dotfiles/blob/master/.config/fastfetch/config.jsonc) |
+ 
+</details>
+
+<details open>
+
+<summary><b>🖱️ GUI Apps</b></summary>
+
+| 📚 Entry                           	 | ✨ App                  |
+|----------------------------------------|--------------------------|
+| **Music Player**                       | 💖 [Spotify](https://open.spotify.com/) (patched with [Spicetify](https://spicetify.app/)) [⚙️]() |
+| **Fallback Text Editorr**              | [VSCode](https://code.visualstudio.com/) [⚙️](https://github.com/ashish0kumar/windots/blob/main/vscode/settings.json) |
+| **Web Browser**               	 | 💖 [Firefox](https://www.mozilla.org/en-US/firefox/) |
+| **Note Taking App**                    | 💖 [Obsidian](https://obsidian.md/) |
+| **File Manager**                       | [File Explorer](https://www.microsoft.com/en-us/windows/tips/file-explorer) |
+| **Office Apps**                     	 | [LibreOffice](https://www.libreoffice.org/) |
+ 
+</details>
+
+<details open>
+
+<summary><b>🔍 Other</b></summary>
+
+| 📚 Entry                             | ✨ App                  |
+|---------------------------------------|--------------------------|
+| **Colorscheme**                       | 💖 [Catppuccin Mocha](catppuccin.com) |
+| **Font**                  		| [JetBrainsMono Nerd Font](https://www.jetbrains.com/lp/mono/) |
+| **Dotfiles Manager**              	| 💖 [GNU Stow](https://www.gnu.org/software/stow/) |
+ 
+</details>
+
 ## 🔧 Setup
-
-Throughout the setup, I use the **JetBrains Mono Nerd Font** for a clean and developer-friendly aesthetic, paired with the **Catppuccin Mocha** theme for a cohesive, soothing color palette.
-
-- [JetBrainsMono Nerd Font](https://www.programmingfonts.org/#jetbrainsmono)
-- [Catppuccin Theme](https://catppuccin.com)
 
 ### 🪟 GlazeWM
 
