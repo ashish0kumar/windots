@@ -77,8 +77,8 @@ Here is all the information about my setup:
 
 | 📚 Entry                           	 | ✨ App                  |
 |----------------------------------------|--------------------------|
-| **Music Player**                       | 💖 [Spotify](https://open.spotify.com/) (patched with [Spicetify](https://spicetify.app/)) [⚙️](https://github.com/ashish0kumar/windots/tree/main/spicetify) |
 | **Fallback Text Editorr**              | [VSCode](https://code.visualstudio.com/) [⚙️](https://github.com/ashish0kumar/windots/blob/main/vscode/settings.json) |
+| **Music Player**                       | 💖 [Spotify](https://open.spotify.com/) (patched with [Spicetify](https://spicetify.app/)) |
 | **Web Browser**               	 | 💖 [Firefox](https://www.mozilla.org/en-US/firefox/) |
 | **Note Taking App**                    | 💖 [Obsidian](https://obsidian.md/) |
 | **File Manager**                       | [File Explorer](https://www.microsoft.com/en-us/windows/tips/file-explorer) |
@@ -102,7 +102,7 @@ Here is all the information about my setup:
 
 ### 🪟 GlazeWM
 
-> [!IMPORTANT]
+> [!WARNING]
 > This setup uses an earlier version of GlazeWM and is not compatible with the latest release. <br/> As a result, it will not work with the new Zebar integration.
 
 To use my GlazeWM setup:
@@ -144,21 +144,6 @@ To apply my settings:
 - Copy `windots/flowlauncher/Settings.json` to the Flow Launcher config directory:
 	-  `C:\Users\<Username>\AppData\Roaming\FlowLauncher\Settings\Settings.json`
 - Restart Flow Launcher
-
-### 🎵 Spicetify
-
-To apply my custom Spicetify configuration:
-- Install Spicetify on your system.
-- Copy the Spicetify configuration files from `windots/spicetify/` to the Spicetify configuration directory:
-	- `C:\Users\<Username>\AppData\Roaming\spicetify\`
-
-- Apply the theme and configuration by running:
-
-```bash
-spicetify backup apply
-```
-
-- Restart Spotify to see the changes.
 
 <hr/>
 
