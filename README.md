@@ -58,7 +58,7 @@ Here is all the information about my setup:
 | 📚 Entry                           	 | ✨ App                  |
 |----------------------------------------|--------------------------|
 | **Shell**                              | 💖 [zsh](https://zsh.sourceforge.io/) [⚙️](https://github.com/ashish0kumar/dotfiles/blob/master/.zshrc) |
-| **Terminal Emulator**                  | [windows terminal](https://github.com/microsoft/terminal) [⚙️](https://github.com/ashish0kumar/windots/blob/main/terminal/settings.json) |
+| **Terminal Emulator**                  | [windows terminal](https://github.com/microsoft/terminal) [⚙️](https://github.com/ashish0kumar/windots/blob/main/.config/terminal/settings.json) |
 | **Terminal Multiplexer**               | 💖 [tmux](https://github.com/tmux/tmux) [⚙️](https://github.com/ashish0kumar/dotfiles/blob/master/.config/tmux/tmux.conf) |
 | **Shell Prompt**                       | [powerlevel10k](https://github.com/romkatv/powerlevel10k) [⚙️](https://github.com/ashish0kumar/dotfiles/blob/master/.p10k.zsh) |
 | **Text Editor**                        | 💖 [neovim](https://neovim.io/) [⚙️](https://github.com/ashish0kumar/dotfiles/tree/master/.config/nvim) |
@@ -77,7 +77,7 @@ Here is all the information about my setup:
 
 | 📚 Entry                           	 | ✨ App                  |
 |----------------------------------------|--------------------------|
-| **Fallback Text Editorr**              | [VSCode](https://code.visualstudio.com/) [⚙️](https://github.com/ashish0kumar/windots/blob/main/vscode/settings.json) |
+| **Fallback Text Editorr**              | [VSCode](https://code.visualstudio.com/) [⚙️](https://github.com/ashish0kumar/windots/blob/main/.config/vscode/settings.json) |
 | **Music Player**                       | 💖 [Spotify](https://open.spotify.com/) (patched with [Spicetify](https://spicetify.app/)) |
 | **Web Browser**               	 | 💖 [Firefox](https://www.mozilla.org/en-US/firefox/) |
 | **Note Taking App**                    | 💖 [Obsidian](https://obsidian.md/) |
@@ -108,7 +108,7 @@ Here is all the information about my setup:
 To use my GlazeWM setup:
 
 - Install [GlazeWM v2](https://github.com/glzr-io/glazewm/releases/tag/v2.1.1).
-- Copy the `dotfiles/.glaze-wm/config.yaml` to your GlazeWM configuration directory:
+- Copy the `windots/.config/.glaze-wm/config.yaml` to your GlazeWM configuration directory:
 	- `C:\Users\<Username>\.glaze-wm`
 - Restart GlazeWM for the changes to take effect.
 
@@ -117,7 +117,7 @@ To use my GlazeWM setup:
 To apply my custom settings:
 
 - Open Windows Terminal.
-- Copy `windots/terminal/settings.json` to the terminal configuration directory:
+- Copy `windots/.config/terminal/settings.json` to the terminal configuration directory:
 	-  `C:\Users\<Username>\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json`
 - Restart Windows Terminal to see the updated configurations.
 
@@ -126,7 +126,7 @@ To apply my custom settings:
 To use my VSCode settings:
 
 - Install APC Customize UI and catppuccin theme from vscode extensions.
-- Copy `windots/vscode/settings.json` to your VSCode user configuration directory:
+- Copy `windots/.config/vscode/settings.json` to your VSCode user configuration directory:
     - On Windows: `C:\Users\<Username>\AppData\Roaming\Code\User\settings.json`
     - On WSL2: `~/.vscode-server/data/Machine/settings.json`
 - Restart VSCode to load the updated settings.
@@ -135,13 +135,13 @@ To use my VSCode settings:
 
 To set up my Windhawk tweaks:
 - Install [Windhawk](https://windhawk.net/).
-- Copy the Windhawk configuration files from `windots/windhawk/`
+- Copy the Windhawk configuration files from `windots/.config/windhawk/`
 - Apply the tweaks from the Windhawk UI.
 
 ### 🚀 Flow Launcher
 
 To apply my settings:
-- Copy `windots/flowlauncher/Settings.json` to the Flow Launcher config directory:
+- Copy `windots/.config/flowlauncher/Settings.json` to the Flow Launcher config directory:
 	-  `C:\Users\<Username>\AppData\Roaming\FlowLauncher\Settings\Settings.json`
 - Restart Flow Launcher
 
