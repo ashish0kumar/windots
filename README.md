@@ -25,7 +25,7 @@ Welcome, ricing enthusiasts! If you're a Windows user feeling stuck in customiza
 - 🦅 Custom start menu and taskbar
 - 🔔 Notification center
 - 🚀 Flow launcher config
-- 💫 Beautiful [Wallpapers](https://github.com/ashish0kumar/windots/tree/main/walls)
+- 💫 Beautiful [Wallpapers](https://github.com/ashish0kumar/windots/tree/main/walls#readme)
 
 <hr/>
 
