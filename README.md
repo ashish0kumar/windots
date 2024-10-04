@@ -1,8 +1,17 @@
 <h1 align="center">🍙 windots</h1>
 
+<div align="center">
+<p>
+<a href="https://github.com/ashish0kumar/windots/stargazers"><img src="https://img.shields.io/github/stars/ashish0kumar/windots?style=for-the-badge&logo=starship&color=C9CBFF&logoColor=C9CBFF&labelColor=302D41" alt="stars"><a>&nbsp;&nbsp;
+<a href="https://github.com/ashish0kumar/windots/"><img src="https://img.shields.io/github/repo-size/ashish0kumar/windots?style=for-the-badge&logo=hyprland&logoColor=f9e2af&label=Size&labelColor=302D41&color=f9e2af" alt="REPO SIZE"></a>&nbsp;&nbsp;
+<a href="https://github.com/ashish0kumar/windots/commits/main/"><img src="https://img.shields.io/github/last-commit/ashish0kumar/windots?style=for-the-badge&logo=github&logoColor=eba0ac&label=Last%20Commit&labelColor=302D41&color=eba0ac" alt="Last Commit"></a>&nbsp;&nbsp;
+<a href="https://github.com/ashish0kumar/windots?tab="LICENSE"><img src="https://img.shields.io/github/license/ashish0kumar/windots?style=for-the-badge&logo=&color=CBA6F7&logoColor=CBA6F7&labelColor=302D41" alt="LICENSE"></a>&nbsp;&nbsp;
+</p>
+</div>
+
 <h3 align="center">💖 For the Ricing and <a href="https://reddit.com/r/unixporn">r/unixporn</a> Enthusiasts</h3>
 
-Welcome, ricing enthusiasts! If you're a Windows user feeling stuck in customization and want a setup similar to Unix environments, this collection of dotfiles is designed just for you. Tailored for a Windows setup, these configs will help you elevate your system's aesthetics and functionality to the next level, making it truly your own!
+Welcome Ricers! 👋 If you're a Windows user feeling stuck in your ricing journey and want a setup similar to Unix environments, this collection of dotfiles is for you. Tailored for a Windows setup, these configs will help you elevate your system's aesthetics and functionality to the next level!
 
 > [!NOTE]
 > All terminal and shell-related configurations are maintained in this repository -> [dotfiles](https://github.com/ashish0kumar/dotfiles) <br/>
@@ -14,6 +23,10 @@ Welcome, ricing enthusiasts! If you're a Windows user feeling stuck in customiza
 ![](assets/2.png)
 ![](assets/3.png)
 ![](assets/4.png)
+
+<br>
+
+
 
 <hr/>
 
@@ -171,6 +184,19 @@ You can always change these in your Glaze config.
 
 ## 📜 License
 Feel free to use and modify these dotfiles to suit your needs.
+
+## 🎉 ‎ Credits
+
+Big thanks to everyone at [r/unixporn](https://reddit.com/r/unixporn) for inspiring me to make this!
+
+I wanna point out some resources that helped me the most with the setup:
+
+- [Matt-FTW's README](https://github.com/Matt-FTW/dotfiles?tab=readme-ov-file) to help me with the overall design and distribution of the README 🙏
+- [GlazeWM](https://github.com/glzr-io/glazewm) for providing an incredible tiling window manager experience that enhances my workflow and productivity ✨
+- [lunar-os](https://github.com/lunar-os/windowsdesktop2) for the Windhawk configs 🦅
+- [orxngc](https://github.com/orxngc/walls-catppuccin-mocha) for all the beautiful catppuccinified wallpapers 🎨
+- [Catppuccin](https://catppuccin.com) for making the Best Colorscheme Ever 🖌️
+
 
 <p align="center">
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/footers/gray0_ctp_on_line.svg?sanitize=true" />
