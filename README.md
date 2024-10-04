@@ -62,9 +62,7 @@ Here is all the information about my setup:
 > [!Note]
 > Some of this apps have the config files included in the repo, which are marked with ⚙️. Also, my favorite programs and tools are marked with 💖.
 
-<details open>
-
-<summary><b>🖥️ CLI/TUI Apps</b></summary>
+#### 🖥️ CLI/TUI Apps
 
 | 📚 Entry                           	 | ✨ App                  |
 |----------------------------------------|--------------------------|
@@ -80,11 +78,8 @@ Here is all the information about my setup:
 | **System Monitor**                     | [btop](https://github.com/aristocratos/btop) [⚙️](https://github.com/ashish0kumar/dotfiles/blob/master/.config/btop/btop.conf) |
 | **System Fetch**                       | [fastfetch](https://github.com/fastfetch-cli/fastfetch) [⚙️](https://github.com/ashish0kumar/dotfiles/blob/master/.config/fastfetch/config.jsonc) |
  
-</details>
 
-<details open>
-
-<summary><b>🖱️ GUI Apps</b></summary>
+#### 🖱️ GUI Apps
 
 | 📚 Entry                           	 | ✨ App                  |
 |----------------------------------------|--------------------------|
@@ -95,11 +90,8 @@ Here is all the information about my setup:
 | **File Manager**                       | [File Explorer](https://www.microsoft.com/en-us/windows/tips/file-explorer) |
 | **Office Apps**                     	 | [LibreOffice](https://www.libreoffice.org/) |
  
-</details>
 
-<details open>
-
-<summary><b>🔍 Other</b></summary>
+#### 🔍 Other
 
 | 📚 Entry                             | ✨ App                  |
 |---------------------------------------|--------------------------|
@@ -107,7 +99,6 @@ Here is all the information about my setup:
 | **Font**                  		| [JetBrainsMono Nerd Font](https://www.jetbrains.com/lp/mono/) |
 | **Dotfiles Manager**              	| 💖 [GNU Stow](https://www.gnu.org/software/stow/) |
  
-</details>
 
 ## 🔧 Setup
 
