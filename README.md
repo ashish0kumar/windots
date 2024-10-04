@@ -171,6 +171,54 @@ You can always change these in your Glaze config.
 <hr/>
 
 
+## 📷 ‎Gallery
+
+> [!Note]
+> If you want to check the wallpapers, they are available [right here](https://github.com/ashish0kumar/windots/tree/main/walls#readme).
+
+| **TUI File Manager, ls replacement and System Fetch** |
+|-------------------------------------------------------|
+| ![](assets/5.png) |
+
+| **GUI Text Editor** |
+|-------------------------------------------------------|
+| ![](assets/2.png) |
+
+| **System Fetch, Matrix Script and Browser on [r/unixporn](https://reddit.com/r/unixporn)** |
+|-------------------------------------------------------|
+| ![](assets/6.png) |
+
+| **Telescope find_files and pipes script** |
+|-------------------------------------------------------|
+| ![](assets/7.png) |
+
+| **TUI System Monitor and cbonsai script** |
+|-------------------------------------------------------|
+| ![](assets/9.png) |
+
+| **Text Editor** |
+|-------------------------------------------------------|
+| ![](assets/3.png) |
+
+| **Git UI Manager and Text Editor File-tree** |
+|-------------------------------------------------------|
+| ![](assets/10.png) |
+
+| **Music Player** |
+|-------------------------------------------------------|
+| ![](assets/8.png) |
+
+| **Windows Start Menu and Notification Center** |
+|-------------------------------------------------------|
+| ![](assets/4.png) |
+
+| **Browser Startpage** |
+|-------------------------------------------------------|
+| ![](assets/11.png) |
+
+
+<hr>
+
 ## 📜 License
 Feel free to use and modify these dotfiles to suit your needs.
 
