@@ -107,7 +107,7 @@ bar:
       default_workspace_background: "transparent"
       focused_workspace_foreground: *lavender
       default_workspace_foreground: *overlay1
-      margin: "0 10px"
+      margin: "0 5px 0 10px"
 
     - type: "music"
       label_not_playing: ""
@@ -115,7 +115,7 @@ bar:
       label_playing: "  {song_title} - {artist_name}"
       max_title_length: 30
       max_artist_length: 20
-      margin: "0 0 0 20px"
+      margin: "0 0 0 10px"
 
   components_center:
     # - type: "window title"
