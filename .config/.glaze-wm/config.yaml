@@ -73,7 +73,7 @@ focus_borders:
 bar:
   height: "45px"
   position: "top"
-  opacity: 0.95
+  opacity: 0.94
   background: *base
   foreground: *text
   font_family: "JetBrainsMono Nerd Font"
@@ -98,7 +98,7 @@ bar:
       label_horizontal: "⮂"
       label_vertical: "⮁"
       background: "transparent"
-      margin: "0 15px 0 5px"
+      margin: "0 10px"
       foreground: *text
 
     - type: "workspaces"
@@ -107,6 +107,7 @@ bar:
       default_workspace_background: "transparent"
       focused_workspace_foreground: *lavender
       default_workspace_foreground: *overlay1
+      margin: "0 10px"
 
     - type: "music"
       label_not_playing: ""
@@ -187,7 +188,7 @@ bar:
   components_right:
     - type: "network"
       label_no_internet: "󰖪 "
-      label_ethernet: "Eth"
+      label_ethernet: "󰈁"
       label_wifi_strength_0: "WiFi: 0% WiFi_name"
       label_wifi_strength_25: "WiFi: 25% WiFi_name"
       label_wifi_strength_50: "WiFi: 50% WiFi_name"
@@ -279,10 +280,13 @@ bar:
 workspaces:
   - name: "1"
     display_name: " "
+    keep_alive: true
   - name: "2"
     display_name: " "
+    keep_alive: true
   - name: "3"
     display_name: " "
+    keep_alive: true
   - name: "4"
     display_name: " "
   - name: "5"
