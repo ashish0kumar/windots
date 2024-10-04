@@ -22,7 +22,7 @@ Welcome Ricers! 👋 If you're a Windows user feeling stuck in your ricing journ
 <a href="https://github.com/ashish0kumar/windots/stargazers"><img src="https://img.shields.io/github/stars/ashish0kumar/windots?style=for-the-badge&logo=starship&color=C9CBFF&logoColor=C9CBFF&labelColor=302D41" alt="stars"><a>&nbsp;&nbsp;
 <a href="https://github.com/ashish0kumar/windots/"><img src="https://img.shields.io/github/repo-size/ashish0kumar/windots?style=for-the-badge&logo=hyprland&logoColor=f9e2af&label=Size&labelColor=302D41&color=f9e2af" alt="REPO SIZE"></a>&nbsp;&nbsp;
 <a href="https://github.com/ashish0kumar/windots/commits/main/"><img src="https://img.shields.io/github/last-commit/ashish0kumar/windots?style=for-the-badge&logo=github&logoColor=eba0ac&label=Last%20Commit&labelColor=302D41&color=eba0ac" alt="Last Commit"></a>&nbsp;&nbsp;
-<a href="https://github.com/ashish0kumar/windots?tab="LICENSE"><img src="https://img.shields.io/github/license/ashish0kumar/windots?style=for-the-badge&logo=&color=CBA6F7&logoColor=CBA6F7&labelColor=302D41" alt="LICENSE"></a>&nbsp;&nbsp;
+<a href="https://github.com/ashish0kumar/windots/LICENSE"><img src="https://img.shields.io/github/license/ashish0kumar/windots?style=for-the-badge&logo=&color=CBA6F7&logoColor=CBA6F7&labelColor=302D41" alt="LICENSE"></a>&nbsp;&nbsp;
 </p>
 </div>
 
