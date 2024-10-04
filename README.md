@@ -187,6 +187,14 @@ I wanna point out some resources that helped me the most with the setup:
 - [Catppuccin](https://catppuccin.com) for making the Best Colorscheme Ever 🖌️
 
 
+## ✍️ Contributing
+
+Part of what makes the open source community special are the contributions. Any contributions will be **highly appreciated!**
+
+If you have any ideas or suggestions to make, feel free to [open an issue](https://github.com/ashish0kumar/windots/issues) or [submit a PR](https://github.com/ashish0kumar/windots/pulls)
+
+<br><br>
+
 <p align="center">
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/footers/gray0_ctp_on_line.svg?sanitize=true" />
 </p>
