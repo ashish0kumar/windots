@@ -31,7 +31,7 @@ Welcome Ricers! 👋 If you're a Windows user feeling stuck in your ricing journ
 ## ✨ Features
 
 - 🪟 Beautiful glaze config
-- </> Sleek windows terminal config
+- \>_ Sleek windows terminal config
 - 🌸 Minimal VSCode setup
 - 🦅 Custom start menu and taskbar
 - 🔔 Notification center
