@@ -1,10 +1,10 @@
 <h1 align="center">🍙 windots</h1>
 
 <div align="center">
-  <a href="#about"><kbd> <br> About <br> </kbd></a>&ensp;&ensp;
-  <a href="#setup"><kbd> <br> Setup <br> </kbd></a>&ensp;&ensp;
-  <a href="#gallery"><kbd> <br> Gallery <br> </kbd></a>&ensp;&ensp;
-  <a href="#credits"><kbd> <br> Credits <br> </kbd></a>&ensp;&ensp;
+  <a href="#-about"><kbd> <br> About <br> </kbd></a>&ensp;&ensp;
+  <a href="#-setup"><kbd> <br> Setup <br> </kbd></a>&ensp;&ensp;
+  <a href="#-gallery"><kbd> <br> Gallery <br> </kbd></a>&ensp;&ensp;
+  <a href="#-credits"><kbd> <br> Credits <br> </kbd></a>&ensp;&ensp;
 </div>
 
 <br>
