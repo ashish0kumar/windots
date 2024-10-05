@@ -208,6 +208,10 @@ You can always change these in your Glaze config.
 |-------------------------------------------------------|
 | ![](assets/8.png) |
 
+| **ls replacement and cd preview** |
+|-------------------------------------------------------|
+| ![](assets/12.png) |
+
 | **Windows Start Menu and Notification Center** |
 |-------------------------------------------------------|
 | ![](assets/4.png) |
