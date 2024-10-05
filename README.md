@@ -232,7 +232,7 @@ You can always change these in your Glaze config.
 ## 📜 License
 Feel free to use and modify these dotfiles to suit your needs.
 
-## 🎉 ‎ Credits
+## 🎉 ‎Credits
 
 Big thanks to everyone at [r/unixporn](https://reddit.com/r/unixporn) for inspiring me to make this!
 
