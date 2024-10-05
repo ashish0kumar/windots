@@ -74,7 +74,7 @@
                 "hidden": false,
                 "name": "Windows PowerShell",
                 "opacity": 100,
-                "padding": "15"
+                "padding": "10"
             },
             {
                 "commandline": "%SystemRoot%\\System32\\cmd.exe",
