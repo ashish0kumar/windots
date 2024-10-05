@@ -1,0 +1,61 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "source": "C:/Users/ashis/.config/fastfetch/cat.txt",
+    "padding": {
+      "top": 3,
+      "right": 4
+    }
+  },
+  "display": {
+    "separator": " "
+  },
+  "modules": [
+	  "break",
+	  "break",
+	  {
+      "type": "title",
+      "keyWidth": 10
+    },
+    "break",
+    {
+      "type": "os",
+      "key": " ",
+      "keyColor": "34"
+    },
+    {
+      "type": "kernel",
+      "key": " ",
+      "keyColor": "34"
+    },
+    {
+      "type": "shell",
+      "key": " ",
+      "keyColor": "34"
+    },
+    {
+      "type": "uptime",
+      "key": " ",
+      "keyColor": "34"
+    },
+    {
+      "type": "packages",
+      "format": "{} (apt)",
+      "key": " ",
+      "keyColor": "34"
+    },
+    {
+      "type": "memory",
+      "key": " ",
+      "keyColor": "34"
+    },
+    "break",
+    {
+      "type": "colors",
+      "symbol": "circle"
+    },
+
+    "break",
+    "break"
+  ]
+}
