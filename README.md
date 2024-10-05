@@ -5,8 +5,7 @@
 Welcome Ricers! 👋 If you're a Windows user feeling stuck in your ricing journey and want a setup similar to Unix environments, this collection of dotfiles is for you. Tailored for a Windows setup, these configs will help you elevate your system's aesthetics and functionality to the next level!
 
 > [!NOTE]
-> All terminal and shell-related configurations are maintained in this repository -> [dotfiles](https://github.com/ashish0kumar/dotfiles) <br/>
-> I'm using WSL2 for my setup, so if you're interested, feel free to check that out.
+> All configurations related to WSL2 (Linux) are maintained in this repository -> [dotfiles](https://github.com/ashish0kumar/dotfiles)
 
 <hr/>
 
