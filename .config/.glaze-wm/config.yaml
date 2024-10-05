@@ -320,6 +320,10 @@ window_rules:
   - command: "resize borders 0px -7px -7px -7px"
     match_process_name: "steam"
 
+  # Float Flow Launcher to exclude it from tiling
+  - command: "set floating"
+    match_process_name: "Flow.Launcher"
+
 binding_modes:
   - name: "resize"
     keybindings:
