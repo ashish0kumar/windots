@@ -71,6 +71,7 @@ Here is all the information about my setup:
 | **Terminal Multiplexer**               | 💖 [tmux](https://github.com/tmux/tmux) [⚙️](https://github.com/ashish0kumar/dotfiles/blob/master/.config/tmux/tmux.conf) |
 | **Shell Prompt**                       | [powerlevel10k](https://github.com/romkatv/powerlevel10k) [⚙️](https://github.com/ashish0kumar/dotfiles/blob/master/.p10k.zsh) |
 | **Text Editor**                        | 💖 [neovim](https://neovim.io/) [⚙️](https://github.com/ashish0kumar/dotfiles/tree/master/.config/nvim) |
+| **CD Replacement**                     | 💖 [zoxide](https://github.com/ajeetdsouza/zoxide) |
 | **LS Replacement**                     | [eza](https://github.com/eza-community/eza) |
 | **File Manager**                       | 💖 [nnn](https://github.com/jarun/nnn) |
 | **Fuzzy File Finder**                  | 💖 [fzf](https://github.com/junegunn/fzf) |
