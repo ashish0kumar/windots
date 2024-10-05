@@ -1,20 +1,19 @@
 <h1 align="center">🍙 windots</h1>
 
-<h3 align="center">💖 For the Ricing and <a href="https://reddit.com/r/unixporn">r/unixporn</a> Enthusiasts</h3>
+<div align="center">
+  <a href="#about"><kbd> <br> About <br> </kbd></a>&ensp;&ensp;
+  <a href="#setup"><kbd> <br> Setup <br> </kbd></a>&ensp;&ensp;
+  <a href="#gallery"><kbd> <br> Gallery <br> </kbd></a>&ensp;&ensp;
+  <a href="#credits"><kbd> <br> Credits <br> </kbd></a>&ensp;&ensp;
+</div>
 
-Welcome Ricers! 👋 If you're a Windows user feeling stuck in your ricing journey and want a setup similar to Unix environments, this collection of dotfiles is for you. Tailored for a Windows setup, these configs will help you elevate your system's aesthetics and functionality to the next level!
-
-> [!NOTE]
-> All configurations related to WSL2 (Linux) are maintained in this repository -> [dotfiles](https://github.com/ashish0kumar/dotfiles)
-
-<hr/>
+<br>
 
 ![](assets/1.png)
 ![](assets/2.png)
 ![](assets/3.png)
 ![](assets/4.png)
 
-<br>
 
 <div align="center">
 <p>
@@ -25,7 +24,14 @@ Welcome Ricers! 👋 If you're a Windows user feeling stuck in your ricing journ
 </p>
 </div>
 
-<hr/>
+## 🌷 About
+
+#### 💖 For the Ricing and [r/unixporn](https://reddit.com/r/unixporn) Enthusiasts
+
+Welcome Ricers! 👋 If you're a Windows user feeling stuck in your ricing journey and want a setup similar to Unix environments, this collection of dotfiles is for you. Tailored for a Windows setup, these configs will help you elevate your system's aesthetics and functionality to the next level!
+
+> [!NOTE]
+> All configurations related to WSL2 (Linux) are maintained in this repository -> [dotfiles](https://github.com/ashish0kumar/dotfiles)
 
 ## ✨ Features
 
