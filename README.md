@@ -36,11 +36,14 @@ Welcome Ricers! 👋 If you're a Windows user feeling stuck in your ricing journ
 ## ✨ Features
 
 - 🪟 Beautiful glaze config
-- \>_ Sleek windows terminal config
 - 🌸 Minimal VSCode setup
 - 🦅 Custom start menu and taskbar
-- 🔔 Notification center
+- 🔔 Truly acrylic notification center
 - 🚀 Flow launcher config
+- \>_ Sleek windows terminal config
+- 🐚 Basic Powershell config
+- 🎨 Ohmyposh theme
+- ⚙️ Simple fastfetch config
 - 💫 Beautiful [Wallpapers](https://github.com/ashish0kumar/windots/tree/main/walls#readme)
 
 <hr/>
@@ -49,7 +52,7 @@ Welcome Ricers! 👋 If you're a Windows user feeling stuck in your ricing journ
 
 - **OS:** [Windows 11](https://www.microsoft.com/en-in/windows/windows-11) 🪟 + [WSL2](https://learn.microsoft.com/en-us/windows/wsl/) 🐧
 - **WM:** [glazewm](https://github.com/glzr-io/glazewm) ✨
-- **Shell:** [zsh](https://zsh.sourceforge.io/) 🌾
+- **Shell:** [powershell](https://learn.microsoft.com/en-us/powershell/) / [zsh](https://zsh.sourceforge.io/) 🐚
 - **Terminal Emulator:** [windows terminal](https://github.com/microsoft/terminal) >_
 - **Panel:** [glaze bar](https://github.com/glzr-io/glazewm) ✨
 - **Text Editor:** [vscode](https://code.visualstudio.com/) and [neovim](https://neovim.io/) ⌨️
@@ -74,7 +77,7 @@ Here is all the information about my setup:
 | **Shell**                              | 💖 [zsh](https://zsh.sourceforge.io/) [⚙️](https://github.com/ashish0kumar/dotfiles/blob/master/.zshrc) |
 | **Terminal Emulator**                  | [windows terminal](https://github.com/microsoft/terminal) [⚙️](https://github.com/ashish0kumar/windots/blob/main/.config/terminal/settings.json) |
 | **Terminal Multiplexer**               | 💖 [tmux](https://github.com/tmux/tmux) [⚙️](https://github.com/ashish0kumar/dotfiles/blob/master/.config/tmux/tmux.conf) |
-| **Shell Prompt**                       | [powerlevel10k](https://github.com/romkatv/powerlevel10k) [⚙️](https://github.com/ashish0kumar/dotfiles/blob/master/.p10k.zsh) |
+| **Shell Prompt**                       | [ohmyposh](https://ohmyposh.dev/) [⚙️](https://github.com/ashish0kumar/windots/blob/main/.config/ohmyposh/zen.toml) |
 | **Text Editor**                        | 💖 [neovim](https://neovim.io/) [⚙️](https://github.com/ashish0kumar/dotfiles/tree/master/.config/nvim) |
 | **CD Replacement**                     | 💖 [zoxide](https://github.com/ajeetdsouza/zoxide) |
 | **LS Replacement**                     | [eza](https://github.com/eza-community/eza) |
@@ -90,6 +93,7 @@ Here is all the information about my setup:
 | 📚 Entry                           	 | ✨ App                  |
 |----------------------------------------|--------------------------|
 | **Fallback Text Editorr**              | [VSCode](https://code.visualstudio.com/) [⚙️](https://github.com/ashish0kumar/windots/blob/main/.config/vscode/settings.json) |
+| **App Launcher**                       | [Flow Launcher](https://www.flowlauncher.com/) [⚙️](https://github.com/ashish0kumar/windots/blob/main/.config/flowlauncher/Settings.json)
 | **Music Player**                       | 💖 [Spotify](https://open.spotify.com/) (patched with [Spicetify](https://spicetify.app/)) |
 | **Web Browser**               	 | 💖 [Firefox](https://www.mozilla.org/en-US/firefox/) |
 | **Note Taking App**                    | 💖 [Obsidian](https://obsidian.md/) |
@@ -143,9 +147,9 @@ Here is all the information about my setup:
 	-  `C:\Users\<Username>\AppData\Roaming\FlowLauncher\Settings\Settings.json`
 - Restart Flow Launcher
 
-## </> Terminal & Shell Setup
+## \>_ Terminal & Shell Setup
 
-### \>_ Windows Terminal
+### 🖥️ Windows Terminal
 
 - Install [Windows Terminal](https://github.com/microsoft/terminal)
 - Copy `windots/.config/terminal/settings.json` to the terminal configuration directory:
@@ -278,7 +282,8 @@ I wanna point out some resources that helped me the most with the setup:
 - [GlazeWM](https://github.com/glzr-io/glazewm) for providing an incredible tiling window manager experience that enhances my workflow and productivity ✨
 - [lunar-os](https://github.com/lunar-os/windowsdesktop2) for the Windhawk configs 🦅
 - [LierB](https://github.com/LierB/fastfetch) for the fastfetch config presets 📋
-- [orxngc](https://github.com/orxngc/walls-catppuccin-mocha) for all the beautiful catppuccinified wallpapers 🎨
+- [Dreams of Autonomy](https://youtu.be/9U8LCjuQzdc?feature=shared) for the zenful ohmyposh theme 🧘
+- [orxngc](https://github.com/orxngc/walls-catppuccin-mocha) for all the beautiful catppuccinified wallpapers 🖼️
 - [Catppuccin](https://catppuccin.com) for making the Best Colorscheme Ever 🖌️
 
 
