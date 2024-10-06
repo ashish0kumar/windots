@@ -113,27 +113,18 @@ Here is all the information about my setup:
 > [!WARNING]
 > This setup uses an earlier version of GlazeWM and is not compatible with the latest release. <br/> As a result, it will not work with the new Zebar integration.
 
-To use my GlazeWM setup:
-
 - Install [GlazeWM v2](https://github.com/glzr-io/glazewm/releases/tag/v2.1.1).
 - Copy the `windots/.config/.glaze-wm/config.yaml` to your GlazeWM configuration directory:
 	- `C:\Users\<Username>\.glaze-wm`
 - Restart GlazeWM for the changes to take effect.
 
-### </> Windows Terminal
-
-To apply my custom settings:
-
-- Open Windows Terminal.
-- Copy `windots/.config/terminal/settings.json` to the terminal configuration directory:
-	-  `C:\Users\<Username>\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json`
-- Restart Windows Terminal to see the updated configurations.
-
 ### 📝 VSCode
 
-To use my VSCode settings:
+- Install the following extensions for improving the UI of VSCode:
+ 	- [Catppuccin](https://marketplace.visualstudio.com/items?itemName=Siris01.catppuccin-theme)
+  	- [APC Customize UI](https://marketplace.visualstudio.com/items?itemName=drcika.apc-extension)
+	- [GlassIt-VSC](https://marketplace.visualstudio.com/items?itemName=s-nlf-fh.glassit) (If you want a transparent/glass effect)
 
-- Install APC Customize UI and catppuccin theme from vscode extensions.
 - Copy `windots/.config/vscode/settings.json` to your VSCode user configuration directory:
     - On Windows: `C:\Users\<Username>\AppData\Roaming\Code\User\settings.json`
     - On WSL2: `~/.vscode-server/data/Machine/settings.json`
@@ -141,17 +132,62 @@ To use my VSCode settings:
 
 ### 🦅 Windhawk
 
-To set up my Windhawk tweaks:
 - Install [Windhawk](https://windhawk.net/).
 - Copy the Windhawk configuration files from `windots/.config/windhawk/`
 - Apply the tweaks from the Windhawk UI.
 
 ### 🚀 Flow Launcher
 
-To apply my settings:
+- Install [Flow Launcher](https://www.flowlauncher.com/)
 - Copy `windots/.config/flowlauncher/Settings.json` to the Flow Launcher config directory:
 	-  `C:\Users\<Username>\AppData\Roaming\FlowLauncher\Settings\Settings.json`
 - Restart Flow Launcher
+
+## </> Terminal & Shell Setup
+
+### \>_ Windows Terminal
+
+- Install [Windows Terminal](https://github.com/microsoft/terminal)
+- Copy `windots/.config/terminal/settings.json` to the terminal configuration directory:
+	-  `C:\Users\<Username>\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json`
+- Restart Windows Terminal to see the updated configurations.
+
+### 🐚 PowerShell
+
+- Copy `windots/.config/WindowsPowershell/Microsoft.PowerShell_profile.ps1` to your PowerShell profile directory:
+	- `C:\Users\<Username>\Documents\WindowsPowershell\Microsoft.PowerShell_profile.ps1`
+- Restart PowerShell to apply the changes.
+
+### 🎨 Oh My Posh
+
+- Install [Oh My Posh](https://ohmyposh.dev/docs/installation/windows) using winget:
+
+```bash
+winget install JanDeDobbeleer.OhMyPosh -s winget
+```
+
+- Copy `windots/.config/ohmyposh/zen.toml` to your Oh My Posh themes directory:
+	- `C:\Users\<Username>\.config\ohmyposh\zen.toml`
+
+- **Optional Step:** Skip this if you applied my PowerShell config.
+	- I have already included the command to set the theme in the PowerShell profile, so there's no need to do it manually. The following command is automatically applied when PowerShell starts:
+
+```bash
+oh-my-posh init pwsh --config 'C:\Users\<Username>\.config\ohmyposh\zen.toml' | Invoke-Expression
+```
+
+### ⚙️ Fastfetch
+
+- Install [fastfetch](https://github.com/fastfetch-cli/fastfetch) using winget:
+
+```bash
+winget install fastfetch
+```
+
+- Copy `windots/.config/fastfetch/config.conf` to your Fastfetch configuration directory:
+	- `C:\Users\<Username>\.config\fastfetch\config.conf`
+
+- Run fastfetch.
 
 <hr/>
 
