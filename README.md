@@ -41,9 +41,9 @@ Welcome Ricers! 👋 If you're a Windows user feeling stuck in your ricing journ
 - 🔔 Truly acrylic notification center
 - 🚀 Flow launcher config
 - \>_ Sleek windows terminal config
-- 🐚 Basic Powershell config
+- 🐚 Simple Powershell config
 - 🎨 Ohmyposh theme
-- ⚙️ Simple fastfetch config
+- ⚙️ Minimalist fastfetch config
 - 💫 Beautiful [Wallpapers](https://github.com/ashish0kumar/windots/tree/main/walls#readme)
 
 <hr/>
