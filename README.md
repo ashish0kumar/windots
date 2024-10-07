@@ -3,7 +3,7 @@
 <div align="center">
   <a href="#-about"><kbd> <br> 🌷 About <br> </kbd></a>&ensp;&ensp;
   <a href="#-setup"><kbd> <br> 🔧 Setup <br> </kbd></a>&ensp;&ensp;
-  <a href="#-gallery"><kbd> <br> 🖼️ Gallery <br> </kbd></a>&ensp;&ensp;
+  <a href="#%EF%B8%8F-gallery"><kbd> <br> 🖼️ Gallery <br> </kbd></a>&ensp;&ensp;
   <a href="#-credits"><kbd> <br> 🎉 Credits <br> </kbd></a>&ensp;&ensp;
 </div>
 
