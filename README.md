@@ -1,10 +1,10 @@
 <h1 align="center">🍙 windots</h1>
 
 <div align="center">
-  <a href="#-about"><kbd> <br> 🌷 About <br> </kbd></a>&ensp;&ensp;
-  <a href="#-setup"><kbd> <br> 🔧 Setup <br> </kbd></a>&ensp;&ensp;
-  <a href="#%EF%B8%8F-gallery"><kbd> <br> 🖼️ Gallery <br> </kbd></a>&ensp;&ensp;
-  <a href="#-credits"><kbd> <br> 🎉 Credits <br> </kbd></a>&ensp;&ensp;
+  <a href="#about"><kbd> <br> 🌷 About <br> </kbd></a>&ensp;&ensp;
+  <a href="#setup"><kbd> <br> 🔧 Setup <br> </kbd></a>&ensp;&ensp;
+  <a href="#gallery"><kbd> <br> 🖼️ Gallery <br> </kbd></a>&ensp;&ensp;
+  <a href="#credits"><kbd> <br> 🎉 Credits <br> </kbd></a>&ensp;&ensp;
 </div>
 
 <br>
@@ -24,7 +24,7 @@
 </p>
 </div>
 
-## 🌷 About
+<h2 id="about">🌷 About</h2>
 
 #### 💖 For the Ricing and [r/unixporn](https://reddit.com/r/unixporn) Enthusiasts
 
@@ -110,7 +110,7 @@ Here is all the information about my setup:
 | **Dotfiles Manager**              	| 💖 [GNU Stow](https://www.gnu.org/software/stow/) |
  
 
-## 🔧 Setup
+<h2 id="setup">🔧 Setup</h2>
 
 ### 🪟 GlazeWM
 
@@ -217,7 +217,7 @@ You can always change these in your Glaze config.
 <hr/>
 
 
-## 🖼️ ‎Gallery
+<h2 id="gallery">🖼️ ‎Gallery</h2>
 
 > [!Note]
 > If you want to check the wallpapers, they are available [right here](https://github.com/ashish0kumar/windots/tree/main/walls#readme).
@@ -272,7 +272,7 @@ You can always change these in your Glaze config.
 ## 📜 License
 Feel free to use and modify these dotfiles to suit your needs.
 
-## 🎉 ‎Credits
+<h2 id="credits">🎉 ‎Credits</h2>
 
 Big thanks to everyone at [r/unixporn](https://reddit.com/r/unixporn) for inspiring me to make this!
 
