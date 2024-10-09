@@ -242,6 +242,10 @@ You can always change these in your Glaze config.
 |-------------------------------------------------------|
 | ![](assets/9.png) |
 
+| **ls replacement and cd preview** |
+|-------------------------------------------------------|
+| ![](assets/12.png) |
+
 | **Text Editor** |
 |-------------------------------------------------------|
 | ![](assets/3.png) |
@@ -253,10 +257,6 @@ You can always change these in your Glaze config.
 | **Music Player** |
 |-------------------------------------------------------|
 | ![](assets/8.png) |
-
-| **ls replacement and cd preview** |
-|-------------------------------------------------------|
-| ![](assets/12.png) |
 
 | **Windows Start Menu and Notification Center** |
 |-------------------------------------------------------|
