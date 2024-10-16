@@ -128,7 +128,7 @@ bar:
     - type: "clock"
       # Documentation on formatting date/time string:
       # https://learn.microsoft.com/en-us/dotnet/standard/base-types/custom-date-and-time-format-strings
-      time_formatting: "ddd d/MM"
+      time_formatting: "ddd dd MMM"
       margin: "0 10px 0 0"
       # foreground: *text
 
