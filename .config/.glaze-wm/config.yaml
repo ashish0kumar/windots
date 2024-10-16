@@ -86,7 +86,7 @@ bar:
   # border_radius: "15px"
 
   components_left:
-
+  
     # - type: "text"
     #   text: " "
     #   margin: "0 10px 0 10px"
@@ -235,6 +235,12 @@ bar:
       border_color: *red
       padding: "0px 12px"
 
+    - type: "text"
+      text: " "
+      left_click_command: "exec resmon"
+      font_size: 20
+      margin: "0 0 0 -80px"
+
     - type: "memory"
       label: "  {percent_usage}%"
       # How often this counter is refreshed.
@@ -245,6 +251,12 @@ bar:
       border_radius: "15px"
       border_color: *lavender
       padding: "0px 12px"
+
+    - type: "text"
+      text: " "
+      left_click_command: "exec resmon"
+      font_size: 20
+      margin: "0 0 0 -80px"
 
     - type: "volume"
       label_low: "  {volume_level}%"
