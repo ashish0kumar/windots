@@ -73,7 +73,7 @@ focus_borders:
 bar:
   height: "45px"
   position: "top"
-  opacity: 0.9
+  opacity: 0.93
   background: *base
   foreground: *text
   font_family: "JetBrainsMono Nerd Font"
@@ -131,7 +131,7 @@ bar:
     - type: "clock"
       # Documentation on formatting date/time string:
       # https://learn.microsoft.com/en-us/dotnet/standard/base-types/custom-date-and-time-format-strings
-      time_formatting: "  HH:mm"
+      time_formatting: "  HH:mm"
       margin: "0 5px"
       foreground: *blue
       border_width: "1"
@@ -158,12 +158,6 @@ bar:
     #   label_snow_flake: "  {temperature_celsius}°C"
     #   label_thunderstorm: "󰖓  {temperature_celsius}°C"
     #   label_cloud: "  {temperature_celsius}°C"
-    #   margin: "0 10px"
-    #   # foreground: *text
-    #   # background: *base
-    #   # border_color: *base
-    #   # border_radius: "15px"
-    #   # border_width: "10px"
 
     # - type: "text"
     #   text: " "
@@ -225,7 +219,7 @@ bar:
     #   padding: "5px 8px"      
 
     - type: "cpu"
-      label: "  {percent_usage}%"
+      label: "  {percent_usage}%"
       # How often this counter is refreshed.
       refresh_interval_ms: 1000
       margin: "0 5px"
@@ -242,7 +236,7 @@ bar:
       margin: "0 0 0 -80px"
 
     - type: "memory"
-      label: "  {percent_usage}%"
+      label: "  {percent_usage}%"
       # How often this counter is refreshed.
       refresh_interval_ms: 1000
       margin: "0 5px"
@@ -259,10 +253,10 @@ bar:
       margin: "0 0 0 -80px"
 
     - type: "volume"
-      label_low: "  {volume_level}%"
-      label_medium: "  {volume_level}%"
-      label_high: "  {volume_level}%"
-      label_mute: "  {volume_level}%"
+      label_low: "  {volume_level}%"
+      label_medium: "  {volume_level}%"
+      label_high: "  {volume_level}%"
+      label_mute: "  {volume_level}%"
       margin: "0 5px"
       foreground: *peach
       border_width: "1"
@@ -277,10 +271,10 @@ bar:
       margin: "0 0 0 -75px"
 
     - type: "battery"
-      label_draining: "󰂀 {battery_level}%"
-      label_power_saver: "󱈏 {battery_level}%"
-      label_charging: "󰂅 {battery_level}%"
-      margin: "0 5px"
+      label_draining: "󰂀 {battery_level}%"
+      label_power_saver: "󱈏  {battery_level}%"
+      label_charging: "󰂅  {battery_level}%"
+      margin: "0 10px 0 5px"
       foreground: *green
       border_width: "1"
       border_radius: "15px"
@@ -291,7 +285,7 @@ bar:
       text: " "
       left_click_command: "exec ms-settings:batterysaver"
       font_size: 20
-      margin: "0 0 0 -75px"
+      margin: "0 0 0 -80px"
 
     # - type: "text"
     #   text: "⏻"
