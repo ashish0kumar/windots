@@ -9,10 +9,7 @@
 
 <br>
 
-![](assets/1.png)
-![](assets/2.png)
-![](assets/3.png)
-![](assets/4.png)
+![big-showcase](assets/big-showcase.png)
 
 
 <div align="center">
