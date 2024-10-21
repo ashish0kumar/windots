@@ -231,6 +231,10 @@ You can always change these in your Glaze config.
 |-------------------------------------------------------|
 | ![](assets/6.png) |
 
+| **Browser Homepage** |
+|-------------------------------------------------------|
+| ![](assets/13.png) |
+
 | **Telescope find_files and pipes script** |
 |-------------------------------------------------------|
 | ![](assets/7.png) |
@@ -243,9 +247,9 @@ You can always change these in your Glaze config.
 |-------------------------------------------------------|
 | ![](assets/12.png) |
 
-| **Text Editor** |
+| **Windows Start Menu and Notification Center** |
 |-------------------------------------------------------|
-| ![](assets/3.png) |
+| ![](assets/4.png) |
 
 | **Git UI Manager and Text Editor File-tree** |
 |-------------------------------------------------------|
@@ -255,11 +259,11 @@ You can always change these in your Glaze config.
 |-------------------------------------------------------|
 | ![](assets/8.png) |
 
-| **Windows Start Menu and Notification Center** |
+| **Text Editor** |
 |-------------------------------------------------------|
-| ![](assets/4.png) |
+| ![](assets/3.png) |
 
-| **Browser Startpage** |
+| **Old Browser Homepage** |
 |-------------------------------------------------------|
 | ![](assets/11.png) |
 
