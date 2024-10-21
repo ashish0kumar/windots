@@ -281,9 +281,10 @@ I wanna point out some resources that helped me the most with the setup:
 
 - [Matt-FTW's README](https://github.com/Matt-FTW/dotfiles?tab=readme-ov-file) to help me with the overall design and distribution of the README 🙏
 - [GlazeWM](https://github.com/glzr-io/glazewm) for providing an incredible tiling window manager experience that enhances my workflow and productivity ✨
-- [lunar-os](https://github.com/lunar-os/windowsdesktop2) for the Windhawk configs 🦅
 - [LierB](https://github.com/LierB/fastfetch) for the fastfetch config presets 📋
 - [Dreams of Autonomy](https://youtu.be/9U8LCjuQzdc?feature=shared) for the zenful ohmyposh theme 🧘
+- [lunar-os](https://github.com/lunar-os/windowsdesktop2) for the Windhawk configs 🦅
+- [pivoshenko](https://github.com/pivoshenko/catppuccin-startpage) for the aesthetic and clean browser startpage 🌐
 - [orxngc](https://github.com/orxngc/walls-catppuccin-mocha) for all the beautiful catppuccinified wallpapers 🖼️
 - [Catppuccin](https://catppuccin.com) for making the Best Colorscheme Ever 🖌️
 
