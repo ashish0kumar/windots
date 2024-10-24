@@ -77,7 +77,7 @@ bar:
   background: *base
   foreground: *text
   font_family: "JetBrainsMono Nerd Font"
-  font_size: "14px"
+  font_size: "15px"
   padding: "10px"
   # offset_x: "10px"
   # offset_y: "10px"
