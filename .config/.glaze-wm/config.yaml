@@ -73,17 +73,17 @@ focus_borders:
 bar:
   height: "45px"
   position: "top"
-  opacity: 0.93
+  opacity: 0.95
   background: *base
   foreground: *text
   font_family: "JetBrainsMono Nerd Font"
   font_size: "14px"
-  padding: "5px 10px"
+  padding: "10px"
   # offset_x: "10px"
   # offset_y: "10px"
   # border_color: *mauve
   # border_width: "1px"
-  # border_radius: "15px"
+  # border_radius: "10px"
 
   components_left:
   
@@ -99,10 +99,6 @@ bar:
       focused_workspace_foreground: *lavender
       default_workspace_foreground: *overlay1
       margin: "0 5px 0 10px"
-      border_width: "1"
-      border_radius: "15px"
-      border_color: *lavender
-      padding: "0px 12px"
 
     - type: "music"
       label_not_playing: ""
@@ -111,38 +107,37 @@ bar:
       max_title_length: 30
       max_artist_length: 20
       margin: "0 0 0 10px"
-      foreground: *green
 
   components_center:
-  
+
     # - type: "window title"
 
-    - type: "clock"
-      # Documentation on formatting date/time string:
-      # https://learn.microsoft.com/en-us/dotnet/standard/base-types/custom-date-and-time-format-strings
-      time_formatting: "  ddd MMM dd"
-      margin: "0 5px"
+    - type: "text"
+      text: "  "
       foreground: *peach
-      border_width: "1"
-      border_radius: "15px"
-      border_color: *peach
-      padding: "0px 12px"
+      margin: "0 0 0 10px"
 
     - type: "clock"
       # Documentation on formatting date/time string:
       # https://learn.microsoft.com/en-us/dotnet/standard/base-types/custom-date-and-time-format-strings
-      time_formatting: "  HH:mm"
-      margin: "0 5px"
+      time_formatting: "ddd MMM dd"
+      margin: "0 10px 0 0"
+
+    - type: "text"
+      text: "  "
       foreground: *blue
-      border_width: "1"
-      border_radius: "15px"
-      border_color: *blue
-      padding: "0px 12px"
+      margin: "0 0 0 10px"
+
+    - type: "clock"
+      # Documentation on formatting date/time string:
+      # https://learn.microsoft.com/en-us/dotnet/standard/base-types/custom-date-and-time-format-strings
+      time_formatting: "HH:mm"
+      margin: "0 10px 0 0"
 
     - type: "text"
       text: ""
       left_click_command: "exec ms-clock:"
-      margin: "0 0 0 -100px"
+      margin: "0 0 0 -80px"
 
     # - type: "weather"
     #   latitude: 28.7041
@@ -158,6 +153,12 @@ bar:
     #   label_snow_flake: "  {temperature_celsius}°C"
     #   label_thunderstorm: "󰖓  {temperature_celsius}°C"
     #   label_cloud: "  {temperature_celsius}°C"
+    #   margin: "0 10px"
+    #   # foreground: *text
+    #   # background: *base
+    #   # border_color: *base
+    #   # border_radius: "10px"
+    #   # border_width: "10px"
 
     # - type: "text"
     #   text: " "
@@ -185,12 +186,8 @@ bar:
       label_horizontal: "⮂"
       label_vertical: "⮁"
       background: "transparent"
-      margin: "0 5px"
+      margin: "0 10px"
       foreground: *text
-      border_width: "1"
-      border_radius: "15px"
-      border_color: *text
-      padding: "0px 12px"
 
     - type: "network"
       label_no_internet: "󰖪 "
@@ -200,92 +197,86 @@ bar:
       label_wifi_strength_50: "WiFi: 50% WiFi_name"
       label_wifi_strength_75: "WiFi: 75% WiFi_name"
       label_wifi_strength_100: "WiFi: 100% WiFi_name"
-      margin: "0 5px"
+      margin: "0 10px"
       foreground: *yellow
-      border_width: "1"
-      border_radius: "15px"
-      border_color: *yellow
-      padding: "0px 12px"
 
     - type: "text"
       text: " "
       left_click_command: "exec explorer ms-availablenetworks:"
       font_size: 20
-      margin: "0 0 0 -45px"
+      margin: "0 0 0 -30px"
+
+    # - type: "text"
+    #   text: "|"
+    #   foreground: *surface2
 
     # - type: "binding mode"
     #   background: "#ffffff33"
     #   margin: "0 5px 0 5px"
-    #   padding: "5px 8px"      
+    #   padding: "5px 8px"
 
-    - type: "cpu"
-      label: "  {percent_usage}%"
-      # How often this counter is refreshed.
-      refresh_interval_ms: 1000
-      margin: "0 5px"
-      foreground: *red
-      border_width: "1"
-      border_radius: "15px"
-      border_color: *red
-      padding: "0px 12px"
+    # - type: "text"
+    #   text: "  "
+    #   foreground: *red
+    #   margin: "0 0 0 10px"
+
+    # - type: "cpu"
+    #   label: "{percent_usage}%"
+    #   # How often this counter is refreshed.
+    #   refresh_interval_ms: 1000
+    #   margin: "0 10px 0 0"
+    #   # font_size: "13px"
+    #   # background: *base
+    #   # border_color: *base
+    #   # border_radius: "10px"
+    #   # border_width: "10px"
+
+    # - type: "text"
+    #   text: "  "
+    #   margin: "0 0 0 10px"
+    #   foreground: *blue
+
+    # - type: "memory"
+    #   label: "{percent_usage}%"
+    #   # How often this counter is refreshed.
+    #   refresh_interval_ms: 1000
+    #   margin: "0 10px 0 0"
+    #   # font_size: "13px"
+    #   # background: *base
+    #   # border_color: *base
+    #   # border_radius: "10px"
+    #   # border_width: "10px"
 
     - type: "text"
-      text: " "
-      left_click_command: "exec resmon"
-      font_size: 20
-      margin: "0 0 0 -80px"
-
-    - type: "memory"
-      label: "  {percent_usage}%"
-      # How often this counter is refreshed.
-      refresh_interval_ms: 1000
-      margin: "0 5px"
-      foreground: *lavender
-      border_width: "1"
-      border_radius: "15px"
-      border_color: *lavender
-      padding: "0px 12px"
-
-    - type: "text"
-      text: " "
-      left_click_command: "exec resmon"
-      font_size: 20
-      margin: "0 0 0 -80px"
+      text: "  "
+      margin: "0 0 0 10px"
+      foreground: *peach
 
     - type: "volume"
-      label_low: "  {volume_level}%"
-      label_medium: "  {volume_level}%"
-      label_high: "  {volume_level}%"
-      label_mute: "  {volume_level}%"
-      margin: "0 5px"
-      foreground: *peach
-      border_width: "1"
-      border_radius: "15px"
-      border_color: *peach
-      padding: "0px 12px"
+      label_low: "{volume_level}%"
+      label_medium: "{volume_level}%"
+      label_high: "{volume_level}%"
+      label_mute: "{volume_level}%"
+      margin: "0 10px 0 0"
 
     - type: "text"
       text: " "
       left_click_command: "exec ms-settings:sound"
       font_size: 20
-      margin: "0 0 0 -75px"
+      margin: "0 0 0 -60px"
 
     - type: "battery"
       label_draining: "󰂀 {battery_level}%"
       label_power_saver: "󱈏  {battery_level}%"
       label_charging: "󰂅  {battery_level}%"
-      margin: "0 10px 0 5px"
+      margin: "0 10px"
       foreground: *green
-      border_width: "1"
-      border_radius: "15px"
-      border_color: *green
-      padding: "0px 12px"
 
     - type: "text"
       text: " "
       left_click_command: "exec ms-settings:batterysaver"
       font_size: 20
-      margin: "0 0 0 -80px"
+      margin: "0 0 0 -60px"
 
     # - type: "text"
     #   text: "⏻"
