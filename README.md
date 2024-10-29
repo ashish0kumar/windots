@@ -54,7 +54,7 @@ Welcome Ricers! 👋 If you're a Windows user feeling stuck in your ricing journ
 - **Panel:** [glaze bar](https://github.com/glzr-io/glazewm) ✨
 - **Text Editor:** [vscode](https://code.visualstudio.com/) and [neovim](https://neovim.io/) ⌨️
 - **App Launcher:** [flow launcher](https://www.flowlauncher.com/) 🚀
-- **File Manager:** [file explorer](https://www.microsoft.com/en-us/windows/tips/file-explorer) / [lf](https://github.com/gokcehan/lf) 📂
+- **File Manager:** [file explorer](https://www.microsoft.com/en-us/windows/tips/file-explorer) / [yazi](https://yazi-rs.github.io/) 📂
 - **Browser:** [firefox](https://www.mozilla.org/en-US/firefox/) 🌐
 - **Colorscheme:** [catppuccin mocha](https://catppuccin.com/) 🐈🍵
 
@@ -78,7 +78,7 @@ Here is all the information about my setup:
 | **Text Editor**                        | 💖 [neovim](https://neovim.io/) [⚙️](https://github.com/ashish0kumar/dotfiles/tree/master/.config/nvim) |
 | **CD Replacement**                     | 💖 [zoxide](https://github.com/ajeetdsouza/zoxide) |
 | **LS Replacement**                     | [eza](https://github.com/eza-community/eza) |
-| **File Manager**                       | 💖 [lf](https://github.com/gokcehan/lf) [⚙️](https://github.com/ashish0kumar/dotfiles/tree/master/.config/lf) |
+| **File Manager**                       | 💖 [yazi](https://yazi-rs.github.io/) [⚙️](https://github.com/ashish0kumar/dotfiles/tree/master/.config/yazi) |
 | **Fuzzy File Finder**                  | 💖 [fzf](https://github.com/junegunn/fzf) |
 | **Git TUI**                            | [lazygit](https://github.com/jesseduffield/lazygit) |
 | **System Monitor**                     | [btop](https://github.com/aristocratos/btop) [⚙️](https://github.com/ashish0kumar/dotfiles/blob/master/.config/btop/btop.conf) |
@@ -246,6 +246,10 @@ You can always change these in your Glaze config.
 | **ls replacement and cd preview** |
 |-------------------------------------------------------|
 | ![](assets/12.png) |
+
+| **TUI File Manager** |
+|-------------------------------------------------------|
+| ![](assets/14.png) |
 
 | **Windows Start Menu and Notification Center** |
 |-------------------------------------------------------|
