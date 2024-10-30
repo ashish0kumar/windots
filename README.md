@@ -251,7 +251,7 @@ You can always change these in your Glaze config.
 |-------------------------------------------------------|
 | ![](assets/14.png) |
 
-| **Windows Start Menu and Notification Center** |
+| **Start Menu, Taskbar and Notification Center** |
 |-------------------------------------------------------|
 | ![](assets/4.png) |
 
