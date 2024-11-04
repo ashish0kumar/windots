@@ -86,11 +86,6 @@ bar:
   # border_radius: "10px"
 
   components_left:
-  
-    # - type: "text"
-    #   text: " "
-    #   margin: "0 10px 0 10px"
-    #   foreground: *blue
 
     - type: "workspaces"
       focused_workspace_background: "transparent"
@@ -98,7 +93,14 @@ bar:
       default_workspace_background: "transparent"
       focused_workspace_foreground: *lavender
       default_workspace_foreground: *overlay1
-      margin: "0 5px 0 10px"
+      margin: "0 10px"
+
+    - type: "tiling direction"
+      label_horizontal: "⮂"
+      label_vertical: "⮁"
+      background: "transparent"
+      margin: "0 10px"
+      foreground: *text
 
     - type: "music"
       label_not_playing: ""
@@ -182,13 +184,6 @@ bar:
 
   components_right:
 
-    - type: "tiling direction"
-      label_horizontal: "⮂"
-      label_vertical: "⮁"
-      background: "transparent"
-      margin: "0 10px"
-      foreground: *text
-
     - type: "network"
       label_no_internet: "󰖪 "
       label_ethernet: "󰈁"
@@ -263,20 +258,20 @@ bar:
       text: " "
       left_click_command: "exec ms-settings:sound"
       font_size: 20
-      margin: "0 0 0 -60px"
+      margin: "0 0 0 -65px"
 
     - type: "battery"
       label_draining: "󰂀 {battery_level}%"
       label_power_saver: "󱈏  {battery_level}%"
       label_charging: "󰂅  {battery_level}%"
-      margin: "0 10px"
+      margin: "0 20px 0 10px"
       foreground: *green
 
     - type: "text"
       text: " "
       left_click_command: "exec ms-settings:batterysaver"
       font_size: 20
-      margin: "0 0 0 -60px"
+      margin: "0 0 0 -65px"
 
     # - type: "text"
     #   text: "⏻"
