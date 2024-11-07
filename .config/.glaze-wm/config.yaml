@@ -184,6 +184,55 @@ bar:
 
   components_right:
 
+    # - type: "binding mode"
+    #   background: "#ffffff33"
+    #   margin: "0 5px 0 5px"
+    #   padding: "5px 8px"
+
+    - type: "text"
+      text: "  "
+      foreground: *red
+      margin: "0 0 0 10px"
+
+    - type: "cpu"
+      label: "{percent_usage}%"
+      # How often this counter is refreshed.
+      refresh_interval_ms: 1000
+      margin: "0 10px 0 0"
+      # font_size: "13px"
+      # background: *base
+      # border_color: *base
+      # border_radius: "10px"
+      # border_width: "10px"
+
+    - type: "text"
+      text: " "
+      left_click_command: "exec resmon"
+      font_size: 20
+      margin: "0 0 0 -65px"
+
+    - type: "text"
+      text: "  "
+      margin: "0 0 0 10px"
+      foreground: *blue
+
+    - type: "memory"
+      label: "{percent_usage}%"
+      # How often this counter is refreshed.
+      refresh_interval_ms: 1000
+      margin: "0 10px 0 0"
+      # font_size: "13px"
+      # background: *base
+      # border_color: *base
+      # border_radius: "10px"
+      # border_width: "10px"
+
+    - type: "text"
+      text: " "
+      left_click_command: "exec resmon"
+      font_size: 20
+      margin: "0 0 0 -65px"
+
     - type: "network"
       label_no_internet: "󰖪 "
       label_ethernet: "󰈁"
@@ -200,47 +249,6 @@ bar:
       left_click_command: "exec explorer ms-availablenetworks:"
       font_size: 20
       margin: "0 0 0 -30px"
-
-    # - type: "text"
-    #   text: "|"
-    #   foreground: *surface2
-
-    # - type: "binding mode"
-    #   background: "#ffffff33"
-    #   margin: "0 5px 0 5px"
-    #   padding: "5px 8px"
-
-    # - type: "text"
-    #   text: "  "
-    #   foreground: *red
-    #   margin: "0 0 0 10px"
-
-    # - type: "cpu"
-    #   label: "{percent_usage}%"
-    #   # How often this counter is refreshed.
-    #   refresh_interval_ms: 1000
-    #   margin: "0 10px 0 0"
-    #   # font_size: "13px"
-    #   # background: *base
-    #   # border_color: *base
-    #   # border_radius: "10px"
-    #   # border_width: "10px"
-
-    # - type: "text"
-    #   text: "  "
-    #   margin: "0 0 0 10px"
-    #   foreground: *blue
-
-    # - type: "memory"
-    #   label: "{percent_usage}%"
-    #   # How often this counter is refreshed.
-    #   refresh_interval_ms: 1000
-    #   margin: "0 10px 0 0"
-    #   # font_size: "13px"
-    #   # background: *base
-    #   # border_color: *base
-    #   # border_radius: "10px"
-    #   # border_width: "10px"
 
     - type: "text"
       text: "  "
