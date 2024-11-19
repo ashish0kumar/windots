@@ -494,3 +494,6 @@ keybindings:
 
   - command: exec C:\Users\ashis\Desktop\VSCode.lnk
     bindings: ["Alt+C"]
+
+  - command: exec C:\Users\ashis\Desktop\WhatsApp.lnk
+    bindings: ["Alt+W"]
