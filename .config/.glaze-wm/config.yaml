@@ -199,11 +199,6 @@ bar:
       # How often this counter is refreshed.
       refresh_interval_ms: 1000
       margin: "0 10px 0 0"
-      # font_size: "13px"
-      # background: *base
-      # border_color: *base
-      # border_radius: "10px"
-      # border_width: "10px"
 
     - type: "text"
       text: " "
@@ -221,11 +216,6 @@ bar:
       # How often this counter is refreshed.
       refresh_interval_ms: 1000
       margin: "0 10px 0 0"
-      # font_size: "13px"
-      # background: *base
-      # border_color: *base
-      # border_radius: "10px"
-      # border_width: "10px"
 
     - type: "text"
       text: " "
