@@ -38,8 +38,7 @@ Welcome Ricers! 👋 If you're a Windows user feeling stuck in your ricing journ
 
 - 🪟 Beautiful glaze config
 - 🌸 Minimal VSCode setup
-- 🦅 Custom start menu and taskbar
-- 🔔 Truly acrylic notification center
+- 🦅 Themeable start menu, taskbar and notification center
 - 🚀 Flow launcher config
 - \>_ Sleek windows terminal config
 - 🐚 Simple Powershell config
