@@ -81,6 +81,7 @@ Here is all the information about my setup:
 | **Text Editor**                        | 💖 [neovim](https://neovim.io/) [⚙️](https://github.com/ashish0kumar/dotfiles/tree/master/.config/nvim) |
 | **CD Replacement**                     | 💖 [zoxide](https://github.com/ajeetdsouza/zoxide) |
 | **LS Replacement**                     | [eza](https://github.com/eza-community/eza) |
+| **Cat Replacement**                    | [bat](https://github.com/sharkdp/bat) [⚙️](https://github.com/ashish0kumar/dotfiles/tree/master/.config/bat) |
 | **File Manager**                       | 💖 [yazi](https://yazi-rs.github.io/) [⚙️](https://github.com/ashish0kumar/dotfiles/tree/master/.config/yazi) |
 | **Fuzzy File Finder**                  | 💖 [fzf](https://github.com/junegunn/fzf) |
 | **Git TUI**                            | [lazygit](https://github.com/jesseduffield/lazygit) |
