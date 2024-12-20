@@ -247,9 +247,9 @@ You can always change these in your Glaze config.
 |-------------------------------------------------------|
 | ![](assets/9.png) |
 
-| **ls replacement and cd preview** |
+| **Fuzzy finder preview, ls replacement and cd preview** |
 |-------------------------------------------------------|
-| ![](assets/12.png) |
+| ![](assets/15.png) |
 
 | **TUI File Manager** |
 |-------------------------------------------------------|
