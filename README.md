@@ -36,14 +36,14 @@ Welcome Ricers! 👋 If you're a Windows user feeling stuck in your ricing journ
 
 ## ✨ Features
 
-- 🪟 Beautiful glaze config
+- 🪟 Beautiful Glazewm config
 - 🌸 Minimal VSCode setup
-- 🦅 Themeable start menu, taskbar and notification center
-- 🚀 Flow launcher config
 - \>_ Sleek windows terminal config
 - 🐚 Simple Powershell config
 - 🎨 Ohmyposh theme
 - ⚙️ Minimalist fastfetch config
+- 🚀 Flow launcher config
+- 🦅 Themeable Start menu, Taskbar and Notification center
 - 💫 Beautiful [Wallpapers](https://github.com/ashish0kumar/windots/tree/main/walls#readme)
 
 <hr/>
