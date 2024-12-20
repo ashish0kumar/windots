@@ -74,7 +74,7 @@ Here is all the information about my setup:
 
 | 📚 Entry                           	 | ✨ App                  |
 |----------------------------------------|--------------------------|
-| **Shell**                              | 💖 [zsh](https://zsh.sourceforge.io/) [⚙️](https://github.com/ashish0kumar/dotfiles/blob/master/.zshrc) |
+| **Shell**                              | 💖 [zsh](https://zsh.sourceforge.io/) [⚙️](https://github.com/ashish0kumar/dotfiles/blob/master/.zshrc) / [pwsh](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_pwsh?view=powershell-7.4) [⚙️](https://github.com/ashish0kumar/windots/blob/main/.config/WindowsPowershell/Microsoft.PowerShell_profile.ps1) |
 | **Terminal Emulator**                  | [windows terminal](https://github.com/microsoft/terminal) [⚙️](https://github.com/ashish0kumar/windots/blob/main/.config/terminal/settings.json) |
 | **Terminal Multiplexer**               | 💖 [tmux](https://github.com/tmux/tmux) [⚙️](https://github.com/ashish0kumar/dotfiles/blob/master/.config/tmux/tmux.conf) |
 | **Shell Prompt**                       | [ohmyposh](https://ohmyposh.dev/) [⚙️](https://github.com/ashish0kumar/windots/blob/main/.config/ohmyposh/zen.toml) |
@@ -92,7 +92,7 @@ Here is all the information about my setup:
 
 | 📚 Entry                           	 | ✨ App                  |
 |----------------------------------------|--------------------------|
-| **Fallback Text Editorr**              | [VSCode](https://code.visualstudio.com/) [⚙️](https://github.com/ashish0kumar/windots/blob/main/.config/vscode/settings.json) |
+| **Fallback Text Editor**               | [VSCode](https://code.visualstudio.com/) [⚙️](https://github.com/ashish0kumar/windots/blob/main/.config/vscode/settings.json) |
 | **App Launcher**                       | [Flow Launcher](https://www.flowlauncher.com/) [⚙️](https://github.com/ashish0kumar/windots/blob/main/.config/flowlauncher/Settings.json)
 | **Music Player**                       | 💖 [Spotify](https://open.spotify.com/) (patched with [Spicetify](https://spicetify.app/)) |
 | **Web Browser**               	 | 💖 [Firefox](https://www.mozilla.org/en-US/firefox/) |
