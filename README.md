@@ -235,7 +235,7 @@ You can always change these in your Glaze config.
 |-------------------------------------------------------|
 | ![](assets/6.png) |
 
-| **Browser Homepage** |
+| **Browser [startpage](https://github.com/ashish0kumar/startpage)** |
 |-------------------------------------------------------|
 | ![](assets/13.png) |
 
