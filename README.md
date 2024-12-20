@@ -96,7 +96,7 @@ Here is all the information about my setup:
 | **Fallback Text Editor**               | [VSCode](https://code.visualstudio.com/) [⚙️](https://github.com/ashish0kumar/windots/blob/main/.config/vscode/settings.json) |
 | **App Launcher**                       | [Flow Launcher](https://www.flowlauncher.com/) [⚙️](https://github.com/ashish0kumar/windots/blob/main/.config/flowlauncher/Settings.json)
 | **Music Player**                       | 💖 [Spotify](https://open.spotify.com/) (patched with [Spicetify](https://spicetify.app/)) |
-| **Web Browser**               	 | 💖 [Firefox](https://www.mozilla.org/en-US/firefox/) |
+| **Web Browser**               	 | 💖 [Firefox](https://www.mozilla.org/en-US/firefox/) 🏡 [startpage](https://github.com/ashish0kumar/startpage) |
 | **Note Taking App**                    | 💖 [Obsidian](https://obsidian.md/) |
 | **File Manager**                       | [File Explorer](https://www.microsoft.com/en-us/windows/tips/file-explorer) |
 | **Office Apps**                     	 | [LibreOffice](https://www.libreoffice.org/) |
