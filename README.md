@@ -253,7 +253,7 @@ You can always change these in your Glaze config.
 
 | **TUI File Manager** |
 |-------------------------------------------------------|
-| ![](assets/14.png) |
+| ![](assets/16.png) |
 
 | **Start Menu, Taskbar and Notification Center** |
 |-------------------------------------------------------|
