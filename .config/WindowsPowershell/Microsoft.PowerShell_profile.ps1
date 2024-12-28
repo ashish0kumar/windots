@@ -14,6 +14,3 @@ Set-PSReadlineKeyHandler -Key DownArrow -Function HistorySearchForward
 
 # aliases
 Set-Alias -Name c -Value clear
-
-# fetch
-fastfetch
