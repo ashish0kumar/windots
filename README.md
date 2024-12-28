@@ -11,8 +11,8 @@
 
 ![](assets/1.png)<br/><br/>
 ![](assets/2.png)<br/><br/>
-![](assets/13.png)<br/><br/>
-![](assets/4.png)<br/><br/>
+![](assets/17.png)<br/><br/>
+![](assets/18.png)<br/><br/>
 ![](assets/3.png)<br/><br/>
 
 
@@ -237,7 +237,7 @@ You can always change these in your Glaze config.
 
 | **Browser [startpage](https://github.com/ashish0kumar/startpage)** |
 |-------------------------------------------------------|
-| ![](assets/13.png) |
+| ![](assets/17.png) |
 
 | **Telescope find_files and pipes script** |
 |-------------------------------------------------------|
@@ -257,7 +257,7 @@ You can always change these in your Glaze config.
 
 | **Start Menu, Taskbar and Notification Center** |
 |-------------------------------------------------------|
-| ![](assets/4.png) |
+| ![](assets/18.png) |
 
 | **Git UI Manager and Text Editor File-tree** |
 |-------------------------------------------------------|
