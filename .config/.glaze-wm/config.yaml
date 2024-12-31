@@ -487,3 +487,6 @@ keybindings:
 
   - command: exec C:\Users\ashis\Desktop\WhatsApp.lnk
     bindings: ["Alt+W"]
+
+  - command: exec C:\Users\ashis\Desktop\Obsidian.lnk
+    bindings: ["Alt+N"]
