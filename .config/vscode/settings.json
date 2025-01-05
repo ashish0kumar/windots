@@ -44,9 +44,11 @@
     "apc.monospace.font.family": "JetBrainsMono Nerd Font",
     "workbench.sideBar.location": "right",
     "update.mode": "none",
+    "editor.smoothScrolling": true,
     "editor.cursorBlinking": "smooth",
     "editor.cursorSmoothCaretAnimation": "on",
-    "glassit.alpha": 225,
+    "workbench.list.smoothScrolling": true,
+    "terminal.integrated.smoothScrolling": true,
     "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
     "workbench.editor.empty.hint": "hidden",
     "security.allowedUNCHosts": [
