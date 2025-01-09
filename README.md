@@ -303,6 +303,16 @@ Part of what makes the open source community special are the contributions. Any 
 
 If you have any ideas or suggestions to make, feel free to [open an issue](https://github.com/ashish0kumar/windots/issues) or [submit a PR](https://github.com/ashish0kumar/windots/pulls)
 
+## 💫 Star History
+
+<a href="https://star-history.com/#ashish0kumar/windots&Date">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=ashish0kumar/windots&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=ashish0kumar/windots&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=ashish0kumar/windots&type=Date" />
+ </picture>
+</a>
+
 <br><br>
 
 <p align="center">
