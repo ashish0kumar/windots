@@ -45,6 +45,7 @@ Welcome Ricers! 👋 If you're a Windows user feeling stuck in your ricing journ
 - 🚀 Flow launcher config
 - 🦅 Themeable Start menu, Taskbar and Notification center
 - 💫 Beautiful [Wallpapers](https://github.com/ashish0kumar/windots/tree/main/walls#readme)
+- 🐈 [Catppuccin](https://github.com/catppuccin) everywhere
 
 <hr/>
 
