@@ -48,6 +48,7 @@
     "editor.cursorBlinking": "smooth",
     "editor.cursorSmoothCaretAnimation": "on",
     "workbench.list.smoothScrolling": true,
+    "workbench.activityBar.location": "top",
     "terminal.integrated.smoothScrolling": true,
     "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
     "workbench.editor.empty.hint": "hidden",
