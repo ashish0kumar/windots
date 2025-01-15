@@ -145,7 +145,7 @@ Here is all the information about my setup:
 ### 🚀 Flow Launcher
 
 - Install [Flow Launcher](https://www.flowlauncher.com/)
-- Copy `windots/.config/flowlauncher/Settings.json` to the Flow Launcher config directory:
+- Copy `windots/.config/FlowLauncher/Settings/Settings.json` to the Flow Launcher config directory:
 	-  `C:\Users\<Username>\AppData\Roaming\FlowLauncher\Settings\Settings.json`
 - Restart Flow Launcher
 
