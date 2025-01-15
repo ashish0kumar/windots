@@ -1,0 +1,176 @@
+{
+  "SearchSources": [
+    {
+      "Title": "Google",
+      "ActionKeyword": "*",
+      "Icon": "google.png",
+      "CustomIcon": false,
+      "Url": "https://www.google.com/search?q={q}",
+      "Enabled": true
+    },
+    {
+      "Title": "Google Scholar",
+      "ActionKeyword": "sc",
+      "Icon": "google.png",
+      "CustomIcon": false,
+      "Url": "https://scholar.google.com/scholar?q={q}",
+      "Enabled": true
+    },
+    {
+      "Title": "Wikipedia",
+      "ActionKeyword": "wiki",
+      "Icon": "wiki.png",
+      "CustomIcon": false,
+      "Url": "https://en.wikipedia.org/wiki/{q}",
+      "Enabled": true
+    },
+    {
+      "Title": "FindIcon",
+      "ActionKeyword": "findicon",
+      "Icon": "pictures.png",
+      "CustomIcon": false,
+      "Url": "http://findicons.com/search/{q}",
+      "Enabled": true
+    },
+    {
+      "Title": "Facebook",
+      "ActionKeyword": "facebook",
+      "Icon": "facebook.png",
+      "CustomIcon": false,
+      "Url": "https://www.facebook.com/search/?q={q}",
+      "Enabled": true
+    },
+    {
+      "Title": "Twitter",
+      "ActionKeyword": "twitter",
+      "Icon": "twitter.png",
+      "CustomIcon": false,
+      "Url": "https://twitter.com/search?q={q}",
+      "Enabled": true
+    },
+    {
+      "Title": "Google Maps",
+      "ActionKeyword": "maps",
+      "Icon": "google_maps.png",
+      "CustomIcon": false,
+      "Url": "https://maps.google.com/maps?q={q}",
+      "Enabled": true
+    },
+    {
+      "Title": "Google Translate",
+      "ActionKeyword": "translate",
+      "Icon": "google_translate.png",
+      "CustomIcon": false,
+      "Url": "https://translate.google.com/#auto|en|{q}",
+      "Enabled": true
+    },
+    {
+      "Title": "DuckDuckGo",
+      "ActionKeyword": "duckduckgo",
+      "Icon": "duckduckgo.png",
+      "CustomIcon": false,
+      "Url": "https://duckduckgo.com/?q={q}",
+      "Enabled": true
+    },
+    {
+      "Title": "GitHub",
+      "ActionKeyword": "github",
+      "Icon": "github.png",
+      "CustomIcon": false,
+      "Url": "https://github.com/search?q={q}",
+      "Enabled": true
+    },
+    {
+      "Title": "GitHub Gist",
+      "ActionKeyword": "gist",
+      "Icon": "gist.png",
+      "CustomIcon": false,
+      "Url": "https://gist.github.com/search?q={q}",
+      "Enabled": true
+    },
+    {
+      "Title": "Gmail",
+      "ActionKeyword": "gmail",
+      "Icon": "gmail.png",
+      "CustomIcon": false,
+      "Url": "https://mail.google.com/mail/ca/u/0/#apps/{q}",
+      "Enabled": true
+    },
+    {
+      "Title": "Google Drive",
+      "ActionKeyword": "drive",
+      "Icon": "google_drive.png",
+      "CustomIcon": false,
+      "Url": "https://drive.google.com/?hl=en\u0026tab=bo#search/{q}",
+      "Enabled": true
+    },
+    {
+      "Title": "WolframAlpha",
+      "ActionKeyword": "wolframalpha",
+      "Icon": "wolframalpha.png",
+      "CustomIcon": false,
+      "Url": "https://www.wolframalpha.com/input/?i={q}",
+      "Enabled": true
+    },
+    {
+      "Title": "Stack Overflow",
+      "ActionKeyword": "stackoverflow",
+      "Icon": "stackoverflow.png",
+      "CustomIcon": false,
+      "Url": "https://stackoverflow.com/search?q={q}",
+      "Enabled": true
+    },
+    {
+      "Title": "I\u0027m Feeling Lucky",
+      "ActionKeyword": "lucky",
+      "Icon": "google.png",
+      "CustomIcon": false,
+      "Url": "https://google.com/search?q={q}\u0026btnI=I",
+      "Enabled": true
+    },
+    {
+      "Title": "Google Images",
+      "ActionKeyword": "image",
+      "Icon": "google.png",
+      "CustomIcon": false,
+      "Url": "https://www.google.com/search?q={q}\u0026tbm=isch",
+      "Enabled": true
+    },
+    {
+      "Title": "YouTube",
+      "ActionKeyword": "youtube",
+      "Icon": "youtube.png",
+      "CustomIcon": false,
+      "Url": "https://www.youtube.com/results?search_query={q}",
+      "Enabled": true
+    },
+    {
+      "Title": "Bing",
+      "ActionKeyword": "bing",
+      "Icon": "bing.png",
+      "CustomIcon": false,
+      "Url": "https://www.bing.com/search?q={q}",
+      "Enabled": true
+    },
+    {
+      "Title": "Yahoo",
+      "ActionKeyword": "yahoo",
+      "Icon": "yahoo.png",
+      "CustomIcon": false,
+      "Url": "https://www.search.yahoo.com/search?p={q}",
+      "Enabled": true
+    },
+    {
+      "Title": "Baidu",
+      "ActionKeyword": "bd",
+      "Icon": "baidu.png",
+      "CustomIcon": false,
+      "Url": "https://www.baidu.com/#ie=UTF-8\u0026wd={q}",
+      "Enabled": true
+    }
+  ],
+  "EnableSuggestion": false,
+  "Suggestion": "Google",
+  "BrowserPath": null,
+  "OpenInNewBrowser": true
+}
