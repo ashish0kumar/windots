@@ -268,6 +268,11 @@ You can always change these in your Glaze config.
 |-------------------------------------------------------|
 | ![](assets/8.png) |
 
+| **tty-clock, cmatrix, cbonsai scripts and App launcher** |
+|-------------------------------------------------------|
+| ![](assets/19.png) |
+
+
 | **Text Editor** |
 |-------------------------------------------------------|
 | ![](assets/3.png) |
