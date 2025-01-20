@@ -87,6 +87,18 @@ bar:
 
   components_left:
 
+    # - type: "text"
+    #   text: " "
+    #   foreground: *blue
+    #   margin: "0 10px 0 15px"
+
+    # - type: "tiling direction"
+    #   label_horizontal: "⮂"
+    #   label_vertical: "⮁"
+    #   background: "transparent"
+    #   margin: "0 5px"
+    #   foreground: *text
+
     - type: "workspaces"
       focused_workspace_background: "transparent"
       displayed_workspace_background: "transparent"
@@ -94,13 +106,6 @@ bar:
       focused_workspace_foreground: *lavender
       default_workspace_foreground: *overlay1
       margin: "0 10px"
-
-    - type: "tiling direction"
-      label_horizontal: "⮂"
-      label_vertical: "⮁"
-      background: "transparent"
-      margin: "0 10px"
-      foreground: *text
 
     - type: "music"
       label_not_playing: ""
