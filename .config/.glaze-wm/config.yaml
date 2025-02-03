@@ -481,7 +481,7 @@ keybindings:
   - command: "exec wt"
     binding: "Alt+Enter"
 
-  - command: exec firefox
+  - command: exec zen
     bindings: ["Alt+B"]
 
   - command: exec explorer

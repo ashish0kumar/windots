@@ -56,4 +56,5 @@
         "wsl.localhost",
         "wsl$"
     ],
+    "go.toolsManagement.autoUpdate": true,
 }
