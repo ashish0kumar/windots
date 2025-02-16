@@ -264,14 +264,13 @@ You can always change these in your Glaze config.
 |-------------------------------------------------------|
 | ![](assets/10.png) |
 
-| **Music Player** |
+| **Music Player and CLI Music Visualiser** |
 |-------------------------------------------------------|
-| ![](assets/8.png) |
+| ![](assets/20.png) |
 
 | **tty-clock, cmatrix, cbonsai scripts and App launcher** |
 |-------------------------------------------------------|
 | ![](assets/19.png) |
-
 
 | **Text Editor** |
 |-------------------------------------------------------|
