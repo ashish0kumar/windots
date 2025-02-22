@@ -87,10 +87,10 @@ bar:
 
   components_left:
 
-    # - type: "text"
-    #   text: " "
-    #   foreground: *blue
-    #   margin: "0 10px 0 15px"
+    - type: "text"
+      text: " "
+      foreground: *blue
+      margin: "0 0 0 15px"
 
     # - type: "tiling direction"
     #   label_horizontal: "⮂"
@@ -207,7 +207,7 @@ bar:
 
     - type: "text"
       text: " "
-      left_click_command: "exec resmon"
+      left_click_command: "exec taskmgr"
       font_size: 20
       margin: "0 0 0 -65px"
 
@@ -224,7 +224,7 @@ bar:
 
     - type: "text"
       text: " "
-      left_click_command: "exec resmon"
+      left_click_command: "exec taskmgr"
       font_size: 20
       margin: "0 0 0 -65px"
 
