@@ -125,21 +125,27 @@ Here is all the information about my setup:
 
 <h2 id="setup">🔧 Setup</h2>
 
+> [!WARNING]
+> Before proceeding, make sure to **backup your existing configuration files**.  
+> Some settings may overwrite your current setup, so **manually merge or restore** if needed.
+
 ### 🪟 GlazeWM
 
 > [!NOTE]  
 > This setup is compatible with the latest version of GlazeWM but does **not** use Zebar. Instead, it uses **YASB** for the bar.
 
 - **Install** [**GlazeWM**](https://github.com/glzr-io/glazewm/releases/).
-- **Copy** the `windots/.config/glazewm/config.yaml` to your **GlazeWM config directory**:
-	- `C:\Users\<Username>\.glzr\glazewm\config.yaml`
+
+- `windots/.config/glazewm/config.yaml` → `C:\Users\<Username>\.glzr\glazewm\config.yaml`
+
 - **Restart GlazeWM** for the changes to take effect.
 
 ### 📊 YASB (Yet Another Status Bar)
 
 - **Install** [**YASB**](https://github.com/amnweb/yasb/releases/).
-- **Copy** the `windots/.config/yasb/` to your **YASB config directory**:
-	- `C:\Users\<Username>\.config\yasb\`
+
+- `windots/.config/yasb/` → `C:\Users\<Username>\.config\yasb\`
+
 - **Restart YASB** for the changes to take effect.
 
 ### 📝 VSCode
@@ -148,16 +154,16 @@ Here is all the information about my setup:
   	- [APC Customize UI](https://marketplace.visualstudio.com/items?itemName=drcika.apc-extension) - Customize the VSCode interface
 	- [GlassIt-VSC](https://marketplace.visualstudio.com/items?itemName=s-nlf-fh.glassit) - Add a transparent/glass effect (optional)
 
-- **Copy** `windots/.config/vscode/settings.json` to your **VSCode config directory**:
-    - **Windows:** `C:\Users\<Username>\AppData\Roaming\Code\User\settings.json`
-    - **WSL2:** `~/.vscode-server/data/Machine/settings.json`
+- `windots/.config/vscode/settings.json` → `C:\Users\<Username>\AppData\Roaming\Code\User\settings.json`
+
 - **Restart VSCode** to load the updated settings.
 
 ### 🚀 Flow Launcher
 
 - **Install** [**Flow Launcher**](https://www.flowlauncher.com/)
-- **Copy** `windots/.config/FlowLauncher/Settings/Settings.json` to the Flow Launcher config directory:
-	-  `C:\Users\<Username>\AppData\Roaming\FlowLauncher\Settings\Settings.json`
+
+- `windots/.config/FlowLauncher/Settings/Settings.json` → `C:\Users\<Username>\AppData\Roaming\FlowLauncher\Settings\Settings.json`
+
 - Restart Flow Launcher
 
 ### 🦅 Windhawk
@@ -167,7 +173,7 @@ Here is all the information about my setup:
 	- Notification Center Styler
 	- Start Menu Styler
 	- Taskbar Styler
-- **Copy** the Windhawk configuration files from `windots/.config/windhawk/`
+- **Copy** the Windhawk config files from `windots/.config/windhawk/`
 - **Apply the tweaks** from the Windhawk UI.
 
 ## \>_ Terminal & Shell Setup
@@ -175,14 +181,15 @@ Here is all the information about my setup:
 ### 🖥️ Windows Terminal
 
 - **Install** [**Windows Terminal**](https://github.com/microsoft/terminal)
-- **Copy** `windots/.config/terminal/settings.json` to the **wt config directory**:
-	-  `C:\Users\<Username>\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json`
+
+- `windots/.config/terminal/settings.json` → `C:\Users\<Username>\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json`
+
 - **Restart Windows Terminal** to see the updated config.
 
 ### 🐚 PowerShell
 
-- Copy `windots/.config/WindowsPowershell/Microsoft.PowerShell_profile.ps1` to your PowerShell profile directory:
-	- `C:\Users\<Username>\Documents\WindowsPowershell\Microsoft.PowerShell_profile.ps1`
+- `windots/.config/WindowsPowershell/Microsoft.PowerShell_profile.ps1` → `C:\Users\<Username>\Documents\WindowsPowershell\Microsoft.PowerShell_profile.ps1`
+
 - Restart PowerShell to apply the changes.
 
 ### 🎨 Oh My Posh
@@ -193,8 +200,7 @@ Here is all the information about my setup:
 winget install JanDeDobbeleer.OhMyPosh -s winget
 ```
 
-- **Copy** `windots/.config/ohmyposh/zen.toml` to your **Oh My Posh themes directory**:
-	- `C:\Users\<Username>\.config\ohmyposh\zen.toml`
+- `windots/.config/ohmyposh/zen.toml` → `C:\Users\<Username>\.config\ohmyposh\zen.toml`
 
 - **Optional Step:** Skip this if you applied my PowerShell config.
 	- I have already included the command to set the theme in the PowerShell profile, so there's no need to do it manually. The following command is automatically applied when PowerShell starts:
@@ -211,8 +217,7 @@ oh-my-posh init pwsh --config 'C:\Users\<Username>\.config\ohmyposh\zen.toml' | 
 winget install fastfetch
 ```
 
-- **Copy** `windots/.config/fastfetch/config.conf` to your **Fastfetch config directory**:
-	- `C:\Users\<Username>\.config\fastfetch\config.conf`
+- `windots/.config/fastfetch/config.conf` → `C:\Users\<Username>\.config\fastfetch\config.conf`
 
 - **Run fastfetch**.
 
@@ -232,7 +237,7 @@ You can always change these in your Glaze config.
 | <kbd>alt</kbd> + <kbd>shift</kbd> + <kbd>1 - 9</kbd>                   | Move focusing window to workspace {n}                           |
 | <kbd>alt</kbd> + <kbd>m</kbd>                                          | Toggle window minimization                                	   |
 | <kbd>alt</kbd> + <kbd>f</kbd>                                          | Toggle window maximization                             	   |
-| <kbd>alt</kbd> + <kbd>v</kbd>                                          | Change direction where the next window open should be placed    |
+| <kbd>alt</kbd> + <kbd>v</kbd>                                          | Change tiling direction    					   |
 | <kbd>alt</kbd> + <kbd>t</kbd>                                          | Make focusing window float/tiled                                |
 | <kbd>alt</kbd> + <kbd>shift</kbd> + <kbd>e</kbd>                       | Exit glazewm                                                    |
 
