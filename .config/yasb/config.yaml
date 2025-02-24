@@ -174,11 +174,11 @@ widgets:
       label: "<span>{icon}</span> {level}"
       label_alt: "{volume}"
       volume_icons:
-        - "\udb81\udf5f"
-        - "\uf026"
-        - "\uf026"
-        - "\uf027"
-        - "\uf028"
+        - "\udb81\udf5f "
+        - "\uf026 "
+        - "\uf026 "
+        - "\uf027 "
+        - "\uf028 "
       callbacks:
         on_right: "exec cmd.exe /c start ms-settings:sound"
   power_menu:

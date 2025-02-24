@@ -184,14 +184,16 @@
 }
 
 /* Taskbar (currently active apps) */
-
+ 
+/*
 .taskbar-widget{
     background-color: var(--surface0);
     border-radius: 20px;
     padding: 0 5px;
 }
+*/ 
 .taskbar-widget .app-icon{
-    padding: 0 5px;
+    padding: 0 0 0 10px;
 }
 
 /* Wifi */
@@ -222,7 +224,7 @@
 .volume-widget .icon {
     font-size: 18px;
 	color: var(--peach);
-    padding: 0 10px 0 5px;
+    padding: 0 0 0 5px;
 }
 .audio-menu {
     background-color: var(--mantle);
