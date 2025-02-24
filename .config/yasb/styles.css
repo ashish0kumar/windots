@@ -1,0 +1,438 @@
+:root {
+    --rosewater: #f5e0dc;
+    --flamingo: #f2cdcd;
+    --pink: #f5c2e7;
+    --mauve: #cba6f7;
+    --red: #f38ba8;
+    --maroon: #eba0ac;
+    --peach: #fab387;
+    --yellow: #f9e2af;
+    --green: #a6e3a1;
+    --teal: #94e2d5;
+    --sky: #89dceb;
+    --sapphire: #74c7ec;
+    --blue: #89b4fa;
+    --lavender: #b4befe;
+    --text: #cdd6f4;
+    --subtext1: #bac2de;
+    --subtext0: #a6adc8;
+    --overlay2: #9399b2;
+    --overlay1: #7f849c;
+    --overlay0: #6c7086;
+    --surface2: #585b70;
+    --surface1: #45475a;
+    --surface0: #282936;
+    --base: rgb(30, 30, 46);
+    --mantle: rgba(24, 24, 37, 1);
+    --crust: rgba(17, 17, 27, 0.5);
+}
+
+* {
+	font-size: 15px;
+	color: var(--text);
+	font-weight: 600;
+	font-family: "JetBrainsMono Nerd Font";
+	margin: 0;
+	padding: 0;
+}
+.yasb-bar {
+	padding: 5px 15px;
+	margin: 0; 
+    background-color: var(--mantle);
+}
+.widget {
+	padding: 0 12px;
+	margin: 0;
+}
+.icon {
+	font-size: 16px;
+}
+.widget .label {
+	padding: 0px 10px 0 5px;
+}
+
+/* Home */
+
+.home-widget {
+    background-color: var(--surface0);
+    border-radius: 20px;
+    padding: 0 12px;
+    margin: 0 10px 0 0;
+}
+.home-widget .icon {
+    color: var(--blue);
+    padding: 0 5px 0 0;
+}
+.home-widget .icon:hover {
+    color: var(--text);
+}
+.home-menu {
+    background-color: var(--mantle);
+}
+.home-menu .menu-item {
+    padding: 10px 48px 10px 16px;
+    font-size: 14px;
+    font-family: 'JetBrains Mono', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--text); 
+    font-weight: 600;
+}
+.home-menu .menu-item:hover {
+    background-color: var(--surface0);
+    color: #fff;
+}
+.home-menu .separator {
+    max-height: 1px;
+    background-color: var(--surface1);
+}
+
+/* GlazeWM */
+
+.glazewm-workspaces {
+    background-color: var(--surface0);
+    border-radius: 20px;
+}
+.glazewm-workspaces .ws-btn {
+    background-color: transparent;
+    border: none;
+    padding: 0px 5px 0px 5px;
+}
+.glazewm-workspaces .ws-btn.active {
+    color: var(--mauve);
+}
+.glazewm-workspaces .ws-btn.populated,
+.glazewm-workspaces .ws-btn.empty {
+    color: var(--overlay1);
+}
+
+/* Media */
+
+.media-widget {
+    background-color: var(--surface0);
+    border-radius: 20px;
+    margin: 0 0 0 10px;
+}
+.media-widget .btn.play {
+    padding: 0 5px 0 0;
+}
+.media-widget .btn.prev {
+    padding: 0 0 0 3px;
+}
+.media-widget .btn.play,
+.media-widget .btn.prev,
+.media-widget .btn.next {
+    font-size: 22px;
+    color: var(--subtext0);
+}
+.media-widget .btn.play:hover,
+.media-widget .btn.prev:hover,
+.media-widget .btn.next:hover {
+    color: var(--text);
+}
+
+/* Clock */
+
+.clock-widget .widget-container {
+    background-color: var(--surface0);
+    border-radius: 20px;
+}
+.clock-widget .widget-container .icon {
+    color: var(--blue);
+    margin: 0 5px 0 15px;
+}
+
+/* Calendar */
+
+.calendar {
+    background-color: var(--mantle);
+    padding: 10px;
+    border: 1px solid var(--surface0);
+    border-radius: 10px;
+}
+.calendar .calendar-table::item {
+    background-color: var(--surface0);
+    color: var(--overlay1);
+    font-family: 'JetBrains Mono', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;  
+}
+.calendar .calendar-table::item:selected {
+    color: var(--text);
+}
+.calendar .day-label {
+    margin-top: 20px;
+}
+.calendar .day-label,
+.calendar .month-label,
+.calendar .date-label {
+    font-family: 'JetBrains Mono', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color: var(--text);
+    font-weight: 700;
+    min-width: 180px;
+    max-width: 180px;
+}
+.calendar .month-label {
+    font-weight: normal;
+}
+.calendar .date-label {
+    font-size: 88px;
+    font-weight: 900;
+    color: var(--text);
+    margin-top: -20px;
+}
+
+/* Taskbar (currently active apps) */
+
+.taskbar-widget{
+    background-color: var(--surface0);
+    border-radius: 20px;
+    padding: 0 5px;
+}
+.taskbar-widget .app-icon{
+    padding: 0 5px;
+}
+
+/* Wifi */
+
+.wifi-widget .widget-container {
+    background-color: var(--surface0);
+    border-radius: 20px;
+}
+.wifi-widget .widget-container .icon {
+    font-size: 14px;
+    color: var(--yellow);
+    padding: 0 5px 0 10px;
+}
+.wifi-widget .widget-container .label {
+    padding: 0 10px 0 0;
+}
+
+/* Volume */
+
+.volume-widget {
+    background-color: var(--surface0);
+    border-radius: 20px;
+    padding: 0 5px;
+}
+.volume-widget .label {
+    padding: 0 5px 0 0;
+}
+.volume-widget .icon {
+    font-size: 18px;
+	color: var(--peach);
+    padding: 0 10px 0 5px;
+}
+.audio-menu {
+    background-color: var(--mantle);
+}
+
+/* Battery */
+
+.battery-widget .widget-container {
+    background-color: var(--surface0);
+    border-radius: 20px;
+}
+.battery-widget .widget-container .icon.status-low {
+    color: var(--red);
+}
+.battery-widget .widget-container .icon.status-medium {
+    color: var(--yellow);
+}
+.battery-widget .widget-container .icon.status-high,
+.battery-widget .widget-container .icon.status-full,
+.battery-widget .widget-container .icon.status-charging {
+    color: var(--green);
+    padding: 0 5px 0 10px;
+}
+
+/* Power menu */
+
+.power-menu-widget {
+    background-color: var(--surface0);
+    border-radius: 20px;
+}
+.power-menu-widget .label {
+	color: var(--red);
+	font-size: 14px;
+    padding: 0 5px 0 0;
+}
+.power-menu-popup {
+	background-color: transparent;
+}
+.power-menu-popup .button {
+	padding: 0;
+	width: 180px;
+	height: 230px;
+	border-radius: 8px;
+	background-color: var(--base);
+	color:var(--text);
+	border-left: 4px solid rgba(58, 59, 83, 0);
+    border-right: 4px solid rgba(58, 59, 83, 0);
+    border-top: 8px solid rgba(58, 59, 83, 0);
+    border-bottom: 8px solid rgba(58, 59, 83, 0);
+	margin: 0px;
+}
+.power-menu-popup .button.hover {
+	background-color:var(--surface0);
+	border-left: 4px solid var(--surface0);
+    border-right: 4px solid var(--surface0);
+    border-top: 8px solid var(--surface0);
+    border-bottom: 8px solid var(--surface0);
+}
+.power-menu-popup .button .label {
+	margin-bottom: 8px;
+	font-size: 16px;
+	font-weight: 500;
+	color: var(--subtext1);
+}
+.power-menu-popup .button .icon {
+	font-size: 64px;
+	padding-top: 32px;
+	color: var(--subtext1);
+}
+.power-menu-popup .button.cancel .icon {
+    padding: 0;
+    margin: 0;
+}
+.power-menu-popup .button.cancel .label {
+	color: var(--red);
+    margin: 0;
+}
+.power-menu-popup .button.cancel {
+    height: 32px;
+    border-radius: 4px;
+}
+.uptime {
+	font-size: 14px;
+	margin-bottom: 10px;
+	color: var(--subtext0);
+}
+
+/* Weather */
+
+/*
+.weather-widget {
+    padding: 0 5px;
+}
+.weather-widget .icon {
+	font-size: 18px;
+	margin: 0 2px 1px 0;
+    color: var(--yellow);
+}
+*/
+
+/* Wallpaper caraousel */
+
+/*
+.wallpapers-widget {
+    padding: 0 5px;
+}
+.wallpapers-gallery-window {
+    background-color: rgba(85, 42, 240, 0.01);
+    border: 0;
+    margin: 0;
+}
+.wallpapers-gallery-buttons {
+    background-color:rgba(255, 255, 255, 0);
+    color:var(--text);
+    border: none;
+    font-size: 14px;
+    padding: 8px 0;
+    border-radius: 8px;
+    margin:0 8px 8px 8px;
+    width: 600px;
+}
+.wallpapers-gallery-buttons:hover {
+    background-color:rgba(255, 255, 255, 0.1)
+}
+.wallpapers-gallery-image {
+    border: 4px solid transparent;
+    border-radius: 10px;
+}
+.wallpapers-gallery-image:hover {
+    border: 4px solid var(--sapphire);
+}
+.wallpapers-gallery-image.focused {
+    border: 4px solid var(--sapphire);
+}
+*/
+
+/* Github */
+
+/* 
+.github-menu {
+    background-color:  rgba(17, 17, 27, 0.2);
+    max-height: 500px;
+    min-height: 500px;
+    min-width: 420px;
+}
+.github-menu .header {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'JetBrains Mono', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 8px;
+    color: white;
+    background-color: rgba(17, 17, 27, 0.75);
+}
+.github-menu .footer {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    font-size: 12px;
+    padding: 4px 8px 6px 8px;
+    font-family: 'JetBrains Mono', Tahoma, Geneva, Verdana, sans-serif;
+    color: #9399b2;
+    background-color: rgba(17, 17, 27, 0.75);
+}
+.github-menu .contents {
+    background-color:  rgba(17, 17, 27, 0.2);
+}
+.github-menu .contents .item {
+    min-height: 40px;
+    padding: 6px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.075);
+}
+.github-menu .contents .item:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-bottom: 1px solid rgba(255, 255, 255, 0);
+}
+.github-menu .contents .item .title,
+.github-menu .contents .item .description {
+    color: #9399b2;
+    font-family: JetBrains Mono;
+}
+.github-menu .contents .item .title {
+    font-size: 14px;
+    font-weight: 600; 
+}
+.github-menu .contents .item .description {
+    font-size: 12px;
+    font-weight: 500
+}
+.github-menu .contents .item.new .title,
+.github-menu .contents .item.new .description {
+    color: #ffffff
+}
+.github-menu .contents .item .icon {
+    font-size: 16px;
+    padding-right: 0;
+    padding-left: 8px;
+    padding-right: 4px;
+    color: #9399b2;
+}
+.github-menu .contents .item.new .icon {
+    color: #3fb950;
+}
+.github-widget {
+    padding: 0 5px;
+}
+.github-widget .icon {
+    font-size: 16px;
+    margin: 0 5px;
+	color: var(--text)
+}
+.github-widget .icon.new-notification {
+    color: var(--red);
+}
+*/
