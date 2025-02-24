@@ -116,12 +116,12 @@ Here is all the information about my setup:
 
 ### 🪟 GlazeWM
 
-> [!WARNING]
-> This setup uses an earlier version of GlazeWM and is not compatible with the latest release. <br/> As a result, it will not work with the new Zebar integration.
+> [!NOTE]  
+> This setup is compatible with the latest version of GlazeWM but does **not** use Zebar. Instead, it uses **YASB** for the bar.
 
-- Install [GlazeWM v2](https://github.com/glzr-io/glazewm/releases/tag/v2.1.1).
-- Copy the `windots/.config/.glaze-wm/config.yaml` to your GlazeWM configuration directory:
-	- `C:\Users\<Username>\.glaze-wm`
+- Install [GlazeWM](https://github.com/glzr-io/glazewm/releases/).
+- Copy the `windots/.config/glazewm/config.yaml` to your GlazeWM configuration directory:
+	- `C:\Users\<Username>\.glzr\glazewm\config.yaml`
 - Restart GlazeWM for the changes to take effect.
 
 ### 📝 VSCode
