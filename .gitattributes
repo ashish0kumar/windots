@@ -1,0 +1,13 @@
+*.json linguist-language=JSON
+*.jsonc linguist-language=JSON
+
+*.yaml linguist-language=YAML
+*.yml linguist-language=YAML
+
+*.toml linguist-language=TOML
+
+*.json linguist-vendored=false
+*.jsonc linguist-vendored=false
+*.yaml linguist-vendored=false
+*.yml linguist-vendored=false
+*.toml linguist-vendored=false
