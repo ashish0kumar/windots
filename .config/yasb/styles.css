@@ -38,7 +38,7 @@
 .yasb-bar {
 	padding: 5px 15px;
 	margin: 0; 
-    background-color: var(--mantle);
+    background-color: var(--base);
 }
 .widget {
 	padding: 0 12px;
@@ -54,7 +54,7 @@
 /* Home */
 
 .home-widget {
-    background-color: var(--surface0);
+    background-color: #24273a;
     border-radius: 20px;
     padding: 0 12px;
     margin: 0 10px 0 0;
@@ -77,7 +77,7 @@
     font-weight: 600;
 }
 .home-menu .menu-item:hover {
-    background-color: var(--surface0);
+    background-color: #24273a;
     color: #fff;
 }
 .home-menu .separator {
@@ -88,7 +88,7 @@
 /* GlazeWM */
 
 .glazewm-workspaces {
-    background-color: var(--surface0);
+    background-color: #24273a;
     border-radius: 20px;
 }
 .glazewm-workspaces .ws-btn {
@@ -107,7 +107,7 @@
 /* Media */
 
 .media-widget {
-    background-color: var(--surface0);
+    background-color: #24273a;
     border-radius: 20px;
     margin: 0 0 0 10px;
 }
@@ -132,7 +132,7 @@
 /* Clock */
 
 .clock-widget .widget-container {
-    background-color: var(--surface0);
+    background-color: #24273a;
     border-radius: 20px;
 }
 .clock-widget .widget-container .icon {
@@ -149,7 +149,7 @@
     border-radius: 10px;
 }
 .calendar .calendar-table::item {
-    background-color: var(--surface0);
+    background-color: #24273a;
     color: var(--overlay1);
     font-family: 'JetBrains Mono', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
@@ -187,7 +187,7 @@
  
 /*
 .taskbar-widget{
-    background-color: var(--surface0);
+    background-color: #24273a;
     border-radius: 20px;
     padding: 0 5px;
 }
@@ -199,7 +199,7 @@
 /* Wifi */
 
 .wifi-widget .widget-container {
-    background-color: var(--surface0);
+    background-color: #24273a;
     border-radius: 20px;
 }
 .wifi-widget .widget-container .icon {
@@ -214,7 +214,7 @@
 /* Volume */
 
 .volume-widget {
-    background-color: var(--surface0);
+    background-color: #24273a;
     border-radius: 20px;
     padding: 0 5px;
 }
@@ -233,7 +233,7 @@
 /* Battery */
 
 .battery-widget .widget-container {
-    background-color: var(--surface0);
+    background-color: #24273a;
     border-radius: 20px;
 }
 .battery-widget .widget-container .icon.status-low {
@@ -252,7 +252,7 @@
 /* Power menu */
 
 .power-menu-widget {
-    background-color: var(--surface0);
+    background-color: #24273a;
     border-radius: 20px;
 }
 .power-menu-widget .label {
