@@ -1,4 +1,4 @@
-<h1 align="center">🍙 windots</h1>
+<h1 align="center">🌾 windots</h1>
 
 <div align="center">
   <a href="#about"><kbd> <br> 🌷 About <br> </kbd></a>&ensp;&ensp;
