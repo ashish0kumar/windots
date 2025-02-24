@@ -248,7 +248,7 @@ You can always change these in your Glaze config.
 <h2 id="gallery">🖼️ ‎Gallery</h2>
 
 > [!Note]
-> If you want to check the wallpapers, they are available [right here](https://github.com/ashish0kumar/windots/tree/main/walls#readme).
+> Wallpapers are available [here](https://github.com/ashish0kumar/windots/tree/main/walls#readme) if you’d like to check them out.
 
 | **TUI File Manager, ls replacement and System Fetch** |
 |-------------------------------------------------------|
@@ -265,6 +265,10 @@ You can always change these in your Glaze config.
 | **Browser [startpage](https://github.com/ashish0kumar/startpage)** |
 |-------------------------------------------------------|
 | ![](assets/17.png) |
+
+| **Text Editor** |
+|-------------------------------------------------------|
+| ![](assets/3.png) |
 
 | **Telescope find_files and pipes script** |
 |-------------------------------------------------------|
@@ -297,10 +301,6 @@ You can always change these in your Glaze config.
 | **tty-clock, cmatrix, cbonsai scripts and App launcher** |
 |-------------------------------------------------------|
 | ![](assets/19.png) |
-
-| **Text Editor** |
-|-------------------------------------------------------|
-| ![](assets/3.png) |
 
 | **Old Browser Homepage** |
 |-------------------------------------------------------|
