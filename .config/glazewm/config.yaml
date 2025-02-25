@@ -294,4 +294,5 @@ keybindings:
 
   - commands: ["shell-exec C:\\Users\\ashis\\Desktop\\Obsidian.lnk"]
     bindings: ["alt+n"]   
+    
  
