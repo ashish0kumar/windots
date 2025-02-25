@@ -32,7 +32,7 @@
 Welcome, fellow ricers! 👋 If you're a Windows user struggling to get that perfect riced setup and want something that feels more like a Unix environment, you're in the right place. This collection of dotfiles is here to help you level up your system’s aesthetics and productivity! 🚀
 
 > [!NOTE]
-> All configurations related to my Linux setup (WSL2) are maintained in this repository --> [**dotfiles**](https://github.com/ashish0kumar/dotfiles)
+> All configurations related to my Linux setup (WSL2) are maintained in this repository: [**dotfiles**](https://github.com/ashish0kumar/dotfiles)
 
 ## ✨ Features
 
@@ -82,7 +82,7 @@ Here is all the information about my setup:
 | **Application Launcher** 		 | [Flow Launcher](https://www.flowlauncher.com/) [⚙️](https://github.com/ashish0kumar/windots/blob/main/.config/FlowLauncher/Settings.json) |
 | **Mods** 				 | 💖 [Windhawk](https://windhawk.net/) [⚙️](https://github.com/ashish0kumar/windots/blob/main/.config/winddhawk/) |
 
-#### 🖥️ CLI/TUI Apps
+#### 🖥️ CLI/TUI Apps (Configs for these can be found in this repo: [**dotfiles**](https://github.com/ashish0kumar/dotfiles))
 
 | 📚 Entry                           	 | ✨ App                  |
 |----------------------------------------|--------------------------|
