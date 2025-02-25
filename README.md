@@ -9,11 +9,11 @@
 
 <br>
 
-![](assets/1.png)<br/><br/>
-![](assets/2.png)<br/><br/>
-![](assets/17.png)<br/><br/>
-![](assets/18.png)<br/><br/>
-![](assets/3.png)<br/><br/>
+![](assets/fetch.png)<br/><br/>
+![](assets/vscode.png)<br/><br/>
+![](assets/startpage.png)<br/><br/>
+![](assets/windhawk.png)<br/><br/>
+![](assets/nvim.png)<br/><br/>
 
 
 <div align="center">
@@ -32,21 +32,21 @@
 Welcome, fellow ricers! 👋 If you're a Windows user struggling to get that perfect riced setup and want something that feels more like a Unix environment, you're in the right place. This collection of dotfiles is here to help you level up your system’s aesthetics and productivity! 🚀
 
 > [!NOTE]
-> All configurations related to my Linux setup (WSL2) are maintained in this repository: [**dotfiles**](https://github.com/ashish0kumar/dotfiles)
+> All configs related to my **Linux setup (WSL2)** are maintained in this repository: [**dotfiles**](https://github.com/ashish0kumar/dotfiles)
 
 ## ✨ Features
 
-- 🪟 Glazewm config
-- ❄️ Beautiful YASB config
-- 🌸 Minimal VSCode setup
-- \>_ Sleek windows terminal config
-- 🐚 Powershell config
-- 🎨 Ohmyposh theme
-- ⚙️ Minimal fastfetch config
-- 🚀 Flow launcher config
-- 🦅 Themeable Start menu, Taskbar and Notification center
-- 💫 Beautiful [Wallpapers](https://github.com/ashish0kumar/windots/tree/main/walls#readme)
-- 🐈 [Catppuccin](https://github.com/catppuccin) everywhere
+- 🪟 **Glazewm** config
+- ❄️ Beautiful **YASB** config
+- 🌸 Minimal **VSCode** setup
+- \>_ Sleek **windows terminal** config
+- 🐚 **Powershell** config
+- 🎨 **Ohmyposh** theme
+- ⚙️ Minimal **fastfetch** config
+- 🚀 **Flow launcher** config
+- 🦅 Themeable **Start menu, Taskbar and Notification center**
+- 💫 Beautiful [**Wallpapers**](https://github.com/ashish0kumar/windots/tree/main/walls#readme)
+- 🐈 [**Catppuccin**](https://github.com/catppuccin) everywhere
 
 <hr/>
 
@@ -69,8 +69,8 @@ Welcome, fellow ricers! 👋 If you're a Windows user struggling to get that per
 
 Here is all the information about my setup:
 
-> [!Note]
-> Some of this apps have the config files included in the repo, which are marked with ⚙️. Also, my favorite programs and tools are marked with 💖.
+> [!NOTE]
+> Some of this apps have the **config files** included in the repo, which are marked with ⚙️. Also, my **favorite programs and tools** are marked with 💖.
 
 #### 🪟 System
 
@@ -132,7 +132,7 @@ Here is all the information about my setup:
 ### 🪟 GlazeWM
 
 > [!NOTE]  
-> This setup is compatible with the latest version of GlazeWM but does **not** use Zebar. Instead, it uses **YASB** for the bar.
+> This setup is compatible with the latest version of **GlazeWM** but **does not use Zebar**. Instead, it uses **YASB** for the bar.
 
 - **Install** [**GlazeWM**](https://github.com/glzr-io/glazewm/releases/).
 
@@ -225,7 +225,7 @@ winget install fastfetch
 
 ## ⌨️ GlazeWM keybindings 
 
-You can always change these in your Glaze config.
+You can always change these in your `glazewm/config.yaml`
 
 | Keys                                                                   | Action                                                          |
 |------------------------------------------------------------------------|-----------------------------------------------------------------|
@@ -247,64 +247,56 @@ You can always change these in your Glaze config.
 
 <h2 id="gallery">🖼️ ‎Gallery</h2>
 
-> [!Note]
-> Wallpapers are available [here](https://github.com/ashish0kumar/windots/tree/main/walls#readme) if you’d like to check them out.
+> [!NOTE]
+> You can check out the **wallpapers** [**here**](https://github.com/ashish0kumar/windots/tree/main/walls#readme) if you're interested!
 
-| **TUI File Manager, ls replacement and System Fetch** |
+| **Browser on [r/unixporn](https://reddit.com/r/unixporn) and cmatrix, cbonsai scripts** |
 |-------------------------------------------------------|
-| ![](assets/5.png) |
+| ![](assets/unixporn.png) |
 
 | **GUI Text Editor** |
 |-------------------------------------------------------|
-| ![](assets/2.png) |
+| ![](assets/vscode.png) |
 
-| **System Fetch, Matrix Script and Browser on [r/unixporn](https://reddit.com/r/unixporn)** |
+| **Topbar menu and TUI System Monitor** |
 |-------------------------------------------------------|
-| ![](assets/6.png) |
+| ![](assets/btop.png) |
 
 | **Browser [startpage](https://github.com/ashish0kumar/startpage)** |
 |-------------------------------------------------------|
-| ![](assets/17.png) |
+| ![](assets/startpage.png) |
 
 | **Text Editor** |
 |-------------------------------------------------------|
-| ![](assets/3.png) |
-
-| **Telescope find_files and pipes script** |
-|-------------------------------------------------------|
-| ![](assets/7.png) |
-
-| **TUI System Monitor and cbonsai script** |
-|-------------------------------------------------------|
-| ![](assets/9.png) |
+| ![](assets/nvim.png) |
 
 | **Fuzzy finder preview, ls replacement and cd preview** |
 |-------------------------------------------------------|
-| ![](assets/15.png) |
+| ![](assets/cli_replace.png) |
 
 | **TUI File Manager** |
 |-------------------------------------------------------|
-| ![](assets/16.png) |
+| ![](assets/yazi.png) |
 
 | **Start Menu, Taskbar and Notification Center** |
 |-------------------------------------------------------|
-| ![](assets/18.png) |
+| ![](assets/windhawk.png) |
 
-| **Git UI Manager and Text Editor File-tree** |
+| **Topbar Calendar Widget, tty-clock and App Launcher** |
 |-------------------------------------------------------|
-| ![](assets/10.png) |
+| ![](assets/cal_clock.png) |
+
+| **Git UI Manager and Telescope find_files** |
+|-------------------------------------------------------|
+| ![](assets/git_telescope.png) |
 
 | **Music Player and CLI Music Visualiser** |
 |-------------------------------------------------------|
-| ![](assets/20.png) |
+| ![](assets/spotify.png) |
 
-| **tty-clock, cmatrix, cbonsai scripts and App launcher** |
+| **Power Menu** |
 |-------------------------------------------------------|
-| ![](assets/19.png) |
-
-| **Old Browser Homepage** |
-|-------------------------------------------------------|
-| ![](assets/11.png) |
+| ![](assets/power.png) |
 
 
 <hr>
@@ -314,18 +306,17 @@ Feel free to use and modify these dotfiles to suit your needs.
 
 <h2 id="credits">🎉 ‎Credits</h2>
 
-Big thanks to everyone at [r/unixporn](https://reddit.com/r/unixporn) for inspiring me to make this!
+Big **thanks** to everyone at [**r/unixporn**](https://reddit.com/r/unixporn) for inspiring me to make this!
 
 I wanna point out some resources that helped me the most with the setup:
 
-- [Matt-FTW's README](https://github.com/Matt-FTW/dotfiles?tab=readme-ov-file) to help me with the overall design and distribution of the README 🙏
-- [GlazeWM](https://github.com/glzr-io/glazewm) for providing an incredible tiling window manager experience that enhances my workflow and productivity ✨
-- [LierB](https://github.com/LierB/fastfetch) for the fastfetch config presets 📋
-- [Dreams of Autonomy](https://youtu.be/9U8LCjuQzdc?feature=shared) for the zenful ohmyposh theme 🧘
-- [lunar-os](https://github.com/lunar-os/windowsdesktop2) for the Windhawk configs 🦅
-- [pivoshenko](https://github.com/pivoshenko/catppuccin-startpage) for the aesthetic and clean browser startpage 🌐
-- [orxngc](https://github.com/orxngc/walls-catppuccin-mocha) for all the beautiful catppuccinified wallpapers 🖼️
-- [Catppuccin](https://catppuccin.com) for making the Best Colorscheme Ever 🖌️
+- [**Matt-FTW's README**](https://github.com/Matt-FTW/dotfiles?tab=readme-ov-file) to help me with the overall design of the **README** 🙏
+- [**GlazeWM**](https://github.com/glzr-io/glazewm) for providing an incredible **tiling window manager** experience that enhances my workflow and productivity ✨
+- [**YASB**](https://github.com/amnweb/yasb) for a **feature-rich and customizable status bar** that perfectly complements my setup 🚀
+- [**lunar-os**](https://github.com/lunar-os/windowsdesktop2) for the **Windhawk configs** 🦅
+- [**pivoshenko**](https://github.com/pivoshenko/catppuccin-startpage) for the aesthetic and clean **browser startpage** 🌐
+- [**orxngc**](https://github.com/orxngc/walls-catppuccin-mocha) for all the beautiful **catppuccinified wallpapers** 🖼️
+- [**Catppuccin**](https://catppuccin.com) for making the **Best Colorscheme** Ever 🖌️
 
 
 ## ✍️ Contributing
