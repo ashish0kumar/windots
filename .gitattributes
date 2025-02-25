@@ -5,9 +5,3 @@
 *.yml linguist-language=YAML
 
 *.toml linguist-language=TOML
-
-.config/**/*.json linguist-vendored=false
-.config/**/*.jsonc linguist-vendored=false
-.config/**/*.yaml linguist-vendored=false
-.config/**/*.yml linguist-vendored=false
-.config/**/*.toml linguist-vendored=false
