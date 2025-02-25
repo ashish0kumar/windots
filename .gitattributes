@@ -6,8 +6,8 @@
 
 *.toml linguist-language=TOML
 
-*.json linguist-vendored=false
-*.jsonc linguist-vendored=false
-*.yaml linguist-vendored=false
-*.yml linguist-vendored=false
-*.toml linguist-vendored=false
+.config/**/*.json linguist-vendored=false
+.config/**/*.jsonc linguist-vendored=false
+.config/**/*.yaml linguist-vendored=false
+.config/**/*.yml linguist-vendored=false
+.config/**/*.toml linguist-vendored=false
