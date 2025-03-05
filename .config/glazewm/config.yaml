@@ -219,10 +219,10 @@ keybindings:
     bindings: ["alt+enter"]
 
   # Focus the next/previous workspace defined in `workspaces` config.
-  - commands: ["focus --next-workspace"]
-    bindings: ["alt+s"]
-  - commands: ["focus --prev-workspace"]
-    bindings: ["alt+a"]
+  # - commands: ["focus --next-workspace"]
+  #   bindings: ["alt+s"]
+  # - commands: ["focus --prev-workspace"]
+  #   bindings: ["alt+a"]
 
   # Focus the workspace that last had focus.
   - commands: ["focus --recent-workspace"]
@@ -294,4 +294,10 @@ keybindings:
 
   - commands: ["shell-exec C:\\Users\\ashis\\Desktop\\Obsidian.lnk"]
     bindings: ["alt+n"]
+
+  - commands: ["shell-exec C:\\Users\\ashis\\Desktop\\Discord.lnk"]
+    bindings: ["alt+m"]
+
+  - commands: ["shell-exec C:\\Users\\ashis\\Desktop\\Spotify.lnk"]
+    bindings: ["alt+s"]
   
