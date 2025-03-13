@@ -286,13 +286,13 @@ You can always change these in your `glazewm/config.yaml`
 |-------------------------------------------------------|
 | ![](assets/cal_clock.png) |
 
-| **Git UI Manager and Telescope find_files** |
-|-------------------------------------------------------|
-| ![](assets/git_telescope.png) |
-
 | **Music Player and CLI Music Visualiser** |
 |-------------------------------------------------------|
 | ![](assets/spotify.png) |
+
+| **Git UI Manager and Telescope find_files** |
+|-------------------------------------------------------|
+| ![](assets/git_telescope.png) |
 
 | **Power Menu** |
 |-------------------------------------------------------|
@@ -301,8 +301,9 @@ You can always change these in your `glazewm/config.yaml`
 
 <hr>
 
-## 📜 License
-Feel free to use and modify these dotfiles to suit your needs.
+## 📢 Join the Discussion
+
+Got a question, idea, or a cool setup to share? Head over to [Discussions](https://github.com/ashish0kumar/windots/discussions) and be part of the community!
 
 <h2 id="credits">🎉 ‎Credits</h2>
 
@@ -310,7 +311,7 @@ Big **thanks** to everyone at [**r/unixporn**](https://reddit.com/r/unixporn) fo
 
 I wanna point out some resources that helped me the most with the setup:
 
-- [**Matt-FTW's README**](https://github.com/Matt-FTW/dotfiles?tab=readme-ov-file) to help me with the overall design of the **README** 🙏
+- [**Matt-FTW**](https://github.com/Matt-FTW/dotfiles) to help me with the overall design of the **README** 🙏
 - [**GlazeWM**](https://github.com/glzr-io/glazewm) for providing an incredible **tiling window manager** experience that enhances my workflow and productivity ✨
 - [**YASB**](https://github.com/amnweb/yasb) for a **feature-rich and customizable status bar** that perfectly complements my setup 🚀
 - [**lunar-os**](https://github.com/lunar-os/windowsdesktop2) for the **Windhawk configs** 🦅
@@ -318,12 +319,8 @@ I wanna point out some resources that helped me the most with the setup:
 - [**orxngc**](https://github.com/orxngc/walls-catppuccin-mocha) for all the beautiful **catppuccinified wallpapers** 🖼️
 - [**Catppuccin**](https://catppuccin.com) for making the **Best Colorscheme** Ever 🖌️
 
-
-## ✍️ Contributing
-
-Part of what makes the open source community special are the contributions. Any contributions will be **highly appreciated!**
-
-If you have any ideas or suggestions to make, feel free to [open an issue](https://github.com/ashish0kumar/windots/issues) or [submit a PR](https://github.com/ashish0kumar/windots/pulls)
+## 📜 License
+Feel free to use and modify these dotfiles to suit your needs.
 
 ## 💫 Star History
 
