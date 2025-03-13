@@ -4,6 +4,7 @@
   <a href="#about"><kbd> <br> 🌷 About <br> </kbd></a>&ensp;&ensp;
   <a href="#setup"><kbd> <br> 🔧 Setup <br> </kbd></a>&ensp;&ensp;
   <a href="#gallery"><kbd> <br> 🖼️ Gallery <br> </kbd></a>&ensp;&ensp;
+  <a href="https://github.com/ashish0kumar/windots/discussions"><kbd> <br> 💬 Discussions <br> </kbd></a>&ensp;&ensp;
   <a href="#credits"><kbd> <br> 🎉 Credits <br> </kbd></a>&ensp;&ensp;
 </div>
 
