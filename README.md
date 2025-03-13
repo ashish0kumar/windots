@@ -137,7 +137,7 @@ Here is all the information about my setup:
 
 - **Install** [**GlazeWM**](https://github.com/glzr-io/glazewm/releases/).
 
-- `windots/.config/glazewm/config.yaml` → `%USERPROFILE%\.glzr\glazewm\config.yaml`
+- [`windots/.config/glazewm/config.yaml`](.config/glazewm/config.yaml) → `%USERPROFILE%\.glzr\glazewm\config.yaml`
 
 - **Restart GlazeWM** for the changes to take effect.
 
@@ -145,7 +145,7 @@ Here is all the information about my setup:
 
 - **Install** [**YASB**](https://github.com/amnweb/yasb/releases/).
 
-- `windots/.config/yasb/` → `%USERPROFILE%\.config\yasb\`
+- [`windots/.config/yasb/`](.config/yasb/) → `%USERPROFILE%\.config\yasb\`
 
 - **Restart YASB** for the changes to take effect.
 
@@ -155,7 +155,7 @@ Here is all the information about my setup:
   	- [APC Customize UI](https://marketplace.visualstudio.com/items?itemName=drcika.apc-extension) - Customize the VSCode interface
 	- [GlassIt-VSC](https://marketplace.visualstudio.com/items?itemName=s-nlf-fh.glassit) - Add a transparent/glass effect (optional)
 
-- `windots/.config/vscode/settings.json` → `%APPDATA%\Code\User\settings.json`
+- [`windots/.config/vscode/settings.json`](.config/vscode/settings.json) → `%APPDATA%\Code\User\settings.json`
 
 - **Restart VSCode** to load the updated settings.
 
@@ -163,7 +163,7 @@ Here is all the information about my setup:
 
 - **Install** [**Flow Launcher**](https://www.flowlauncher.com/)
 
-- `windots/.config/FlowLauncher/Settings.json` → `%APPDATA%\FlowLauncher\Settings\Settings.json`
+- [`windots/.config/FlowLauncher/settings.json`](.config/FlowLauncher/settings.json) → `%APPDATA%\FlowLauncher\Settings\Settings.json`
 
 - Restart Flow Launcher
 
@@ -174,7 +174,7 @@ Here is all the information about my setup:
 	- Notification Center Styler
 	- Start Menu Styler
 	- Taskbar Styler
-- **Copy** the Windhawk config files from `windots/.config/windhawk/`
+- **Copy** the Windhawk config files from [`windots/.config/windhawk/`](.config/windhawk/)
 - **Apply the tweaks** from the Windhawk UI.
 
 ## \>_ Terminal & Shell Setup
@@ -183,13 +183,13 @@ Here is all the information about my setup:
 
 - **Install** [**Windows Terminal**](https://github.com/microsoft/terminal)
 
-- `windots/.config/terminal/settings.json` → `%LOCALAPPDATA%\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json`
+- [`windots/.config/terminal/settings.json`](.config/terminal/settings.json) → `%LOCALAPPDATA%\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json`
 
 - **Restart Windows Terminal** to see the updated config.
 
 ### 🐚 PowerShell
 
-- `windots/.config/WindowsPowershell/Microsoft.PowerShell_profile.ps1` → `%USERPROFILE%\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1`
+- [`windots/.config/WindowsPowershell/Microsoft.PowerShell_profile.ps1`](.config/WindowsPowershell/Microsoft.PowerShell_profile.ps1) → `%USERPROFILE%\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1`
 
 - Restart PowerShell to apply the changes.
 
@@ -201,7 +201,7 @@ Here is all the information about my setup:
 winget install JanDeDobbeleer.OhMyPosh -s winget
 ```
 
-- `windots/.config/ohmyposh/zen.toml` → `%USERPROFILE%\.config\ohmyposh\zen.toml`
+- [`windots/.config/ohmyposh/zen.toml`](.config/ohmyposh/zen.toml) → `%USERPROFILE%\.config\ohmyposh\zen.toml`
 
 - **Optional Step:** Skip this if you applied my PowerShell config.
 	- I have already included the command to set the theme in the PowerShell profile, so there's no need to do it manually. The following command is automatically applied when PowerShell starts:
@@ -218,7 +218,7 @@ oh-my-posh init pwsh --config "$env:USERPROFILE\.config\ohmyposh\zen.toml" | Inv
 winget install fastfetch
 ```
 
-- `windots/.config/fastfetch/config.conf` → `%USERPROFILE%\.config\fastfetch\config.conf`
+- [`windots/.config/fastfetch/config.jsonc`](.config/fastfetch/config.jsonc) → `%USERPROFILE%\.config\fastfetch\config.conf`
 
 - **Run fastfetch**.
 
