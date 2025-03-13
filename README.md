@@ -219,6 +219,7 @@ winget install fastfetch
 ```
 
 - [`windots/.config/fastfetch/config.jsonc`](.config/fastfetch/config.jsonc) → `%USERPROFILE%\.config\fastfetch\config.conf`
+- [`windots/.config/fastfetch/windows.txt`](.config/fastfetch/windows.txt) → `%USERPROFILE%\.config\fastfetch\windows.txt`
 
 - **Run fastfetch**.
 
