@@ -238,9 +238,11 @@
 }
 .battery-widget .widget-container .icon.status-low {
     color: var(--red);
+    padding: 0 5px 0 10px;
 }
 .battery-widget .widget-container .icon.status-medium {
     color: var(--yellow);
+    padding: 0 5px 0 10px;
 }
 .battery-widget .widget-container .icon.status-high,
 .battery-widget .widget-container .icon.status-full,
