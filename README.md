@@ -119,7 +119,7 @@ Here is all the information about my setup:
 
 | 📚 Entry                             | ✨ App                  |
 |---------------------------------------|--------------------------|
-| **Colorscheme**                       | 💖 [Catppuccin Mocha](catppuccin.com) |
+| **Colorscheme**                       | 💖 [Catppuccin Mocha](https://catppuccin.com) |
 | **Font**                  		| [JetBrainsMono Nerd Font](https://www.jetbrains.com/lp/mono/) |
 | **Dotfiles Manager**              	| 💖 [GNU Stow](https://www.gnu.org/software/stow/) |
  
@@ -132,14 +132,14 @@ Here is all the information about my setup:
 
 ### 🪟 GlazeWM
 
-> [!NOTE]  
-> This setup is compatible with the latest version of **GlazeWM** but **does not use Zebar**. Instead, it uses **YASB** for the bar.
-
 - **Install** [**GlazeWM**](https://github.com/glzr-io/glazewm/releases/).
 
 - [`windots/.config/glazewm/config.yaml`](.config/glazewm/config.yaml) → `%USERPROFILE%\.glzr\glazewm\config.yaml`
 
 - **Restart GlazeWM** for the changes to take effect.
+
+> [!NOTE]  
+> This setup is compatible with the latest version of **GlazeWM** but **does not use Zebar**. Instead, it uses **YASB** for the bar.
 
 ### 📊 YASB (Yet Another Status Bar)
 
@@ -148,6 +148,9 @@ Here is all the information about my setup:
 - [`windots/.config/yasb/`](.config/yasb/) → `%USERPROFILE%\.config\yasb\`
 
 - **Restart YASB** for the changes to take effect.
+
+> [!NOTE]
+> Make sure you have a Nerd Font installed for proper icon rendering. I use **JetBrainsMono Nerd Font**, so if you are using a different Nerd Font, update the fonts in the YASB `styles.css` accordingly.
 
 ### 📝 VSCode
 
@@ -158,6 +161,9 @@ Here is all the information about my setup:
 - [`windots/.config/vscode/settings.json`](.config/vscode/settings.json) → `%APPDATA%\Code\User\settings.json`
 
 - **Restart VSCode** to load the updated settings.
+
+> [!WARNING]
+> I am using VSCode `v1.91.1`, as newer versions do not support the **APC Customize UI extension**.
 
 ### 🚀 Flow Launcher
 
