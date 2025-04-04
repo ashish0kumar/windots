@@ -109,7 +109,7 @@ Here is all the information about my setup:
 |----------------------------------------|--------------------------|
 | **Fallback Text Editor**               | [VSCode](https://code.visualstudio.com/) [⚙️](https://github.com/ashish0kumar/windots/blob/main/.config/vscode/settings.json) |
 | **Music Player**                       | 💖 [Spotify](https://open.spotify.com/) (patched with [Spicetify](https://spicetify.app/)) |
-| **Web Browser**               	 | 💖 [Zen-Browser](https://zen-browser.app) 🏡 [startpage](https://github.com/ashish0kumar/startpage) |
+| **Web Browser**               	 | 💖 [Zen-Browser](https://zen-browser.app) [⚙️](https://github.com/ashish0kumar/windots/blob/main/.config/browser/) 🏡 [startpage](https://github.com/ashish0kumar/startpage) |
 | **Note Taking App**                    | 💖 [Obsidian](https://obsidian.md/) |
 | **File Manager**                       | [File Explorer](https://www.microsoft.com/en-us/windows/tips/file-explorer) |
 | **Office Apps**                     	 | [LibreOffice](https://www.libreoffice.org/) |
@@ -164,6 +164,26 @@ Here is all the information about my setup:
 
 > [!WARNING]
 > I am using VSCode `v1.91.1`, as newer versions do not support the **APC Customize UI extension**.
+
+### 🌐 Browser
+
+> [!NOTE]
+> These configs are applicable **only for Firefox-based browsers**.
+
+- Enable **userChrome.css and userContent.css**:
+  - Open `about:config` in the address bar.
+  - Search for `toolkit.legacyUserProfileCustomizations.stylesheets`.
+  - Set it to `true`.
+
+- **Locate your profile folder**:
+  - Open `about:support` in the address bar.
+  - Find "Profile Folder" and click "Open Folder."
+
+- **Copy the browser styling configs**:
+  - [`windots/.config/browser/userChrome.css`](.config/browser/userChrome.css) → `<Your Profile Folder>/chrome/userChrome.css`
+  - [`windots/.config/browser/userContent.css`](.config/browser/userContent.css) → `<Your Profile Folder>/chrome/userContent.css`
+
+- **Restart your browser** for the changes to take effect.
 
 ### 🚀 Flow Launcher
 
