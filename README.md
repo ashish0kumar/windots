@@ -132,16 +132,19 @@ Here is all the information about my setup:
 
 ### 🪟 GlazeWM
 
+> [!NOTE]  
+> This setup is compatible with the latest version of **GlazeWM** but **does not use Zebar**. Instead, it uses **YASB** for the bar.
+
 - **Install** [**GlazeWM**](https://github.com/glzr-io/glazewm/releases/).
 
 - [`windots/.config/glazewm/config.yaml`](.config/glazewm/config.yaml) → `%USERPROFILE%\.glzr\glazewm\config.yaml`
 
 - **Restart GlazeWM** for the changes to take effect.
 
-> [!NOTE]  
-> This setup is compatible with the latest version of **GlazeWM** but **does not use Zebar**. Instead, it uses **YASB** for the bar.
-
 ### 📊 YASB (Yet Another Status Bar)
+
+> [!NOTE]
+> Make sure you have a Nerd Font installed for proper icon rendering. I use **JetBrainsMono Nerd Font**, so if you are using a different Nerd Font, update the fonts in the YASB `styles.css` accordingly.
 
 - **Install** [**YASB**](https://github.com/amnweb/yasb/releases/).
 
@@ -149,10 +152,10 @@ Here is all the information about my setup:
 
 - **Restart YASB** for the changes to take effect.
 
-> [!NOTE]
-> Make sure you have a Nerd Font installed for proper icon rendering. I use **JetBrainsMono Nerd Font**, so if you are using a different Nerd Font, update the fonts in the YASB `styles.css` accordingly.
-
 ### 📝 VSCode
+
+> [!WARNING]
+> I am using VSCode `v1.91.1`, as newer versions do not support the **APC Customize UI extension**.
 
 - Enhance your **VSCode UI** with these **extensions**:
   	- [APC Customize UI](https://marketplace.visualstudio.com/items?itemName=drcika.apc-extension) - Customize the VSCode interface
@@ -161,9 +164,6 @@ Here is all the information about my setup:
 - [`windots/.config/vscode/settings.json`](.config/vscode/settings.json) → `%APPDATA%\Code\User\settings.json`
 
 - **Restart VSCode** to load the updated settings.
-
-> [!WARNING]
-> I am using VSCode `v1.91.1`, as newer versions do not support the **APC Customize UI extension**.
 
 ### 🌐 Browser
 
@@ -191,7 +191,7 @@ Here is all the information about my setup:
 
 - [`windots/.config/FlowLauncher/settings.json`](.config/FlowLauncher/settings.json) → `%APPDATA%\FlowLauncher\Settings\Settings.json`
 
-- Restart Flow Launcher
+- **Restart Flow Launcher**
 
 ### 🦅 Windhawk
 
@@ -201,7 +201,7 @@ Here is all the information about my setup:
 	- Start Menu Styler
 	- Taskbar Styler
 - **Copy** the Windhawk config files from [`windots/.config/windhawk/`](.config/windhawk/)
-- **Apply the tweaks** from the Windhawk UI.
+- Open the relevant mod’s **details page**, go to **Advanced > Mod Settings**, paste the config, and click **"Load"** to apply it.
 
 ## \>_ Terminal & Shell Setup
 
