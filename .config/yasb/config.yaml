@@ -72,8 +72,8 @@ widgets:
   media:
     type: "yasb.media.MediaWidget"
     options:
-      label: "{title} - {artist}"
-      label_alt: "{title}"
+      label: "<span>\udb80\udf87</span> {title} - {artist}"
+      label_alt: "<span>\udb80\udf87</span> {title}"
       hide_empty: true
       callbacks:
         on_left: "toggle_label"
@@ -89,8 +89,8 @@ widgets:
       thumbnail_padding: 8
       thumbnail_corner_radius: 16
       icons:
-        prev_track: "\udb83\udf28"
-        next_track: "\udb83\udf27"
+        prev_track: "\udb81\udcae"
+        next_track: "\udb81\udcad"
         play: "\udb81\udc0a"
         pause: "\udb80\udfe4"
   clock:

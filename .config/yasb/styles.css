@@ -120,7 +120,7 @@
 .media-widget .btn.play,
 .media-widget .btn.prev,
 .media-widget .btn.next {
-    font-size: 22px;
+    font-size: 20px;
     color: var(--subtext0);
 }
 .media-widget .btn.play:hover,
