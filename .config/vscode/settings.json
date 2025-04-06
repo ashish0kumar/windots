@@ -57,4 +57,5 @@
         "wsl$"
     ],
     "go.toolsManagement.autoUpdate": true,
+    "remote.autoForwardPortsSource": "hybrid",
 }
