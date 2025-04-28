@@ -335,16 +335,16 @@ Got a question, idea, or a cool setup to share? Head over to [Discussions](https
 
 <h2 id="credits">🎉 ‎Credits</h2>
 
-Big **thanks** to everyone at [**r/unixporn**](https://reddit.com/r/unixporn) for inspiring me to make this!
+Big thanks to all the amazing communities like **r/unixporn**, **r/desktops**, **GlazeWM**, **YASB**, **Komorebi**, **Catppuccin**, and many others whose inspiration and contributions made this project possible!
 
-I wanna point out some resources that helped me the most with the setup:
+I wanna point out some resources and projects that helped me the most with the setup:
 
 - [**Matt-FTW**](https://github.com/Matt-FTW/dotfiles) to help me with the overall design of the **README** 🙏
-- [**GlazeWM**](https://github.com/glzr-io/glazewm) for providing an incredible **tiling window manager** experience that enhances my workflow and productivity ✨
-- [**YASB**](https://github.com/amnweb/yasb) for a **feature-rich and customizable status bar** that perfectly complements my setup 🚀
-- [**lunar-os**](https://github.com/lunar-os/windowsdesktop2) for the **Windhawk configs** 🦅
+- [**lunar-os**](https://github.com/lunar-os/windowsdesktop2) for the **Start menu windhawk config** 🦅
 - [**pivoshenko**](https://github.com/pivoshenko/catppuccin-startpage) for the aesthetic and clean **browser startpage** 🌐
 - [**orxngc**](https://github.com/orxngc/walls-catppuccin-mocha) for all the beautiful **catppuccinified wallpapers** 🖼️
+- [**GlazeWM**](https://github.com/glzr-io/glazewm) for providing an incredible **tiling window manager** experience that enhances my workflow ✨
+- [**YASB**](https://github.com/amnweb/yasb) for a **feature-rich and customizable status bar** that perfectly complements my setup 🚀
 - [**Catppuccin**](https://catppuccin.com) for making the **Best Colorscheme** Ever 🖌️
 
 ## 📜 License
