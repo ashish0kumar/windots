@@ -98,7 +98,7 @@ Here is all the information about my setup:
 | **File Manager**                       | 💖 [yazi](https://yazi-rs.github.io/) [⚙️](https://github.com/ashish0kumar/dotfiles/tree/master/.config/yazi) |
 | **Fuzzy File Finder**                  | 💖 [fzf](https://github.com/junegunn/fzf) |
 | **Git TUI**                            | [lazygit](https://github.com/jesseduffield/lazygit) |
-| **System Monitor**                     | [btop](https://github.com/aristocratos/btop) [⚙️](https://github.com/ashish0kumar/dotfiles/blob/master/.config/btop/btop.conf) |
+| **System Monitor**                     | [btop](https://github.com/aristocratos/btop) [⚙️](https://github.com/ashish0kumar/dotfiles/blob/master/.config/btop/btop.conf) & [bottom](https://github.com/ClementTsang/bottom) [⚙️](https://github.com/ashish0kumar/dotfiles/blob/master/.config/bottom/bottom.toml) |
 | **System Fetch**                       | [fastfetch](https://github.com/fastfetch-cli/fastfetch) [⚙️](https://github.com/ashish0kumar/dotfiles/blob/master/.config/fastfetch/config.jsonc) |
 | **Audio Visualizer** 			 | [cava](https://github.com/karlstav/cava) |
  
@@ -272,7 +272,6 @@ You can always change these in your `glazewm/config.yaml`
 
 <hr/>
 
-
 <h2 id="gallery">🖼️ ‎Gallery</h2>
 
 > [!NOTE]
@@ -328,6 +327,11 @@ You can always change these in your `glazewm/config.yaml`
 
 
 <hr>
+
+## 📌 TODO
+
+- [ ] 📦 Add an **install script** to set up the configs easily
+- [ ] 📄 Write **dedicated README files** inside each config folder with detailed information and usage instructions
 
 ## 📢 Join the Discussion
 
