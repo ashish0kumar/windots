@@ -371,7 +371,13 @@ Feel free to use and modify these dotfiles.
 
 ## 💫 Star History
 
-[![Stargazers over time](https://starchart.cc/ashish0kumar/windots.svg?variant=adaptive)](https://starchart.cc/ashish0kumar/windots)
+<a href="https://star-history.com/#ashish0kumar/windots&Date">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=ashish0kumar/windots&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=ashish0kumar/windots&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=ashish0kumar/windots&type=Date" />
+ </picture>
+</a>
 
 <br><br>
 
