@@ -28,12 +28,16 @@
 
 <h2 id="about">🌷 About</h2>
 
-#### 💖 For the Ricing and [r/unixporn](https://reddit.com/r/unixporn) Enthusiasts
+Hey there! 👋
 
-Welcome, fellow ricers! 👋 If you're a Windows user struggling to get that perfect riced setup and want something that feels more like a Unix environment, you're in the right place. This collection of dotfiles is here to help you level up your system’s aesthetics and productivity! 🚀
+Welcome to **windots**! This repo contains dotfiles for my Windows environment — designed for users who want a riced, Unix-like experience on Windows.
+
+I created this to transform my Windows environment into something cleaner and more *Unix-y*. Whether it's for a tiling window manager, terminal customization, or smoother workflows, everything here is aimed at making Windows feel less like a chore and more efficient to work with.
+
+If you're into [**r/unixporn**](https://reddit.com/r/unixporn)-style setups and want something similar on Windows, this might just help you get started!
 
 > [!NOTE]
-> All configs related to my **Linux setup (WSL2)** are maintained in this repository: [**dotfiles**](https://github.com/ashish0kumar/dotfiles)
+> All configurations related to my **Linux environment (WSL2 Ubuntu)** are maintained in a separate repository: [**dotfiles**](https://github.com/ashish0kumar/dotfiles)
 
 ## ✨ Features
 
@@ -121,7 +125,7 @@ Here is all the information about my setup:
 |---------------------------------------|--------------------------|
 | **Colorscheme**                       | 💖 [Catppuccin Mocha](https://catppuccin.com) |
 | **Font**                  		| [JetBrainsMono Nerd Font](https://www.jetbrains.com/lp/mono/) |
-| **Dotfiles Manager**              	| 💖 [GNU Stow](https://www.gnu.org/software/stow/) |
+| **Dotfiles Manager**              	| 💖 [GNU Stow](https://www.gnu.org/software/stow/) (in WSL2) |
  
 
 <h2 id="setup">🔧 Setup</h2>
@@ -133,7 +137,7 @@ Here is all the information about my setup:
 ### 🪟 GlazeWM
 
 > [!NOTE]  
-> This setup is compatible with the latest version of **GlazeWM** but **does not use Zebar**. Instead, it uses **YASB** for the bar.
+> This setup is compatible with the latest version of **GlazeWM** but **does not use Zebar**. Instead, it uses **YASB**.
 
 - **Install** [**GlazeWM**](https://github.com/glzr-io/glazewm/releases/).
 
@@ -196,11 +200,14 @@ Here is all the information about my setup:
 ### 🦅 Windhawk
 
 - **Install** [**Windhawk**](https://windhawk.net/).
+
 - **Install Relevant Mods** from the [Windhawk Store](https://windhawk.net/explore):
 	- Notification Center Styler
 	- Start Menu Styler
 	- Taskbar Styler
+
 - **Copy** the Windhawk config files from [`windots/.config/windhawk/`](.config/windhawk/)
+
 - Open the relevant mod’s **details page**, go to **Advanced > Mod Settings**, paste the config, and click **"Load"** to apply it.
 
 ## \>_ Terminal & Shell Setup
@@ -333,11 +340,16 @@ You can always change these in your `glazewm/config.yaml`
 - [ ] 📦 Add an **install script** to set up the configs easily
 - [ ] 📄 Write **dedicated README files** inside each config folder with detailed information and usage instructions
 
-## 📢 Join the Discussion
+## 📢 Discussions
 
-Got a question, idea, or a cool setup to share? Head over to [Discussions](https://github.com/ashish0kumar/windots/discussions) and be part of the community!
+Got a question, idea, or a cool setup to share? Or maybe you're facing an issue with the setup? <br>
+Head over to the [Discussions](https://github.com/ashish0kumar/windots/discussions) section.
 
-<h2 id="credits">🎉 ‎Credits</h2>
+> [!WARNING]  
+> Please open an [issue](https://github.com/ashish0kumar/windots/issues) only for reproducible bugs or critical problems. <br>
+> For all other help or feedback, use [Discussions](https://github.com/ashish0kumar/windots/discussions).
+
+<h2 id="credits">🎉 Credits</h2>
 
 Big thanks to all the amazing communities like **r/unixporn**, **r/desktops**, **GlazeWM**, **YASB**, **Komorebi**, **Catppuccin**, and many others whose inspiration and contributions made this project possible!
 
@@ -352,7 +364,10 @@ I wanna point out some resources and projects that helped me the most with the s
 - [**Catppuccin**](https://catppuccin.com) for making the **Best Colorscheme** Ever 🖌️
 
 ## 📜 License
-Feel free to use and modify these dotfiles to suit your needs.
+Licensed under the [MIT License](LICENSE) <br>
+Feel free to use and modify these dotfiles.
+
+<hr>
 
 ## 💫 Star History
 
