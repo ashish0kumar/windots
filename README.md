@@ -37,7 +37,7 @@ I created this to transform my Windows environment into something cleaner and mo
 If you're into [**r/unixporn**](https://reddit.com/r/unixporn)-style setups and want something similar on Windows, this might just help you get started!
 
 > [!NOTE]
-> All configurations related to my **Linux environment (WSL2 Ubuntu)** are maintained in a separate repository: [**dotfiles**](https://github.com/ashish0kumar/dotfiles)
+> All configurations related to my **Linux environment (WSL2)** are maintained in a separate repository: [**dotfiles**](https://github.com/ashish0kumar/dotfiles)
 
 ## ✨ Features
 
