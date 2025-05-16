@@ -5,24 +5,6 @@
 </p>
 
 <div align="center">
-  <a href="#about"><img src="https://img.shields.io/badge/About-302D41?style=for-the-badge&logo=bookstack&logoColor=C9CBFF&color=C9CBFF&labelColor=302D41" alt="about"></a>&nbsp;&nbsp;
-  <a href="#setup"><img src="https://img.shields.io/badge/Setup-302D41?style=for-the-badge&logo=opensourcehardware&logoColor=f9e2af&color=f9e2af&labelColor=302D41" alt="setup"></a>&nbsp;&nbsp;
-  <a href="#gallery"><img src="https://img.shields.io/badge/Gallery-302D41?style=for-the-badge&logo=googlephotos&logoColor=94e2d5&color=94e2d5&labelColor=302D41" alt="gallery"></a>&nbsp;&nbsp;
-  <a href="https://github.com/ashish0kumar/windots/discussions"><img src="https://img.shields.io/badge/Discussions-302D41?style=for-the-badge&logo=github&logoColor=eba0ac&color=eba0ac&labelColor=302D41" alt="discussions"></a>&nbsp;&nbsp;
-  <a href="#credits"><img src="https://img.shields.io/badge/Credits-302D41?style=for-the-badge&logo=discord&logoColor=CBA6F7&color=CBA6F7&labelColor=302D41" alt="credits"></a>
-</div>
-
-
-<br>
-
-![](assets/fetch.png)<br/><br/>
-![](assets/vscode.png)<br/><br/>
-![](assets/startpage.png)<br/><br/>
-![](assets/windhawk.png)<br/><br/>
-![](assets/nvim.png)<br/><br/>
-
-
-<div align="center">
 <p>
 <a href="https://github.com/ashish0kumar/windots/stargazers"><img src="https://img.shields.io/github/stars/ashish0kumar/windots?style=for-the-badge&logo=starship&color=C9CBFF&logoColor=C9CBFF&labelColor=302D41" alt="stars"><a>&nbsp;&nbsp;
 <a href="https://github.com/ashish0kumar/windots/"><img src="https://img.shields.io/github/repo-size/ashish0kumar/windots?style=for-the-badge&logo=hyprland&logoColor=f9e2af&label=Size&labelColor=302D41&color=f9e2af" alt="REPO SIZE"></a>&nbsp;&nbsp;
@@ -30,6 +12,16 @@
 <a href="https://github.com/ashish0kumar/windots/LICENSE"><img src="https://img.shields.io/github/license/ashish0kumar/windots?style=for-the-badge&logo=&color=CBA6F7&logoColor=CBA6F7&labelColor=302D41" alt="LICENSE"></a>&nbsp;&nbsp;
 </p>
 </div>
+
+<br>
+
+![](assets/fetch.png)<br/><br/>
+![](assets/vscode.png)<br/><br/>
+![](assets/startpage.png)<br/><br/>
+![](assets/windhawk.png)<br/><br/>
+![](assets/nvim.png)<br/>
+
+<hr>
 
 <h2 id="about">🌷 About</h2>
 
@@ -132,6 +124,7 @@ Here is all the information about my setup:
 | **Font**                  		| [JetBrainsMono Nerd Font](https://www.jetbrains.com/lp/mono/) |
 | **Dotfiles Manager**              	| 💖 [GNU Stow](https://www.gnu.org/software/stow/) (in WSL2) |
  
+<hr>
 
 <h2 id="setup">🔧 Setup</h2>
 
