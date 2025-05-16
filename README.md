@@ -1,12 +1,17 @@
 <h1 align="center">🌾 windots</h1>
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/palette/macchiato.png" width="400" />
+</p>
+
 <div align="center">
-  <a href="#about"><kbd> <br> 🌷 About <br> </kbd></a>&ensp;&ensp;
-  <a href="#setup"><kbd> <br> 🔧 Setup <br> </kbd></a>&ensp;&ensp;
-  <a href="#gallery"><kbd> <br> 🖼️ Gallery <br> </kbd></a>&ensp;&ensp;
-  <a href="https://github.com/ashish0kumar/windots/discussions"><kbd> <br> 💬 Discussions <br> </kbd></a>&ensp;&ensp;
-  <a href="#credits"><kbd> <br> 🎉 Credits <br> </kbd></a>&ensp;&ensp;
+  <a href="#about"><img src="https://img.shields.io/badge/About-302D41?style=for-the-badge&logo=bookstack&logoColor=C9CBFF&color=C9CBFF&labelColor=302D41" alt="about"></a>&nbsp;&nbsp;
+  <a href="#setup"><img src="https://img.shields.io/badge/Setup-302D41?style=for-the-badge&logo=opensourcehardware&logoColor=f9e2af&color=f9e2af&labelColor=302D41" alt="setup"></a>&nbsp;&nbsp;
+  <a href="#gallery"><img src="https://img.shields.io/badge/Gallery-302D41?style=for-the-badge&logo=googlephotos&logoColor=94e2d5&color=94e2d5&labelColor=302D41" alt="gallery"></a>&nbsp;&nbsp;
+  <a href="https://github.com/ashish0kumar/windots/discussions"><img src="https://img.shields.io/badge/Discussions-302D41?style=for-the-badge&logo=github&logoColor=eba0ac&color=eba0ac&labelColor=302D41" alt="discussions"></a>&nbsp;&nbsp;
+  <a href="#credits"><img src="https://img.shields.io/badge/Credits-302D41?style=for-the-badge&logo=discord&logoColor=CBA6F7&color=CBA6F7&labelColor=302D41" alt="credits"></a>
 </div>
+
 
 <br>
 
@@ -335,10 +340,10 @@ You can always change these in your `glazewm/config.yaml`
 
 <hr>
 
-## 📌 TODO
+## 📌 Todo
 
-- [ ] 📦 Add an **install script** to set up the configs easily
-- [ ] 📄 Write **dedicated README files** inside each config folder with detailed information and usage instructions
+- [ ] Add an **install script** to set up the configs easily
+- [ ] Write **dedicated README files** inside each config folder with detailed information and usage instructions
 
 ## 📢 Discussions
 
@@ -347,7 +352,7 @@ Head over to the [Discussions](https://github.com/ashish0kumar/windots/discussio
 
 > [!WARNING]  
 > Please open an [issue](https://github.com/ashish0kumar/windots/issues) only for reproducible bugs or critical problems. <br>
-> For all other help or feedback, use [Discussions](https://github.com/ashish0kumar/windots/discussions).
+> For all other help or feedback, [Discussions](https://github.com/ashish0kumar/windots/discussions) is preferred.
 
 <h2 id="credits">🎉 Credits</h2>
 
