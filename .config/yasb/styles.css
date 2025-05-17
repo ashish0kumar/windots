@@ -28,7 +28,7 @@
 }
 
 * {
-	font-size: 15px;
+	font-size: 14px;
 	color: var(--text);
 	font-weight: 600;
 	font-family: "JetBrainsMono Nerd Font";
@@ -45,7 +45,7 @@
 	margin: 0;
 }
 .icon {
-	font-size: 16px;
+	font-size: 14px;
 }
 .widget .label {
 	padding: 0px 10px 0 5px;
@@ -55,13 +55,15 @@
 
 .home-widget {
     background-color: #24273a;
-    border-radius: 20px;
+    border-radius: 15px;
+    height: 35px;
     padding: 0 12px;
     margin: 0 10px 0 0;
 }
 .home-widget .icon {
     color: var(--blue);
     padding: 0 5px 0 0;
+    font-size: 14px;
 }
 .home-widget .icon:hover {
     color: var(--text);
@@ -89,14 +91,23 @@
 
 .glazewm-workspaces {
     background-color: #24273a;
-    border-radius: 20px;
+    border-radius: 15px;
+    height: 35px;
 }
 .glazewm-workspaces .ws-btn {
     background-color: transparent;
     border: none;
-    padding: 0px 5px 0px 5px;
+    padding: 0px 4px;
 }
-.glazewm-workspaces .ws-btn.active {
+.glazewm-workspaces .ws-btn.active_populated {
+    color: var(--mauve);
+    background-color: var(--mauve);
+    width: 26px;
+    height: 13px;
+    border-radius: 6px;
+    margin: 0px 3px 0 7px;
+}
+.glazewm-workspaces .ws-btn.active_empty {
     color: var(--mauve);
 }
 .glazewm-workspaces .ws-btn.populated,
@@ -108,20 +119,16 @@
 
 .media-widget {
     background-color: #24273a;
-    border-radius: 20px;
+    border-radius: 15px;
+    height: 35px;
     margin: 0 0 0 10px;
-}
-.media-widget .btn.play {
-    padding: 0 5px 0 0;
-}
-.media-widget .btn.prev {
-    padding: 0 0 0 3px;
 }
 .media-widget .btn.play,
 .media-widget .btn.prev,
 .media-widget .btn.next {
     font-size: 20px;
     color: var(--subtext0);
+    padding: 0 5px;
 }
 .media-widget .btn.play:hover,
 .media-widget .btn.prev:hover,
@@ -129,11 +136,92 @@
     color: var(--text);
 }
 
+.media-menu {
+    min-width: 420px;
+    max-width: 420px;
+    background-color: #181825;
+	border-radius: 8px;
+}
+.media-menu .title,
+.media-menu .artist,
+.media-menu .source {
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 10px;
+    font-family: 'JetBrains Mono', Tahoma, Geneva, Verdana, sans-serif;
+}
+.media-menu .artist {
+    font-size: 13px;
+    color: var(--mauve);
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+.media-menu .source {
+    color: var(--base);
+}
+.media-menu .btn {
+    font-family: 'JetBrains Mono', 'Segoe Fluent Icons';
+    font-size: 18px;
+    font-weight: 400;
+    margin: 10px 2px 0px 2px;
+    min-width: 40px;
+    max-width: 40px;
+    min-height: 40px;
+    max-height: 40px;
+    border-radius: 20px;
+	color: var(--overlay0) ;
+}
+.media-menu .btn.prev {
+    margin-left: 10px;
+}
+.media-menu .btn:hover {
+    color: var(--overlay2);
+}
+.media-menu .btn.play {
+    font-size: 24px
+}
+.media-menu .btn.disabled:hover,
+.media-menu .btn.disabled {
+    color: #4e525c;
+    background-color: rgba(0, 0, 0, 0);
+}
+.media-menu .playback-time {
+    font-size: 13px;
+    font-family: 'JetBrains Mono', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--mauve);
+    margin-top: 20px;
+    min-width: 100px;
+}
+.media-menu .progress-slider {
+    height: 10px;
+    margin: 5px 4px;
+    border-radius: 3px;
+}
+.media-menu .progress-slider::groove {
+    background: transparent;
+    height: 2px;
+    border-radius: 3px;
+    background: rgba(255, 255, 255, 0.1);
+
+}
+.media-menu .progress-slider::groove:hover {
+    background: transparent;
+    height: 6px;
+    border-radius: 3px;
+    background: rgba(255, 255, 255, 0.2);
+}
+.media-menu .progress-slider::sub-page {
+    background: var(--mauve);
+    border-radius: 3px;
+    height: 4px;
+}
+
 /* Clock */
 
 .clock-widget .widget-container {
     background-color: #24273a;
-    border-radius: 20px;
+    border-radius: 15px;
+    height: 35px;
 }
 .clock-widget .widget-container .icon {
     color: var(--blue);
@@ -185,14 +273,8 @@
 
 /* Taskbar (currently active apps) */
  
-/*
-.taskbar-widget{
-    background-color: #24273a;
-    border-radius: 20px;
-    padding: 0 5px;
-}
-*/ 
 .taskbar-widget .app-icon{
+    font-size: 10px;
     padding: 0 0 0 10px;
 }
 
@@ -200,7 +282,8 @@
 
 .wifi-widget .widget-container {
     background-color: #24273a;
-    border-radius: 20px;
+    border-radius: 15px;
+    height: 35px;
 }
 .wifi-widget .widget-container .icon {
     font-size: 14px;
@@ -215,14 +298,15 @@
 
 .volume-widget {
     background-color: #24273a;
-    border-radius: 20px;
+    border-radius: 15px;
+    height: 35px;
     padding: 0 5px;
 }
 .volume-widget .label {
     padding: 0 5px 0 0;
 }
 .volume-widget .icon {
-    font-size: 18px;
+    font-size: 16px;
 	color: var(--peach);
     padding: 0 0 0 5px;
 }
@@ -234,7 +318,8 @@
 
 .battery-widget .widget-container {
     background-color: #24273a;
-    border-radius: 20px;
+    border-radius: 15px;
+    height: 35px;
 }
 .battery-widget .widget-container .icon.status-low {
     color: var(--red);
@@ -245,17 +330,21 @@
     padding: 0 5px 0 10px;
 }
 .battery-widget .widget-container .icon.status-high,
-.battery-widget .widget-container .icon.status-full,
-.battery-widget .widget-container .icon.status-charging {
+.battery-widget .widget-container .icon.status-full {
     color: var(--green);
     padding: 0 5px 0 10px;
+}
+.battery-widget .widget-container .icon.status-charging {
+    color: var(--blue);
+    padding: 0 0 0 10px;
 }
 
 /* Power menu */
 
 .power-menu-widget {
     background-color: #24273a;
-    border-radius: 20px;
+    border-radius: 15px;
+    height: 35px;
 }
 .power-menu-widget .label {
 	color: var(--red);
@@ -360,83 +449,5 @@
 }
 .wallpapers-gallery-image.focused {
     border: 4px solid var(--sapphire);
-}
-*/
-
-/* Github */
-
-/* 
-.github-menu {
-    background-color:  rgba(17, 17, 27, 0.2);
-    max-height: 500px;
-    min-height: 500px;
-    min-width: 420px;
-}
-.github-menu .header {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-    font-size: 15px;
-    font-weight: 400;
-    font-family: 'JetBrains Mono', Tahoma, Geneva, Verdana, sans-serif;
-    padding: 8px;
-    color: white;
-    background-color: rgba(17, 17, 27, 0.75);
-}
-.github-menu .footer {
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
-    font-size: 12px;
-    padding: 4px 8px 6px 8px;
-    font-family: 'JetBrains Mono', Tahoma, Geneva, Verdana, sans-serif;
-    color: #9399b2;
-    background-color: rgba(17, 17, 27, 0.75);
-}
-.github-menu .contents {
-    background-color:  rgba(17, 17, 27, 0.2);
-}
-.github-menu .contents .item {
-    min-height: 40px;
-    padding: 6px 0;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.075);
-}
-.github-menu .contents .item:hover {
-    background-color: rgba(255, 255, 255, 0.05);
-    border-bottom: 1px solid rgba(255, 255, 255, 0);
-}
-.github-menu .contents .item .title,
-.github-menu .contents .item .description {
-    color: #9399b2;
-    font-family: JetBrains Mono;
-}
-.github-menu .contents .item .title {
-    font-size: 14px;
-    font-weight: 600; 
-}
-.github-menu .contents .item .description {
-    font-size: 12px;
-    font-weight: 500
-}
-.github-menu .contents .item.new .title,
-.github-menu .contents .item.new .description {
-    color: #ffffff
-}
-.github-menu .contents .item .icon {
-    font-size: 16px;
-    padding-right: 0;
-    padding-left: 8px;
-    padding-right: 4px;
-    color: #9399b2;
-}
-.github-menu .contents .item.new .icon {
-    color: #3fb950;
-}
-.github-widget {
-    padding: 0 5px;
-}
-.github-widget .icon {
-    font-size: 16px;
-    margin: 0 5px;
-	color: var(--text)
-}
-.github-widget .icon.new-notification {
-    color: var(--red);
 }
 */

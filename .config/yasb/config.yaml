@@ -1,6 +1,7 @@
 watch_stylesheet: true
 watch_config: true
 debug: false
+
 bars:
   primary-bar:
     enabled: true
@@ -20,16 +21,28 @@ bars:
       windows_app_bar: true
     dimensions:
       width: "100%"
-      height: 50
+      height: 40
     padding:
       top: 0
       left: 0
       bottom: 0
       right: 0
     widgets:
-      left: ["home","glazewm_workspaces","media"]
-      center: ["clock"]
-      right: ["taskbar","wifi","volume","battery","power_menu"]
+      left: [
+        "home",
+        "glazewm_workspaces",
+        "media"
+      ]
+      center: [
+        "clock",
+      ]
+      right: [
+        "taskbar",
+        "wifi",
+        "volume",
+        "battery",
+        "power_menu"
+      ]
 widgets:
   home:
     type: "yasb.home.HomeWidget"
@@ -45,7 +58,7 @@ widgets:
       blur: true
       round_corners: true
       round_corners_type: "normal"
-      border_color: "System"
+      border_color: "#585b70"
       distance: 6
       container_padding: 
         top: 0
@@ -76,11 +89,11 @@ widgets:
       label_alt: "<span>\udb80\udf87</span> {title}"
       hide_empty: true
       callbacks:
-        on_left: "toggle_label"
+        on_left: "toggle_media_menu"
         on_middle: "do_nothing"
-        on_right: "do_nothing"
+        on_right: "toggle_label"
       max_field_size:
-        label: 20
+        label: 40
         label_alt: 30
       show_thumbnail: false
       controls_only: false
@@ -93,6 +106,30 @@ widgets:
         next_track: "\udb81\udcad"
         play: "\udb81\udc0a"
         pause: "\udb80\udfe4"
+      media_menu:
+        blur: true
+        round_corners: true
+        round_corners_type: "normal"
+        border_color: "#585b70"
+        alignment: "right"
+        direction: "down"
+        offset_top: 6
+        offset_left: 10
+        thumbnail_corner_radius: 8
+        thumbnail_size: 120
+        max_title_size: 80
+        max_artist_size: 20
+        show_source: true
+      media_menu_icons:
+        play: "\ue768"
+        pause: "\ue769"
+        prev_track: "\ue892"
+        next_track: "\ue893"
+      label_shadow:
+        enabled: true
+        color: "black"
+        radius: 3
+        offset: [ 1, 1 ]
   clock:
     type: "yasb.clock.ClockWidget"
     options:
@@ -103,7 +140,7 @@ widgets:
       blur: True
       round_corners: True
       round_corners_type: 'normal'
-      border_color: 'System'
+      border_color: "#585b70"
       alignment: 'center'
       direction: 'down'
       distance: 6
