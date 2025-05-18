@@ -234,16 +234,6 @@ widgets:
         hibernate: ["\uf28e", "Hibernate"]
         sleep: ["\u23fe", "Sleep"]
         cancel: ["", "Cancel"]
-  github:
-    type: "yasb.github.GithubWidget"
-    options:
-      label: "<span>\ueba1</span>"
-      label_alt: "Notifications {data}"
-      token: env
-      max_notification: 30
-      only_unread: false
-      max_field_size: 54
-      update_interval: 60
   wallpapers:
     type: "yasb.wallpapers.WallpapersWidget"
     options:

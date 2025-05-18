@@ -106,13 +106,16 @@
     height: 13px;
     border-radius: 6px;
     margin: 0px 3px 0 7px;
+    border: none;
 }
 .glazewm-workspaces .ws-btn.active_empty {
     color: var(--mauve);
+    border: none;
 }
 .glazewm-workspaces .ws-btn.populated,
 .glazewm-workspaces .ws-btn.empty {
     color: var(--overlay1);
+    border: none;
 }
 
 /* Media */
@@ -274,7 +277,7 @@
 /* Taskbar (currently active apps) */
  
 .taskbar-widget .app-icon{
-    font-size: 10px;
+    font-size: 12px;
     padding: 0 0 0 10px;
 }
 
