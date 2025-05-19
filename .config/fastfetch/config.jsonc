@@ -3,7 +3,7 @@
   "logo": {
     "source": "C:/Users/ashis/.config/fastfetch/windows.txt",
     "padding": {
-      "top": 2,
+      "top": 1,
       "right": 4
     }
   },
@@ -12,36 +12,40 @@
   },
   "modules": [
 	  "break",
-	  "break",
 	  {
       "type": "title",
-      "keyWidth": 10
+      "format": "{#34}{user-name}@{host-name}{#}"
     },
     "break",
     {
       "type": "os",
       "key": " ",
-      "keyColor": "blue"
+      "keyColor": "blue",
+      "format": "{name} {version}"
     },
     {
-      "type": "kernel",
-      "key": " ",
-      "keyColor": "blue"
+      "type": "host",
+      "key": " ",
+      "keyColor": "blue",
+      "format": "{family}"
     },
     {
       "type": "shell",
       "key": " ",
-      "keyColor": "blue"
+      "keyColor": "blue",
+      "format": "{pretty-name}"
     },
     {
-      "type": "uptime",
-      "key": " ",
-      "keyColor": "blue"
+      "type": "cpu",
+      "key": " ",
+      "keyColor": "blue",
+      "format": "Intel i5-12500H" // Hardcoded
     },
     {
       "type": "memory",
       "key": " ",
-      "keyColor": "blue"
+      "keyColor": "blue",
+      "format": "{used} / {total}"
     },
     "break",
     {
@@ -49,7 +53,6 @@
       "symbol": "circle"
     },
 
-    "break",
     "break"
   ]
 }
