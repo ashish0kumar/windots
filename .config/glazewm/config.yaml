@@ -226,7 +226,7 @@ keybindings:
 
   # Focus the workspace that last had focus.
   - commands: ["focus --recent-workspace"]
-    bindings: ["alt+d"]
+    bindings: ["alt+`"]
 
   # Change focus to a workspace defined in `workspaces` config.
   - commands: ["focus --workspace 1"]
@@ -296,8 +296,7 @@ keybindings:
     bindings: ["alt+n"]
 
   - commands: ["shell-exec C:\\Users\\ashis\\Desktop\\Discord.lnk"]
-    bindings: ["alt+m"]
+    bindings: ["alt+d"]
 
   - commands: ["shell-exec C:\\Users\\ashis\\Desktop\\Spotify.lnk"]
     bindings: ["alt+s"]
-  
