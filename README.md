@@ -23,7 +23,7 @@
 
 <hr>
 
-<h2 id="about">🌷 About</h2>
+## 🌷 About
 
 Hey there! 👋
 
@@ -126,7 +126,7 @@ Here is all the information about my setup:
  
 <hr>
 
-<h2 id="setup">🔧 Setup</h2>
+## 🔧 Setup
 
 > [!WARNING]
 > Before proceeding, make sure to **backup your existing configuration files**.  
@@ -277,7 +277,7 @@ You can always change these in your `glazewm/config.yaml`
 
 <hr/>
 
-<h2 id="gallery">🖼️ ‎Gallery</h2>
+## 🖼️ ‎Gallery
 
 > [!NOTE]
 > You can check out the **wallpapers** [**here**](https://github.com/ashish0kumar/windots/tree/main/walls#readme) if you're interested!
@@ -335,19 +335,19 @@ You can always change these in your `glazewm/config.yaml`
 
 ## 📌 Todo
 
-- [ ] Add an **install script** to set up the configs easily
-- [ ] Write **dedicated README files** inside each config folder with detailed information and usage instructions
+- [ ] Add an **install script** to set up the configs easily.
+- [ ] Write **dedicated README files** inside each config folder with detailed information and usage instructions.
 
 ## 📢 Discussions
 
-Got a question, idea, or a cool setup to share? Or maybe you're facing an issue with the setup? <br>
+Have a question, idea, or a cool setup to share? Or maybe you're running into an issue? <br>
 Head over to the [Discussions](https://github.com/ashish0kumar/windots/discussions) section.
 
 > [!WARNING]  
-> Please open an [issue](https://github.com/ashish0kumar/windots/issues) only for reproducible bugs or critical problems. <br>
-> For all other help or feedback, [Discussions](https://github.com/ashish0kumar/windots/discussions) is preferred.
+> Please open an [issue](https://github.com/ashish0kumar/windots/issues) **only** for reproducible bugs or critical problems. <br>
+> For all other help or feedback, [Discussions](https://github.com/ashish0kumar/windots/discussions) is **preferred**.
 
-<h2 id="credits">🎉 Credits</h2>
+## 🎉 Credits
 
 Big thanks to all the amazing communities like **r/unixporn**, **r/desktops**, **GlazeWM**, **YASB**, **Komorebi**, **Catppuccin**, and many others whose inspiration and contributions made this project possible!
 
@@ -361,19 +361,27 @@ I wanna point out some resources and projects that helped me the most with the s
 - [**YASB**](https://github.com/amnweb/yasb) for a **feature-rich and customizable status bar** that perfectly complements my setup 🚀
 - [**Catppuccin**](https://catppuccin.com) for making the **Best Colorscheme** Ever 🖌️
 
-## 📜 License
-Licensed under the [MIT License](LICENSE) <br>
-Feel free to use and modify these dotfiles.
+
+## 💵 Donating
+
+If you want to support my work, please consider donating.
+This is optional, but it's always appreciated.
+
+[![](https://img.shields.io/badge/sponsor-30363D?style=for-the-badge&logo=GitHub-Sponsors&i&color=585b70&logoColor=D9E0EE&labelColor=302D41)](https://github.com/sponsors/ashish0kumar)
+[![](https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&color=f38ba8&logoColor=D9E0EE&labelColor=302D41)](https://ko-fi.com/ashish0kumar)
+[![](https://img.shields.io/badge/-buy_me_a%C2%A0coffee-gray?style=for-the-badge&logo=buy-me-a-coffee&color=f9e2af&logoColor=D9E0EE&labelColor=302D41)](https://www.buymeacoffee.com/ashish0kumar)
+
+Thank you! 💖
 
 <hr>
 
 ## 💫 Star History
 
-<a href="https://star-history.com/#ashish0kumar/windots&Date">
+<a href="https://www.star-history.com/#ashish0kumar/windots&Timeline">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=ashish0kumar/windots&type=Date&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=ashish0kumar/windots&type=Date" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=ashish0kumar/windots&type=Date" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=ashish0kumar/windots&type=Timeline&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=ashish0kumar/windots&type=Timeline" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=ashish0kumar/windots&type=Timeline" />
  </picture>
 </a>
 
