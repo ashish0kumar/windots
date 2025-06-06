@@ -85,8 +85,8 @@ widgets:
   media:
     type: "yasb.media.MediaWidget"
     options:
-      label: "<span>\udb80\udf87</span> {title} - {artist}"
-      label_alt: "<span>\udb80\udf87</span> {title}"
+      label: "<span>\udb80\udf87</span> {title}"
+      label_alt: "<span>\udb80\udf87</span> {title} - {artist}"
       hide_empty: true
       callbacks:
         on_left: "toggle_media_menu"
@@ -94,7 +94,7 @@ widgets:
         on_right: "toggle_label"
       max_field_size:
         label: 40
-        label_alt: 30
+        label_alt: 60
       show_thumbnail: false
       controls_only: false
       controls_left: false

@@ -97,6 +97,7 @@
 .glazewm-workspaces .ws-btn {
     background-color: transparent;
     border: none;
+    outline: none;
     padding: 0px 4px;
 }
 .glazewm-workspaces .ws-btn.active_populated {
