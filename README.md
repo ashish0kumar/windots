@@ -368,8 +368,7 @@ If you want to support my work, please consider donating.
 This is optional, but it's always appreciated.
 
 [![](https://img.shields.io/badge/sponsor-30363D?style=for-the-badge&logo=GitHub-Sponsors&i&color=585b70&logoColor=D9E0EE&labelColor=302D41)](https://github.com/sponsors/ashish0kumar)
-[![](https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&color=f38ba8&logoColor=D9E0EE&labelColor=302D41)](https://ko-fi.com/ashish0kumar)
-[![](https://img.shields.io/badge/-buy_me_a%C2%A0coffee-gray?style=for-the-badge&logo=buy-me-a-coffee&color=f9e2af&logoColor=D9E0EE&labelColor=302D41)](https://www.buymeacoffee.com/ashish0kumar)
+[![](https://img.shields.io/badge/-buy_me_a%C2%A0coffee-gray?style=for-the-badge&logo=buy-me-a-coffee&color=585b70&logoColor=D9E0EE&labelColor=302D41)](https://buymeacoffee.com/ashish0kumar)
 
 Thank you! 💖
 
