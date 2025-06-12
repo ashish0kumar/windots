@@ -376,13 +376,7 @@ Thank you! 💖
 
 ## 💫 Star History
 
-<a href="https://www.star-history.com/#ashish0kumar/windots&Timeline">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=ashish0kumar/windots&type=Timeline&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=ashish0kumar/windots&type=Timeline" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=ashish0kumar/windots&type=Timeline" />
- </picture>
-</a>
+[![Stargazers over time](https://starchart.cc/ashish0kumar/windots.svg?background=%231e1e2e&axis=%23cdd6f4&line=%23cba6f7)](https://starchart.cc/ashish0kumar/windots)
 
 <br><br>
 
