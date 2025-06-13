@@ -51,37 +51,48 @@
       <img alt="cat-vibin" src="../cat-vibin.png" width="260" height="150"/>
     </td>
     <td>
-      <img alt="cat_leaves" src="../cat_leaves.png" width="260" height="150"/>
+      <img alt="cat_drink" src="../cat_drink.png" width="260" height="150"/>
     </td>
     <td>
-      <img alt="clouds-3" src="../clouds-3.jpg" width="260" height="150"/>
+      <img alt="cat_leaves" src="../cat_leaves.png" width="260" height="150"/>
     </td>
   </tr>
   <tr>
     <td>
+      <img alt="cat_pacman" src="../cat_pacman.png" width="260" height="150"/>
+    </td>
+    <td>
+      <img alt="clouds-3" src="../clouds-3.jpg" width="260" height="150"/>
+    </td>
+    <td>
       <img alt="clouds-3" src="../clouds-3.png" width="260" height="150"/>
     </td>
+  </tr>
+  <tr>
     <td>
       <img alt="cold-alley" src="../cold-alley.png" width="260" height="150"/>
     </td>
     <td>
       <img alt="degirled" src="../degirled.png" width="260" height="150"/>
     </td>
-  </tr>
-  <tr>
     <td>
       <img alt="dominik-mayer" src="../dominik-mayer.jpg" width="260" height="150"/>
     </td>
+  </tr>
+  <tr>
     <td>
       <img alt="doom-catppuccin-l3" src="../doom-catppuccin-l3.png" width="260" height="150"/>
     </td>
     <td>
       <img alt="flowering-rain" src="../flowering-rain.png" width="260" height="150"/>
     </td>
+    <td>
+      <img alt="genshin-landscape" src="../genshin-landscape.png" width="260" height="150"/>
+    </td>
   </tr>
   <tr>
     <td>
-      <img alt="genshin-landscape" src="../genshin-landscape.png" width="260" height="150"/>
+      <img alt="harmony" src="../harmony.png" width="260" height="150"/>
     </td>
     <td>
       <img alt="hollow-knight" src="../hollow-knight.png" width="260" height="150"/>
