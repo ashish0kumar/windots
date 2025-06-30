@@ -21,7 +21,7 @@
 ![](assets/windhawk.png)<br/><br/>
 ![](assets/nvim.png)<br/>
 
-<hr>
+---
 
 ## 🌷 About
 
@@ -124,7 +124,7 @@ Here is all the information about my setup:
 | **Colorscheme**                       | 💖 [Catppuccin Mocha](https://catppuccin.com) |
 | **Font**                  		| [JetBrainsMono Nerd Font](https://www.jetbrains.com/lp/mono/) |
  
-<hr>
+---
 
 ## 🔧 Setup
 
@@ -297,56 +297,32 @@ You can always change these in your `.glzr\glazewm\config.yaml`
 > [!NOTE]
 > You can check out the **wallpapers** [**here**](https://github.com/ashish0kumar/windots/tree/main/walls#readme) if you're interested!
 
-| **Browser on [r/unixporn](https://reddit.com/r/unixporn) and cmatrix, cbonsai scripts** |
-|-------------------------------------------------------|
-| ![](assets/unixporn.png) |
+| **Browser on [r/unixporn](https://reddit.com/r/unixporn) & cmatrix, cbonsai scripts** | **GUI Text Editor**    |
+| ------------------------------------------------------------------------------------- | ---------------------- |
+| ![](assets/unixporn.png)                                                              | ![](assets/vscode.png) |
 
-| **GUI Text Editor** |
-|-------------------------------------------------------|
-| ![](assets/vscode.png) |
+| **Topbar menu and TUI System Monitor** | **Browser [startpage](https://github.com/ashish0kumar/startpage)** |
+| -------------------------------------- | ------------------------------------------------------------------ |
+| ![](assets/btop.png)                   | ![](assets/startpage.png)                                          |
 
-| **Topbar menu and TUI System Monitor** |
-|-------------------------------------------------------|
-| ![](assets/btop.png) |
+| **Text Editor**      | **Fuzzy finder preview, ls replacement and cd preview** |
+| -------------------- | ------------------------------------------------------- |
+| ![](assets/nvim.png) | ![](assets/cli_replace.png)                             |
 
-| **Browser [startpage](https://github.com/ashish0kumar/startpage)** |
-|-------------------------------------------------------|
-| ![](assets/startpage.png) |
+| **TUI File Manager** | **Start Menu, Taskbar and Notification Center** |
+| -------------------- | ----------------------------------------------- |
+| ![](assets/yazi.png) | ![](assets/windhawk.png)                        |
 
-| **Text Editor** |
-|-------------------------------------------------------|
-| ![](assets/nvim.png) |
+| **Topbar Calendar Widget, tty-clock and App Launcher** | **Music Player and CLI Music Visualiser** |
+| ------------------------------------------------------ | ----------------------------------------- |
+| ![](assets/cal_clock.png)                              | ![](assets/spotify.png)                   |
 
-| **Fuzzy finder preview, ls replacement and cd preview** |
-|-------------------------------------------------------|
-| ![](assets/cli_replace.png) |
-
-| **TUI File Manager** |
-|-------------------------------------------------------|
-| ![](assets/yazi.png) |
-
-| **Start Menu, Taskbar and Notification Center** |
-|-------------------------------------------------------|
-| ![](assets/windhawk.png) |
-
-| **Topbar Calendar Widget, tty-clock and App Launcher** |
-|-------------------------------------------------------|
-| ![](assets/cal_clock.png) |
-
-| **Music Player and CLI Music Visualiser** |
-|-------------------------------------------------------|
-| ![](assets/spotify.png) |
-
-| **Git UI Manager and Telescope find_files** |
-|-------------------------------------------------------|
-| ![](assets/git_telescope.png) |
-
-| **Power Menu** |
-|-------------------------------------------------------|
-| ![](assets/power.png) |
+| **Git UI Manager and Telescope find\_files** | **Power Menu**        |
+| -------------------------------------------- | --------------------- |
+| ![](assets/git_telescope.png)                | ![](assets/power.png) |
 
 
-<hr>
+---
 
 ## 📌 Todo
 
@@ -387,7 +363,7 @@ This is optional, but it's always appreciated.
 
 Thank you! 💖
 
-<hr>
+---
 
 ## 💫 Star History
 
