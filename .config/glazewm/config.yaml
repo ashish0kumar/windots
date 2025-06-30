@@ -171,8 +171,7 @@ keybindings:
   - commands: ["wm-enable-binding-mode --name pause"]
     bindings: ["alt+shift+p"]
 
-  # Change tiling direction. This determines where new tiling windows will
-  # be inserted.
+  # Change tiling direction. This determines where new tiling windows will be inserted.
   - commands: ["toggle-tiling-direction"]
     bindings: ["alt+v"]
 
@@ -212,18 +211,6 @@ keybindings:
   - commands: ["wm-redraw"]
     bindings: ["alt+shift+w"]
 
-  # Launch CMD terminal. Alternatively, use `shell-exec wt` or
-  # `shell-exec %ProgramFiles%/Git/git-bash.exe` to start Windows
-  # Terminal and Git Bash respectively.
-  - commands: ["shell-exec wt"]
-    bindings: ["alt+enter"]
-
-  # Focus the next/previous workspace defined in `workspaces` config.
-  # - commands: ["focus --next-workspace"]
-  #   bindings: ["alt+s"]
-  # - commands: ["focus --prev-workspace"]
-  #   bindings: ["alt+a"]
-
   # Focus the workspace that last had focus.
   - commands: ["focus --recent-workspace"]
     bindings: ["alt+`"]
@@ -248,8 +235,7 @@ keybindings:
   - commands: ["focus --workspace 9"]
     bindings: ["alt+9"]
 
-  # Move the focused window's parent workspace to a monitor in a given
-  # direction.
+  # Move the focused window's parent workspace to a monitor in a given direction.
   - commands: ["move-workspace --direction left"]
     bindings: ["alt+shift+a"]
   - commands: ["move-workspace --direction right"]
@@ -279,24 +265,68 @@ keybindings:
   - commands: ["move --workspace 9", "focus --workspace 9"]
     bindings: ["alt+shift+9"]
 
-  # Custom keybindings for applications.
+  # Custom keybindings for applications
+
+  # Open Windows Terminal wsl profile
+  - commands: ["shell-exec wt"]
+    bindings: ["alt+enter"]
+
+  # Open Windows Terminal PowerShell profile
+  - commands: ["shell-exec wt --profile \"Windows PowerShell\""]
+    bindings: ["alt+p"]
+
+  # Open file explorer
   - commands: ["shell-exec explorer"]
     bindings: ["alt+e"]
 
+  # Open browser
   - commands: ["shell-exec zen"]
     bindings: ["alt+b"]
 
+  # Open VSCode
   - commands: ["shell-exec C:\\Users\\ashis\\Desktop\\VSCode.lnk"]
     bindings: ["alt+c"]
 
-  - commands: ["shell-exec C:\\Users\\ashis\\Desktop\\WhatsApp.lnk"]
-    bindings: ["alt+w"]
-
+  # Open Obisian
   - commands: ["shell-exec C:\\Users\\ashis\\Desktop\\Obsidian.lnk"]
-    bindings: ["alt+n"]
+    bindings: ["alt+o"]
 
+  # Open Spotify
+  - commands: ["shell-exec C:\\Users\\ashis\\Desktop\\Spotify.lnk"]
+    bindings: ["alt+m"]
+
+  # Open Discord
   - commands: ["shell-exec C:\\Users\\ashis\\Desktop\\Discord.lnk"]
     bindings: ["alt+d"]
 
-  - commands: ["shell-exec C:\\Users\\ashis\\Desktop\\Spotify.lnk"]
-    bindings: ["alt+s"]
+  # Open WhatsApp
+  - commands: ["shell-exec C:\\Users\\ashis\\Desktop\\WhatsApp.lnk"]
+    bindings: ["alt+w"]
+
+  # Open Neovim
+  - commands: ["shell-exec wsl -d Ubuntu nvim"]
+    bindings: ["alt+n"]
+
+  # Open btop
+  - commands: ["shell-exec wsl -d Ubuntu btop"]
+    bindings: ["alt+t"]
+
+  # Open YouTube
+  - commands: ["shell-exec cmd /c start zen -new-window https://www.youtube.com"]
+    bindings: ["alt+y"]
+
+  # Open Twitter
+  - commands: ["shell-exec cmd /c start zen -new-window https://x.com"]
+    bindings: ["alt+x"]
+
+  # Open ChatGPT
+  - commands: ["shell-exec cmd /c start zen -new-window https://chat.openai.com"]
+    bindings: ["alt+a"]
+
+  # Open GitHub
+  - commands: ["shell-exec cmd /c start zen -new-window https://github.com/ashish0kumar"]
+    bindings: ["alt+g"]
+
+  # Open LeetCode
+  - commands: ["shell-exec cmd /c start zen -new-window https://leetcode.com/ashish0kumar/"]
+    bindings: ["alt+l"]
