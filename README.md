@@ -79,28 +79,29 @@ Here is all the information about my setup:
 | 📚 Entry                           	 | ✨ App                  |
 |----------------------------------------|--------------------------|
 | **OS** 				 | [Windows 11](https://www.microsoft.com/en-in/windows/windows-11) + [WSL2](https://learn.microsoft.com/en-us/windows/wsl/) |
-| **Window Manager** 			 | 💖 [GlazeWM](https://github.com/glzr-io/glazewm) [⚙️](https://github.com/ashish0kumar/windots/blob/master/.config/glazewm/config.yaml) |
-| **Bar** 				 | 💖 [YASB](https://github.com/amnweb/yasb) [⚙️](https://github.com/ashish0kumar/windots/blob/master/.config/yasb/) |
-| **Application Launcher** 		 | [Flow Launcher](https://www.flowlauncher.com/) [⚙️](https://github.com/ashish0kumar/windots/blob/main/.config/FlowLauncher/Settings.json) |
-| **Mods** 				 | 💖 [Windhawk](https://windhawk.net/) [⚙️](https://github.com/ashish0kumar/windots/blob/main/.config/winddhawk/) |
+| **Window Manager** 			 | 💖 [GlazeWM](https://github.com/glzr-io/glazewm) [⚙️](https://github.com/ashish0kumar/windots/blob/main/.config/glazewm/config.yaml) |
+| **Bar** 				 | 💖 [YASB](https://github.com/amnweb/yasb) [⚙️](https://github.com/ashish0kumar/windots/blob/main/.config/yasb/) |
+| **Application Launcher** 		 | [Flow Launcher](https://www.flowlauncher.com/) [⚙️](https://github.com/ashish0kumar/windots/blob/main/.config/FlowLauncher/settings.json) |
+| **Mods** 				 | 💖 [Windhawk](https://windhawk.net/) [⚙️](https://github.com/ashish0kumar/windots/blob/main/.config/windhawk/) |
 
 #### 🖥️ CLI/TUI Apps (Configs for these can be found in this repo: [**dotfiles**](https://github.com/ashish0kumar/dotfiles))
 
 | 📚 Entry                           	 | ✨ App                  |
 |----------------------------------------|--------------------------|
-| **Shell**                              | 💖 [zsh](https://zsh.sourceforge.io/) [⚙️](https://github.com/ashish0kumar/dotfiles/blob/master/.zshrc) / [pwsh](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_pwsh?view=powershell-7.4) [⚙️](https://github.com/ashish0kumar/windots/blob/main/.config/WindowsPowershell/Microsoft.PowerShell_profile.ps1) |
+| **Shell**                              | 💖 [zsh](https://zsh.sourceforge.io/) [⚙️](https://github.com/ashish0kumar/dotfiles/blob/main/.zshrc) / [pwsh](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_pwsh?view=powershell-7.4) [⚙️](https://github.com/ashish0kumar/windots/blob/main/.config/WindowsPowershell/Microsoft.PowerShell_profile.ps1) |
 | **Terminal Emulator**                  | [windows terminal](https://github.com/microsoft/terminal) [⚙️](https://github.com/ashish0kumar/windots/blob/main/.config/terminal/settings.json) |
-| **Terminal Multiplexer**               | 💖 [tmux](https://github.com/tmux/tmux) [⚙️](https://github.com/ashish0kumar/dotfiles/blob/master/.config/tmux/tmux.conf) |
+| **Terminal Multiplexer**               | 💖 [tmux](https://github.com/tmux/tmux) [⚙️](https://github.com/ashish0kumar/dotfiles/blob/main/.config/tmux/tmux.conf) |
 | **Shell Prompt**                       | [ohmyposh](https://ohmyposh.dev/) [⚙️](https://github.com/ashish0kumar/windots/blob/main/.config/ohmyposh/zen.toml) |
-| **Text Editor**                        | 💖 [neovim](https://neovim.io/) [⚙️](https://github.com/ashish0kumar/dotfiles/tree/master/.config/nvim) |
+| **Text Editor**                        | 💖 [neovim](https://neovim.io/) [⚙️](https://github.com/ashish0kumar/dotfiles/tree/main/.config/nvim) |
 | **CD Replacement**                     | 💖 [zoxide](https://github.com/ajeetdsouza/zoxide) |
 | **LS Replacement**                     | [eza](https://github.com/eza-community/eza) |
-| **Cat Replacement**                    | [bat](https://github.com/sharkdp/bat) [⚙️](https://github.com/ashish0kumar/dotfiles/tree/master/.config/bat) |
-| **File Manager**                       | 💖 [yazi](https://yazi-rs.github.io/) [⚙️](https://github.com/ashish0kumar/dotfiles/tree/master/.config/yazi) |
+| **Cat Replacement**                    | [bat](https://github.com/sharkdp/bat) [⚙️](https://github.com/ashish0kumar/dotfiles/tree/main/.config/bat) |
+| **File Manager**                       | 💖 [yazi](https://yazi-rs.github.io/) [⚙️](https://github.com/ashish0kumar/dotfiles/tree/main/.config/yazi) |
 | **Fuzzy File Finder**                  | 💖 [fzf](https://github.com/junegunn/fzf) |
+| **Git**                                 | [git](https://git-scm.com/) [⚙️](https://github.com/ashish0kumar/dotfiles/tree/main/.config/git) |
 | **Git TUI**                            | [lazygit](https://github.com/jesseduffield/lazygit) |
-| **System Monitor**                     | [btop](https://github.com/aristocratos/btop) [⚙️](https://github.com/ashish0kumar/dotfiles/blob/master/.config/btop/btop.conf) & [bottom](https://github.com/ClementTsang/bottom) [⚙️](https://github.com/ashish0kumar/dotfiles/blob/master/.config/bottom/bottom.toml) |
-| **System Fetch**                       | [fastfetch](https://github.com/fastfetch-cli/fastfetch) [⚙️](https://github.com/ashish0kumar/dotfiles/blob/master/.config/fastfetch/config.jsonc) |
+| **System Monitor**                     | [btop](https://github.com/aristocratos/btop) [⚙️](https://github.com/ashish0kumar/dotfiles/blob/main/.config/btop/btop.conf) & [bottom](https://github.com/ClementTsang/bottom) [⚙️](https://github.com/ashish0kumar/dotfiles/blob/main/.config/bottom/bottom.toml) |
+| **System Fetch**                       | [fastfetch](https://github.com/fastfetch-cli/fastfetch) [⚙️](https://github.com/ashish0kumar/dotfiles/blob/main/.config/fastfetch/config.jsonc) |
 | **Audio Visualizer** 			 | [cava](https://github.com/karlstav/cava) |
  
 
@@ -122,7 +123,6 @@ Here is all the information about my setup:
 |---------------------------------------|--------------------------|
 | **Colorscheme**                       | 💖 [Catppuccin Mocha](https://catppuccin.com) |
 | **Font**                  		| [JetBrainsMono Nerd Font](https://www.jetbrains.com/lp/mono/) |
-| **Dotfiles Manager**              	| 💖 [GNU Stow](https://www.gnu.org/software/stow/) (in WSL2) |
  
 <hr>
 
