@@ -50,7 +50,7 @@ If you're into [**r/unixporn**](https://reddit.com/r/unixporn)-style setups and 
 - 💫 Beautiful [**Wallpapers**](https://github.com/ashish0kumar/windots/tree/main/walls#readme)
 - 🐈 [**Catppuccin**](https://github.com/catppuccin) everywhere
 
-<hr/>
+---
 
 ## 🌸 Core System Info
 
@@ -65,7 +65,7 @@ If you're into [**r/unixporn**](https://reddit.com/r/unixporn)-style setups and 
 - **Browser:** [Zen-Browser](https://zen-browser.app) 🌐
 - **Colorscheme:** [Catppuccin](https://catppuccin.com/) 🎨
 
-<hr/>
+---
 
 ### ℹ️ Whole System Info
 
@@ -254,30 +254,45 @@ winget install fastfetch
 
 - **Run fastfetch**.
 
-<hr/>
+---
 
 ## ⌨️ GlazeWM keybindings 
 
-You can always change these in your `glazewm/config.yaml`
+You can always change these in your `.glzr\glazewm\config.yaml`
 
-| Keys                                                                   | Action                                                          |
-|------------------------------------------------------------------------|-----------------------------------------------------------------|
-| <kbd>alt</kbd> + <kbd>enter</kbd>                                      | Open terminal                                                   |
-| <kbd>alt</kbd> + <kbd>h \| j \| k \| l</kbd>                           | Focus window left \| top \| bottom \| right                     |
-| <kbd>alt</kbd> + <kbd>shift</kbd> + <kbd>h \| j \| k \| l</kbd>        | Move focusing window left \| top \| bottom \| right             |
-| <kbd>alt</kbd> + <kbd>q</kbd>                                          | Close focusing window                                           |
-| <kbd>alt</kbd> + <kbd>1 - 9</kbd>                                      | Focus workspace {n}                                             | 
-| <kbd>alt</kbd> + <kbd>shift</kbd> + <kbd>1 - 9</kbd>                   | Move focusing window to workspace {n}                           |
-| <kbd>alt</kbd> + <kbd>m</kbd>                                          | Toggle window minimization                                	   |
-| <kbd>alt</kbd> + <kbd>f</kbd>                                          | Toggle window maximization                             	   |
-| <kbd>alt</kbd> + <kbd>v</kbd>                                          | Change tiling direction    					   |
-| <kbd>alt</kbd> + <kbd>t</kbd>                                          | Make focusing window float/tiled                                |
-| <kbd>alt</kbd> + <kbd>shift</kbd> + <kbd>e</kbd>                       | Exit glazewm                                                    |
+### 🪟 Window Management & Navigation
 
+| Keys                                    | Action                                                        |
+|----------------------------------------|---------------------------------------------------------------|
+| <kbd>alt</kbd> + <kbd>h \| j \| k \| l</kbd>                   | Focus window left \| down \| up \| right                     |
+| <kbd>alt</kbd> + <kbd>shift</kbd> + <kbd>h \| j \| k \| l</kbd>  | Move focused window left \| down \| up \| right              |
+| <kbd>alt</kbd> + <kbd>q</kbd>         | Close focused window                                         |
+| <kbd>alt</kbd> + <kbd>1 - 9</kbd>     | Focus workspace {n}                                         | 
+| <kbd>alt</kbd> + <kbd>shift</kbd> + <kbd>1 - 9</kbd>            | Move focused window to workspace {n}                         |
+| <kbd>alt</kbd> + <kbd>m</kbd>         | Toggle window minimization                                  |
+| <kbd>alt</kbd> + <kbd>f</kbd>         | Toggle window maximization                                  |
+| <kbd>alt</kbd> + <kbd>v</kbd>         | Change tiling direction                                     |
+| <kbd>alt</kbd> + <kbd>t</kbd>         | Toggle floating/tiled window state                          |
+| <kbd>alt</kbd> + <kbd>shift</kbd> + <kbd>e</kbd>                | Exit GlazeWM                                                |
 
-<hr/>
+### 🚀 Custom App & Browser Shortcuts
 
-## 🖼️ ‎Gallery
+> **Note:** All browser links open in new browser windows for isolated sessions
+
+| Keys                              | Action              | Keys                          | Action                     |
+| --------------------------------- | ------------------- | ----------------------------- | -------------------------- |
+| <kbd>alt</kbd> + <kbd>enter</kbd> | Open Terminal (WSL) | <kbd>alt</kbd> + <kbd>p</kbd> | Open Terminal (PowerShell) |
+| <kbd>alt</kbd> + <kbd>e</kbd>     | Open File Explorer  | <kbd>alt</kbd> + <kbd>c</kbd> | Open VSCode                |
+| <kbd>alt</kbd> + <kbd>o</kbd>     | Open Obsidian       | <kbd>alt</kbd> + <kbd>m</kbd> | Open Spotify               |
+| <kbd>alt</kbd> + <kbd>d</kbd>     | Open Discord        | <kbd>alt</kbd> + <kbd>w</kbd> | Open WhatsApp              |
+| <kbd>alt</kbd> + <kbd>n</kbd>     | Open Neovim         | <kbd>alt</kbd> + <kbd>t</kbd> | Open btop                  |
+| <kbd>alt</kbd> + <kbd>b</kbd>     | Open Zen Browser    | <kbd>alt</kbd> + <kbd>y</kbd> | Open YouTube               |
+| <kbd>alt</kbd> + <kbd>x</kbd>     | Open X (Twitter)    | <kbd>alt</kbd> + <kbd>a</kbd> | Open ChatGPT               |
+| <kbd>alt</kbd> + <kbd>g</kbd>     | Open GitHub Profile | <kbd>alt</kbd> + <kbd>l</kbd> | Open LeetCode Profile      |
+
+---
+
+## 🖼️ Gallery
 
 > [!NOTE]
 > You can check out the **wallpapers** [**here**](https://github.com/ashish0kumar/windots/tree/main/walls#readme) if you're interested!
