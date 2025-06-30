@@ -15,11 +15,19 @@
 
 <br>
 
-![](assets/fetch.png)<br/><br/>
-![](assets/vscode.png)<br/><br/>
-![](assets/startpage.png)<br/><br/>
-![](assets/windhawk.png)<br/><br/>
-![](assets/nvim.png)<br/>
+<div align="center">
+  <img src="assets/fetch.png" alt="fetch" width="100%"/>
+</div>
+
+<div align="center">
+  <img src="assets/vscode.png" alt="VSCode" width="49%"/>
+  <img src="assets/startpage.png" alt="Startpage" width="49%"/>
+</div>
+
+<div align="center">
+  <img src="assets/windhawk.png" alt="Windhawk" width="49%"/>
+  <img src="assets/nvim.png" alt="Neovim" width="49%"/>
+</div>
 
 ---
 
