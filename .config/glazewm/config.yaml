@@ -307,10 +307,6 @@ keybindings:
   - commands: ["shell-exec wsl -d Ubuntu nvim"]
     bindings: ["alt+n"]
 
-  # Open btop
-  - commands: ["shell-exec wsl -d Ubuntu btop"]
-    bindings: ["alt+t"]
-
   # Open YouTube
   - commands: ["shell-exec cmd /c start zen -new-window https://www.youtube.com"]
     bindings: ["alt+y"]
