@@ -326,3 +326,7 @@ keybindings:
   # Open LeetCode
   - commands: ["shell-exec cmd /c start zen -new-window https://leetcode.com/ashish0kumar/"]
     bindings: ["alt+l"]
+
+  # Restart yasb
+  - commands: ["shell-exec powershell -Command \"Stop-Process -Name yasb; Start-Process yasb\""]
+    bindings: ["alt+shift+b"]
