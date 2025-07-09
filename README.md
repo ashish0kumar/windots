@@ -1,20 +1,5 @@
 <h1 align="center">🌾 windots</h1>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/palette/macchiato.png" width="400" />
-</p>
-
-<div align="center">
-<p>
-<a href="https://github.com/ashish0kumar/windots/stargazers"><img src="https://img.shields.io/github/stars/ashish0kumar/windots?style=for-the-badge&logo=starship&color=C9CBFF&logoColor=C9CBFF&labelColor=302D41" alt="stars"><a>&nbsp;&nbsp;
-<a href="https://github.com/ashish0kumar/windots/"><img src="https://img.shields.io/github/repo-size/ashish0kumar/windots?style=for-the-badge&logo=hyprland&logoColor=f9e2af&label=Size&labelColor=302D41&color=f9e2af" alt="REPO SIZE"></a>&nbsp;&nbsp;
-<a href="https://github.com/ashish0kumar/windots/commits/main/"><img src="https://img.shields.io/github/last-commit/ashish0kumar/windots?style=for-the-badge&logo=github&logoColor=eba0ac&label=Last%20Commit&labelColor=302D41&color=eba0ac" alt="Last Commit"></a>&nbsp;&nbsp;
-<a href="https://github.com/ashish0kumar/windots/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ashish0kumar/windots?style=for-the-badge&logo=&color=CBA6F7&logoColor=CBA6F7&labelColor=302D41" alt="LICENSE"></a>&nbsp;&nbsp;
-</p>
-</div>
-
-<br>
-
 <div align="center">
   <img src="assets/fetch.png" alt="fetch" width="100%"/>
 </div>
@@ -377,8 +362,16 @@ Thank you! 💖
 
 [![Stargazers over time](https://starchart.cc/ashish0kumar/windots.svg?background=%231e1e2e&axis=%23cdd6f4&line=%23cba6f7)](https://starchart.cc/ashish0kumar/windots)
 
-<br><br>
+<br>
 
 <p align="center">
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/footers/gray0_ctp_on_line.svg?sanitize=true" />
 </p>
+
+<p align="center">
+        <i><code>&copy 2025-present <a href="https://github.com/ashish0kumar">Ashish Kumar</a></code></i>
+</p>
+
+<div align="center">
+<a href="https://github.com/ashish0kumar/windots/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ashish0kumar/windots?style=for-the-badge&color=CBA6F7&logoColor=cdd6f4&labelColor=302D41" alt="LICENSE"></a>&nbsp;&nbsp;
+</div>
