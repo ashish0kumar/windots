@@ -278,7 +278,7 @@ You can always change these in your `.glzr\glazewm\config.yaml`
 | <kbd>alt</kbd> + <kbd>e</kbd>     | Open File Explorer  | <kbd>alt</kbd> + <kbd>c</kbd> | Open VSCode                |
 | <kbd>alt</kbd> + <kbd>o</kbd>     | Open Obsidian       | <kbd>alt</kbd> + <kbd>m</kbd> | Open Spotify               |
 | <kbd>alt</kbd> + <kbd>d</kbd>     | Open Discord        | <kbd>alt</kbd> + <kbd>w</kbd> | Open WhatsApp              |
-| <kbd>alt</kbd> + <kbd>n</kbd>     | Open Neovim         | <kbd>alt</kbd> + <kbd>t</kbd> | Open btop                  |
+| <kbd>alt</kbd> + <kbd>n</kbd>     | Open Neovim         | <kbd>alt</kbd> + <kbd>s</kbd> | Open btop                  |
 | <kbd>alt</kbd> + <kbd>b</kbd>     | Open Zen Browser    | <kbd>alt</kbd> + <kbd>y</kbd> | Open YouTube               |
 | <kbd>alt</kbd> + <kbd>x</kbd>     | Open X (Twitter)    | <kbd>alt</kbd> + <kbd>a</kbd> | Open ChatGPT               |
 | <kbd>alt</kbd> + <kbd>g</kbd>     | Open GitHub Profile | <kbd>alt</kbd> + <kbd>l</kbd> | Open LeetCode Profile      |
