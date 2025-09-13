@@ -106,7 +106,7 @@ Here is all the information about my setup:
 | **Music Player**                       | 💖 [Spotify](https://open.spotify.com/) (patched with [Spicetify](https://spicetify.app/)) |
 | **Web Browser**               	 | 💖 [Zen-Browser](https://zen-browser.app) [⚙️](https://github.com/ashish0kumar/windots/blob/main/.config/browser/) 🏡 [startpage](https://github.com/ashish0kumar/startpage) |
 | **Note Taking App**                    | 💖 [Obsidian](https://obsidian.md/) |
-| **File Manager**                       | [File Explorer](https://www.microsoft.com/en-us/windows/tips/file-explorer) |
+| **File Manager**                       | [File Pilot](https://filepilot.tech/) |
 | **Office Apps**                     	 | [LibreOffice](https://www.libreoffice.org/) |
  
 
