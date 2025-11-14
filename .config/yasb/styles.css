@@ -31,7 +31,7 @@
 	font-size: 14px;
 	color: var(--text);
 	font-weight: 600;
-	font-family: "JetBrainsMono Nerd Font";
+	font-family: "JetBrainsMono NF";
 	margin: 0;
 	padding: 0;
 }
@@ -280,6 +280,10 @@
 .taskbar-widget .app-icon{
     font-size: 12px;
     padding: 0 0 0 10px;
+}
+
+.taskbar-widget .app-container{
+	padding: 0 5 0 5px;
 }
 
 /* Wifi */
