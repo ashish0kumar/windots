@@ -31,7 +31,7 @@
 	font-size: 14px;
 	color: var(--text);
 	font-weight: 600;
-	font-family: "JetBrainsMono Nerd Font";
+	font-family: 'JetBrainsMono NF';
 	margin: 0;
 	padding: 0;
 }
@@ -74,7 +74,7 @@
 .home-menu .menu-item {
     padding: 10px 48px 10px 16px;
     font-size: 14px;
-    font-family: 'JetBrains Mono', Tahoma, Geneva, Verdana, sans-serif;
+    : 'JetBrains Mono', Tahoma, Geneva, Verdana, sans-serif;
     color: var(--text); 
     font-weight: 600;
 }
@@ -152,7 +152,7 @@
     font-size: 14px;
     font-weight: 600;
     margin-left: 10px;
-    font-family: 'JetBrains Mono', Tahoma, Geneva, Verdana, sans-serif;
+    : 'JetBrains Mono', Tahoma, Geneva, Verdana, sans-serif;
 }
 .media-menu .artist {
     font-size: 13px;
@@ -164,7 +164,7 @@
     color: var(--base);
 }
 .media-menu .btn {
-    font-family: 'JetBrains Mono', 'Segoe Fluent Icons';
+    : 'JetBrains Mono', 'Segoe Fluent Icons';
     font-size: 18px;
     font-weight: 400;
     margin: 10px 2px 0px 2px;
@@ -191,7 +191,7 @@
 }
 .media-menu .playback-time {
     font-size: 13px;
-    font-family: 'JetBrains Mono', Tahoma, Geneva, Verdana, sans-serif;
+    : 'JetBrains Mono', Tahoma, Geneva, Verdana, sans-serif;
     color: var(--mauve);
     margin-top: 20px;
     min-width: 100px;
@@ -243,7 +243,7 @@
 .calendar .calendar-table::item {
     background-color: #24273a;
     color: var(--overlay1);
-    font-family: 'JetBrains Mono', Tahoma, Geneva, Verdana, sans-serif;
+    : 'JetBrains Mono', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
     border: none;
@@ -258,7 +258,7 @@
 .calendar .day-label,
 .calendar .month-label,
 .calendar .date-label {
-    font-family: 'JetBrains Mono', Tahoma, Geneva, Verdana, sans-serif;
+    : 'JetBrains Mono', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 16px;
     color: var(--text);
     font-weight: 700;
@@ -280,6 +280,10 @@
 .taskbar-widget .app-icon{
     font-size: 12px;
     padding: 0 0 0 10px;
+}
+
+.taskbar-widget .app-container{
+padding: 0 5 0 5px;
 }
 
 /* Wifi */
