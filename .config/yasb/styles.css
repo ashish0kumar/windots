@@ -27,14 +27,23 @@
     --crust: rgba(17, 17, 27, 0.5);
 }
 
+/* Global font:
+ * Default is "JetBrainsMono Nerd Font".
+ * If icons (Windows logo, Wi-Fi, etc.) still look broken
+ * even after installing the Nerd Font, some setups register it
+ * as "JetBrainsMono NF" instead.
+ * In that case, change the line below to:
+ *   font-family: "JetBrainsMono NF";
+ */
 * {
-	font-size: 14px;
-	color: var(--text);
-	font-weight: 600;
-	font-family: "JetBrainsMono NF";
-	margin: 0;
-	padding: 0;
+    font-size: 14px;
+    color: var(--text);
+    font-weight: 600;
+    font-family: "JetBrainsMono Nerd Font";
+    margin: 0;
+    padding: 0;
 }
+
 .yasb-bar {
 	padding: 5px 15px;
 	margin: 0; 
