@@ -2,14 +2,67 @@
   font-family: "JetBrains Mono" !important;
 }
 
+/* Hide workspace indicator */
+.zen-current-workspace-indicator {
+  display: none !important;
+}
+
 #zen-essentials-container {
   margin-bottom: 3px !important;
 }
 
-#zen-current-workspace-indicator-container,
-.titlebar-buttonbox-container {
+.pinned-tabs-container-separator {
   display: none !important;
 }
+
+/* Hide unecessary icons from url bar */
+
+/* Extension icon in new tab page */
+#urlbar #identity-box.extensionPage {
+  display: none !important;
+}
+
+/* Bookmark star*/
+#star-button-box {
+  display: none !important;
+}
+
+/* Copy url */
+#zen-copy-url-button {
+  display: none !important;
+}
+
+/* Sidebar toggle */
+#zen-toggle-compact-mode {
+  display: none !important;
+}
+
+#back-button {
+  margin-left: 40px !important;
+}
+
+/* Hide native window icons in Zen Browser */
+.titlebar-button image,
+.titlebar-button .toolbarbutton-icon,
+.titlebar-button::before,
+.titlebar-button::after {
+  display: none !important;
+  visibility: collapse !important;
+}
+
+/* Floating status bar */
+#statuspanel {
+  margin: 10px !important;
+}
+
+#statuspanel-label {
+  border-radius: 10000px !important;
+  padding: 2px 10px !important;
+  border: 1px solid var(--zen-colors-border) !important;
+  background: var(--zen-colors-tertiary) !important;
+}
+
+/* Theme using Catppuccin mocha palette */
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -42,6 +95,8 @@
     --newtab-background-color: #1e1e2e !important;
     --newtab-text-primary-color: #cdd6f4 !important;
     --newtab-primary-action-background: #cba6f7 !important;
+
+    --urlbar-box-bgcolor: #181825 !important;
   }
 
   /* Zen UI elements */
@@ -55,11 +110,11 @@
 
   /* URL bar */
   #urlbar-container,
-  #urlbar-background {
+  .urlbar-background {
     background-color: #181825 !important;
   }
 
-  .urlbar[breakout][breakout-extend] > #urlbar-background {
+  .urlbar[breakout][breakout-extend] > .urlbar-background {
     background-color: #181825 !important;
     border: 1px solid #313244 !important;
   }
