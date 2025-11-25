@@ -272,7 +272,7 @@ keybindings:
     bindings: ["alt+enter"]
 
   # Open Windows Terminal PowerShell profile
-  - commands: ["shell-exec wt --profile \"Windows PowerShell\""]
+  - commands: ['shell-exec wt --profile "Windows PowerShell"']
     bindings: ["alt+p"]
 
   # Open file explorer
@@ -286,6 +286,10 @@ keybindings:
   # Open VSCode
   - commands: ["shell-exec C:\\Users\\ashis\\Desktop\\VSCode.lnk"]
     bindings: ["alt+c"]
+
+  # Open Zed
+  - commands: ["shell-exec zed"]
+    bindings: ["alt+z"]
 
   # Open Obisian
   - commands: ["shell-exec C:\\Users\\ashis\\Desktop\\Obsidian.lnk"]
@@ -332,5 +336,5 @@ keybindings:
     bindings: ["alt+l"]
 
   # Restart yasb
-  - commands: ["shell-exec powershell -Command \"Stop-Process -Name yasb; Start-Process yasb\""]
+  - commands: ['shell-exec powershell -Command "Stop-Process -Name yasb; Start-Process yasb"']
     bindings: ["alt+shift+b"]
