@@ -2,9 +2,6 @@
   "code-runner.clearPreviousOutput": true,
   "editor.minimap.enabled": false,
   "code-runner.runInTerminal": true,
-  "[python]": {
-    "editor.formatOnType": true
-  },
   "liveServer.settings.donotShowInfoMsg": true,
   "workbench.iconTheme": "catppuccin-mocha",
   "editor.fontFamily": "JetBrainsMono Nerd Font",
@@ -56,5 +53,9 @@
   "remote.autoForwardPortsSource": "hybrid",
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.lineHeight": 1.5
+  "editor.lineHeight": 1.5,
+  "[yaml]": {
+    "editor.formatOnSave": false,
+    "editor.formatOnType": false
+  }
 }
