@@ -1,0 +1,124 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "inline_code_actions": false,
+  "current_line_highlight": "line",
+  "scrollbar": {
+    "show": "system",
+  },
+  "debugger": {
+    "button": false,
+  },
+  "search": {
+    "button": false,
+  },
+  "diagnostics": {
+    "button": false,
+  },
+  "cursor_shape": "bar",
+  "toolbar": {
+    "quick_actions": false,
+    "code_actions": false,
+    "agent_review": false,
+    "selections_menu": false,
+    "breadcrumbs": false,
+  },
+  "active_pane_modifiers": {
+    "inactive_opacity": 1.0,
+    "border_size": 0.0,
+  },
+  "zoomed_padding": true,
+  "pane_split_direction_vertical": "right",
+  "use_system_window_tabs": false,
+  "bottom_dock_layout": "contained",
+  "preview_tabs": {
+    "enable_preview_from_file_finder": false,
+    "enabled": true,
+  },
+  "tabs": {
+    "show_diagnostics": "off",
+    "show_close_button": "hover",
+    "close_position": "right",
+    "file_icons": true,
+    "git_status": false,
+  },
+  "tab_bar": {
+    "show_nav_history_buttons": false,
+    "show": true,
+  },
+  "title_bar": {
+    "show_branch_icon": true,
+    "show_branch_name": true,
+    "show_project_items": true,
+    "show_onboarding_banner": false,
+    "show_user_picture": false,
+    "show_sign_in": false,
+    "show_menus": false,
+  },
+  "ui_font_family": "JetBrainsMono Nerd Font",
+  "buffer_line_height": {
+    "custom": 1.5,
+  },
+  "buffer_font_weight": 400.0,
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false,
+  },
+  "terminal": {
+    "button": false,
+    "font_size": 17.0,
+    "font_family": "JetBrainsMono Nerd Font",
+  },
+  "project_panel": {
+    "entry_spacing": "comfortable",
+    "default_width": 240.0,
+    "hide_hidden": false,
+    "hide_root": true,
+    "indent_guides": {
+      "show": "never",
+    },
+    "indent_size": 15.0,
+    "git_status": true,
+    "hide_gitignore": false,
+    "dock": "right",
+    "button": true,
+    "auto_fold_dirs": false,
+  },
+  "base_keymap": "VSCode",
+  "status_bar": {
+    "active_language_button": true,
+    "experimental.show": false,
+  },
+  "multi_cursor_modifier": "cmd_or_ctrl",
+  "minimap": {
+    "show": "never",
+  },
+  "cursor_blink": true,
+  "autosave": {
+    "after_delay": {
+      "milliseconds": 1000,
+    },
+  },
+  "buffer_font_family": "JetBrainsMono Nerd Font",
+  "auto_indent_on_paste": true,
+  "linked_edits": true,
+  "icon_theme": "Catppuccin Mocha",
+  "ui_font_size": 18.0,
+  "buffer_font_size": 17.0,
+  "theme": {
+    "mode": "dark",
+    "light": "One Light",
+    "dark": "Catppuccin Mocha",
+  },
+  "git": {
+    "inline_blame": {
+      "enabled": false,
+    },
+  },
+}
