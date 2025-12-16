@@ -33,7 +33,7 @@ If you're into [**r/unixporn**](https://reddit.com/r/unixporn)-style setups and 
 
 - 🪟 **Glazewm** config
 - ❄️ Beautiful **YASB** config
-- 🌸 Minimal **VSCode** setup
+- 🌸 Minimal **VSCode** and **Zed** setups
 - \>_ Sleek **windows terminal** config
 - 🐚 **Powershell** config
 - 🎨 **Ohmyposh** theme
@@ -52,7 +52,7 @@ If you're into [**r/unixporn**](https://reddit.com/r/unixporn)-style setups and 
 - **Shell:** [powershell](https://learn.microsoft.com/en-us/powershell/) / [zsh](https://zsh.sourceforge.io/) 🐚
 - **Terminal Emulator:** [Windows terminal](https://github.com/microsoft/terminal) >_
 - **Panel:** [YASB](https://github.com/amnweb/yasb) ❄️
-- **Text Editor:** [VSCode](https://code.visualstudio.com/) and [neovim](https://neovim.io/) ⌨️
+- **Text Editor:** [Zed](https://zed.dev/) / [neovim](https://neovim.io/) ⌨️
 - **App Launcher:** [Flow launcher](https://www.flowlauncher.com/) 🚀
 - **File Manager:** [File explorer](https://www.microsoft.com/en-us/windows/tips/file-explorer) / [yazi](https://yazi-rs.github.io/) 📂
 - **Browser:** [Zen-Browser](https://zen-browser.app) 🌐
@@ -102,9 +102,9 @@ Here is all the information about my setup:
 
 | 📚 Entry                           	 | ✨ App                  |
 |----------------------------------------|--------------------------|
-| **Fallback Text Editor**               | [VSCode](https://code.visualstudio.com/) [⚙️](https://github.com/ashish0kumar/windots/blob/main/.config/vscode/settings.json) |
+| **Text Editor**              		     | [Zed](https://zed.dev/) [⚙️](https://github.com/ashish0kumar/windots/blob/main/.config/zed/settings.json)  / [VSCode](https://code.visualstudio.com/) [⚙️](https://github.com/ashish0kumar/windots/blob/main/.config/vscode/settings.json) |
 | **Music Player**                       | 💖 [Spotify](https://open.spotify.com/) (patched with [Spicetify](https://spicetify.app/)) |
-| **Web Browser**               	 | 💖 [Zen-Browser](https://zen-browser.app) [⚙️](https://github.com/ashish0kumar/windots/blob/main/.config/browser/) 🏡 [startpage](https://github.com/ashish0kumar/startpage) |
+| **Web Browser**               	 	 | 💖 [Zen-Browser](https://zen-browser.app) [⚙️](https://github.com/ashish0kumar/windots/blob/main/.config/browser/) 🏡 [startpage](https://github.com/ashish0kumar/startpage) |
 | **Note Taking App**                    | 💖 [Obsidian](https://obsidian.md/) |
 | **File Manager**                       | [File Pilot](https://filepilot.tech/) |
 | **Office Apps**                     	 | [LibreOffice](https://www.libreoffice.org/) |
@@ -159,6 +159,14 @@ Here is all the information about my setup:
 - [`windots/.config/vscode/settings.json`](.config/vscode/settings.json) → `%APPDATA%\Code\User\settings.json`
 
 - **Restart VSCode** to load the updated settings.
+
+### 📝 Zed
+
+- Install [Zed](https://zed.dev/)
+
+- [`windots/.config/zed/settings.json`](.config/zed/settings.json) →  `%APPDATA%\Zed\settings.json`
+
+- Restart Zed
 
 ### 🌐 Browser
 
