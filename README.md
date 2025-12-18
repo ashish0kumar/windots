@@ -20,7 +20,7 @@
 
 Hey there! 👋
 
-Welcome to **windots**! This repo contains dotfiles for my Windows environment — designed for users who want a riced, Unix-like experience on Windows.
+Welcome to **windots**! This repo contains dotfiles for my Windows environment, designed for users who want a riced, Unix-like experience on Windows.
 
 I created this to transform my Windows environment into something cleaner and more *Unix-y*. Whether it's for a tiling window manager, terminal customization, or smoother workflows, everything here is aimed at making Windows feel less like a chore and more efficient to work with.
 
@@ -31,14 +31,14 @@ If you're into [**r/unixporn**](https://reddit.com/r/unixporn)-style setups and 
 
 ## ✨ Features
 
-- 🪟 **Glazewm** config
+- 🪟 **GlazeWM** setup
 - ❄️ Beautiful **YASB** config
 - 🌸 Minimal **VSCode** and **Zed** setups
-- \>_ Sleek **windows terminal** config
-- 🐚 **Powershell** config
-- 🎨 **Ohmyposh** theme
-- ⚙️ Minimal **fastfetch** config
-- 🚀 **Flow launcher** config
+- \>_ Sleek **Windows Terminal** config
+- 🐚 **PowerShell** config
+- 🎨 **Oh My Posh** theme
+- ⚙️ Minimal **Fastfetch** config
+- 🚀 **Flow Launcher** config
 - 🦅 Themeable **Start menu, Taskbar and Notification center**
 - 💫 Beautiful [**Wallpapers**](https://github.com/ashish0kumar/windots/tree/main/walls#readme)
 - 🐈 [**Catppuccin**](https://github.com/catppuccin) everywhere
@@ -49,12 +49,12 @@ If you're into [**r/unixporn**](https://reddit.com/r/unixporn)-style setups and 
 
 - **OS:** [Windows 11](https://www.microsoft.com/en-in/windows/windows-11) 🪟 + [WSL2](https://learn.microsoft.com/en-us/windows/wsl/) 🐧
 - **WM:** [GlazeWM](https://github.com/glzr-io/glazewm) ✨
-- **Shell:** [powershell](https://learn.microsoft.com/en-us/powershell/) / [zsh](https://zsh.sourceforge.io/) 🐚
-- **Terminal Emulator:** [Windows terminal](https://github.com/microsoft/terminal) >_
+- **Shell:** [PowerShell](https://learn.microsoft.com/en-us/powershell/) / [zsh](https://zsh.sourceforge.io/) 🐚
+- **Terminal Emulator:** [Windows Terminal](https://github.com/microsoft/terminal) >_
 - **Panel:** [YASB](https://github.com/amnweb/yasb) ❄️
 - **Text Editor:** [Zed](https://zed.dev/) / [neovim](https://neovim.io/) ⌨️
-- **App Launcher:** [Flow launcher](https://www.flowlauncher.com/) 🚀
-- **File Manager:** [File explorer](https://www.microsoft.com/en-us/windows/tips/file-explorer) / [yazi](https://yazi-rs.github.io/) 📂
+- **App Launcher:** [Flow Launcher](https://www.flowlauncher.com/) 🚀
+- **File Manager:** [File Explorer](https://www.microsoft.com/en-us/windows/tips/file-explorer) / [yazi](https://yazi-rs.github.io/) 📂
 - **Browser:** [Zen-Browser](https://zen-browser.app) 🌐
 - **Colorscheme:** [Catppuccin](https://catppuccin.com/) 🎨
 
@@ -65,24 +65,37 @@ If you're into [**r/unixporn**](https://reddit.com/r/unixporn)-style setups and 
 Here is all the information about my setup:
 
 > [!NOTE]
-> Some of this apps have the **config files** included in the repo, which are marked with ⚙️. Also, my **favorite programs and tools** are marked with 💖.
+> Some of these apps have the **config files** included in the repo, which are marked with ⚙️  
+> Also, my **favorite programs and tools** are marked with 💖
 
-#### 🪟 System
+<details>
+	
+<summary>🪟 <b>System</b></summary>
+
+<br>
 
 | 📚 Entry                           	 | ✨ App                  |
 |----------------------------------------|--------------------------|
-| **OS** 				 | [Windows 11](https://www.microsoft.com/en-in/windows/windows-11) + [WSL2](https://learn.microsoft.com/en-us/windows/wsl/) |
-| **Window Manager** 			 | 💖 [GlazeWM](https://github.com/glzr-io/glazewm) [⚙️](https://github.com/ashish0kumar/windots/blob/main/.config/glazewm/config.yaml) |
-| **Bar** 				 | 💖 [YASB](https://github.com/amnweb/yasb) [⚙️](https://github.com/ashish0kumar/windots/blob/main/.config/yasb/) |
-| **Application Launcher** 		 | [Flow Launcher](https://www.flowlauncher.com/) [⚙️](https://github.com/ashish0kumar/windots/blob/main/.config/FlowLauncher/settings.json) |
-| **Mods** 				 | 💖 [Windhawk](https://windhawk.net/) [⚙️](https://github.com/ashish0kumar/windots/blob/main/.config/windhawk/) |
+| **OS** 				 				 | [Windows 11](https://www.microsoft.com/en-in/windows/windows-11) + [WSL2](https://learn.microsoft.com/en-us/windows/wsl/) |
+| **Window Manager** 			 		 | 💖 [GlazeWM](https://github.com/glzr-io/glazewm) [⚙️](https://github.com/ashish0kumar/windots/blob/main/.config/glazewm/config.yaml) |
+| **Bar** 				 				 | 💖 [YASB](https://github.com/amnweb/yasb) [⚙️](https://github.com/ashish0kumar/windots/blob/main/.config/yasb/) |
+| **Application Launcher** 		 		 | [Flow Launcher](https://www.flowlauncher.com/) [⚙️](https://github.com/ashish0kumar/windots/blob/main/.config/FlowLauncher/settings.json) |
+| **Mods** 				 				 | 💖 [Windhawk](https://windhawk.net/) [⚙️](https://github.com/ashish0kumar/windots/blob/main/.config/windhawk/) |
 
-#### 🖥️ CLI/TUI Apps (Configs for these can be found in this repo: [**dotfiles**](https://github.com/ashish0kumar/dotfiles))
+</details>
+
+<details>
+	
+<summary>🖥️ <b>CLI/TUI Apps</b> </summary>
+
+<br>
+
+Configs for these can be found in [**dotfiles**](https://github.com/ashish0kumar/dotfiles)
 
 | 📚 Entry                           	 | ✨ App                  |
 |----------------------------------------|--------------------------|
 | **Shell**                              | 💖 [zsh](https://zsh.sourceforge.io/) [⚙️](https://github.com/ashish0kumar/dotfiles/blob/main/.zshrc) / [pwsh](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_pwsh?view=powershell-7.4) [⚙️](https://github.com/ashish0kumar/windots/blob/main/.config/WindowsPowershell/Microsoft.PowerShell_profile.ps1) |
-| **Terminal Emulator**                  | [windows terminal](https://github.com/microsoft/terminal) [⚙️](https://github.com/ashish0kumar/windots/blob/main/.config/terminal/settings.json) |
+| **Terminal Emulator**                  | [Windows Terminal](https://github.com/microsoft/terminal) [⚙️](https://github.com/ashish0kumar/windots/blob/main/.config/terminal/settings.json) |
 | **Terminal Multiplexer**               | 💖 [tmux](https://github.com/tmux/tmux) [⚙️](https://github.com/ashish0kumar/dotfiles/blob/main/.config/tmux/tmux.conf) |
 | **Shell Prompt**                       | [ohmyposh](https://ohmyposh.dev/) [⚙️](https://github.com/ashish0kumar/windots/blob/main/.config/ohmyposh/zen.toml) |
 | **Text Editor**                        | 💖 [neovim](https://neovim.io/) [⚙️](https://github.com/ashish0kumar/dotfiles/tree/main/.config/nvim) |
@@ -91,173 +104,181 @@ Here is all the information about my setup:
 | **Cat Replacement**                    | [bat](https://github.com/sharkdp/bat) [⚙️](https://github.com/ashish0kumar/dotfiles/tree/main/.config/bat) |
 | **File Manager**                       | 💖 [yazi](https://yazi-rs.github.io/) [⚙️](https://github.com/ashish0kumar/dotfiles/tree/main/.config/yazi) |
 | **Fuzzy File Finder**                  | 💖 [fzf](https://github.com/junegunn/fzf) |
-| **Git**                                 | [git](https://git-scm.com/) [⚙️](https://github.com/ashish0kumar/dotfiles/tree/main/.config/git) |
+| **Git**                                | [git](https://git-scm.com/) [⚙️](https://github.com/ashish0kumar/dotfiles/tree/main/.config/git) |
 | **Git TUI**                            | [lazygit](https://github.com/jesseduffield/lazygit) |
 | **System Monitor**                     | [btop](https://github.com/aristocratos/btop) [⚙️](https://github.com/ashish0kumar/dotfiles/blob/main/.config/btop/btop.conf) & [bottom](https://github.com/ClementTsang/bottom) [⚙️](https://github.com/ashish0kumar/dotfiles/blob/main/.config/bottom/bottom.toml) |
 | **System Fetch**                       | [fastfetch](https://github.com/fastfetch-cli/fastfetch) [⚙️](https://github.com/ashish0kumar/dotfiles/blob/main/.config/fastfetch/config.jsonc) |
-| **Audio Visualizer** 			 | [cava](https://github.com/karlstav/cava) |
- 
+| **Audio Visualizer** 			 		 | [cava](https://github.com/karlstav/cava) |
 
-#### 🖱️ GUI Apps
+</details>
+
+<details>
+	
+<summary>🖱️ <b>GUI Apps</b></summary>
+
+<br>
 
 | 📚 Entry                           	 | ✨ App                  |
 |----------------------------------------|--------------------------|
-| **Text Editor**              		     | [Zed](https://zed.dev/) [⚙️](https://github.com/ashish0kumar/windots/blob/main/.config/zed/settings.json)  / [VSCode](https://code.visualstudio.com/) [⚙️](https://github.com/ashish0kumar/windots/blob/main/.config/vscode/settings.json) |
-| **Music Player**                       | 💖 [Spotify](https://open.spotify.com/) (patched with [Spicetify](https://spicetify.app/)) |
+| **Text Editor**              		     | 💖 [Zed](https://zed.dev/) [⚙️](https://github.com/ashish0kumar/windots/blob/main/.config/zed/settings.json)  / [VSCode](https://code.visualstudio.com/) [⚙️](https://github.com/ashish0kumar/windots/blob/main/.config/vscode/settings.json) |
+| **Music Player**                       | [Spotify](https://open.spotify.com/) (patched with [Spicetify](https://spicetify.app/)) |
 | **Web Browser**               	 	 | 💖 [Zen-Browser](https://zen-browser.app) [⚙️](https://github.com/ashish0kumar/windots/blob/main/.config/browser/) 🏡 [startpage](https://github.com/ashish0kumar/startpage) |
 | **Note Taking App**                    | 💖 [Obsidian](https://obsidian.md/) |
 | **File Manager**                       | [File Pilot](https://filepilot.tech/) |
 | **Office Apps**                     	 | [LibreOffice](https://www.libreoffice.org/) |
+
+</details>
  
+<details>
+	
+<summary>🔍 <b>Other</b></summary>
 
-#### 🔍 Other
+<br>
 
-| 📚 Entry                             | ✨ App                  |
+| 📚 Entry                              | ✨ App                  |
 |---------------------------------------|--------------------------|
 | **Colorscheme**                       | 💖 [Catppuccin Mocha](https://catppuccin.com) |
-| **Font**                  		| [JetBrainsMono Nerd Font](https://www.jetbrains.com/lp/mono/) |
+| **Font**                  			| [JetBrainsMono Nerd Font](https://www.jetbrains.com/lp/mono/) |
+
+</details>
  
 ---
 
 ## 🔧 Setup
 
 > [!WARNING]
-> Before proceeding, make sure to **backup your existing configuration files**.  
-> Some settings may overwrite your current setup, so **manually merge or restore** if needed.
+> These configs are **not plug-and-play**  
+> Cherry-pick what you need. Backup before applying.
 
-### 🪟 GlazeWM
+<details>
+<summary><strong>🪟 GlazeWM</strong></summary><br>
 
-> [!NOTE]  
-> This setup is compatible with the latest version of **GlazeWM** but **does not use Zebar**. Instead, it uses **YASB**.
+**NOTE:** Uses **YASB**, not Zebar.
 
-- **Install** [**GlazeWM**](https://github.com/glzr-io/glazewm/releases/).
+- Install [GlazeWM](https://github.com/glzr-io/glazewm/releases)
+- [`.config/glazewm/config.yaml`](.config/glazewm/config.yaml)
 
-- [`windots/.config/glazewm/config.yaml`](.config/glazewm/config.yaml) → `%USERPROFILE%\.glzr\glazewm\config.yaml`
+</details>
 
-- **Restart GlazeWM** for the changes to take effect.
+<details>
+<summary><strong>🍫 YASB</strong></summary><br>
 
-### 📊 YASB (Yet Another Status Bar)
+**NOTE:** Requires a Nerd Font (JetBrainsMono Nerd Font recommended).
 
-> [!NOTE]
-> Make sure you have a Nerd Font installed for proper icon rendering. I use **JetBrainsMono Nerd Font**, so if you are using a different Nerd Font, update the fonts in the YASB `styles.css` accordingly.
+- Install [YASB](https://github.com/amnweb/yasb/releases)
+- [`.config/yasb/`](.config/yasb/)
 
-- **Install** [**YASB**](https://github.com/amnweb/yasb/releases/).
+</details>
 
-- [`windots/.config/yasb/`](.config/yasb/) → `%USERPROFILE%\.config\yasb\`
+<details>
+<summary><strong>📝 Zed</strong></summary><br>
 
-- **Restart YASB** for the changes to take effect.
+- Install [Zed](https://zed.dev)
+- [`.config/zed/settings.json`](.config/zed/settings.json)
 
-### 📝 VSCode
+</details>
 
-> [!WARNING]
-> I am using VSCode `v1.91.1`, as newer versions do not support the **APC Customize UI extension**.
+<details>
+<summary><strong>⌨️ VSCode</strong></summary><br>
 
-- Enhance your **VSCode UI** with these **extensions**:
-  	- [APC Customize UI](https://marketplace.visualstudio.com/items?itemName=drcika.apc-extension) - Customize the VSCode interface
-	- [GlassIt-VSC](https://marketplace.visualstudio.com/items?itemName=s-nlf-fh.glassit) - Add a transparent/glass effect (optional)
+**WARNING:** Using **VSCode v1.91.1**  
+(Newer versions do **not** support APC Customize UI)
 
-- [`windots/.config/vscode/settings.json`](.config/vscode/settings.json) → `%APPDATA%\Code\User\settings.json`
+- Install [VSCode](https://code.visualstudio.com/download)
+- [APC Customize UI++](https://marketplace.visualstudio.com/items?itemName=drcika.apc-extension)  
+- [`.config/vscode/settings.json`](.config/vscode/settings.json)
 
-- **Restart VSCode** to load the updated settings.
+</details>
 
-### 📝 Zed
+<details>
+<summary><strong>🌐 Browser</strong></summary><br>
 
-- Install [Zed](https://zed.dev/)
+**NOTE:** Works only on Firefox-based browsers.
 
-- [`windots/.config/zed/settings.json`](.config/zed/settings.json) →  `%APPDATA%\Zed\settings.json`
+1. Enable stylesheets:
+   - Open `about:config`
+   - Set `toolkit.legacyUserProfileCustomizations.stylesheets = true`
 
-- Restart Zed
+2. Locate profile folder:
+   - Open `about:support`
+   - Click **Open Folder** next to Profile Folder
 
-### 🌐 Browser
+3. Copy configs:
+   - [`.config/browser/userChrome.css`](.config/browser/userChrome.css)
+   - [`.config/browser/userContent.css`](.config/browser/userContent.css)
 
-> [!NOTE]
-> These configs are applicable **only for Firefox-based browsers**.
+</details>
 
-- Enable **userChrome.css and userContent.css**:
-  - Open `about:config` in the address bar.
-  - Search for `toolkit.legacyUserProfileCustomizations.stylesheets`.
-  - Set it to `true`.
+<details>
+<summary><strong>🚀 Flow Launcher</strong></summary><br>
 
-- **Locate your profile folder**:
-  - Open `about:support` in the address bar.
-  - Find "Profile Folder" and click "Open Folder."
+- Install [Flow Launcher](https://www.flowlauncher.com)
+- [`.config/FlowLauncher/settings.json`](.config/FlowLauncher/settings.json)
 
-- **Copy the browser styling configs**:
-  - [`windots/.config/browser/userChrome.css`](.config/browser/userChrome.css) → `<Your Profile Folder>/chrome/userChrome.css`
-  - [`windots/.config/browser/userContent.css`](.config/browser/userContent.css) → `<Your Profile Folder>/chrome/userContent.css`
+</details>
 
-- **Restart your browser** for the changes to take effect.
+<details>
+<summary><strong>🦅 Windhawk</strong></summary><br>
 
-### 🚀 Flow Launcher
+- Install [Windhawk](https://windhawk.net)
+- Required mods:
+  - Notification Center Styler
+  - Start Menu Styler
+  - Taskbar Styler
 
-- **Install** [**Flow Launcher**](https://www.flowlauncher.com/)
+- [`.config/windhawk/`](.config/windhawk/)
 
-- [`windots/.config/FlowLauncher/settings.json`](.config/FlowLauncher/settings.json) → `%APPDATA%\FlowLauncher\Settings\Settings.json`
+Paste configs via:  
+**Mod → Advanced → Mod Settings → Load**
 
-- **Restart Flow Launcher**
+</details>
 
-### 🦅 Windhawk
+<details>
+<summary><strong>>_ Windows Terminal</strong></summary><br>
 
-- **Install** [**Windhawk**](https://windhawk.net/).
+- Install [Windows Terminal](https://github.com/microsoft/terminal)
+- [`.config/terminal/settings.json`](.config/terminal/settings.json)  
 
-- **Install Relevant Mods** from the [Windhawk Store](https://windhawk.net/explore):
-	- Notification Center Styler
-	- Start Menu Styler
-	- Taskbar Styler
+</details>
 
-- **Copy** the Windhawk config files from [`windots/.config/windhawk/`](.config/windhawk/)
+<details>
+<summary><strong>🐚 PowerShell</strong></summary><br>
 
-- Open the relevant mod’s **details page**, go to **Advanced > Mod Settings**, paste the config, and click **"Load"** to apply it.
+- Install [PowerShell](https://learn.microsoft.com/en-us/powershell/scripting/install/install-powershell?view=powershell-7.5)
+- [`.config/WindowsPowershell/Microsoft.PowerShell_profile.ps1`](.config/WindowsPowershell/Microsoft.PowerShell_profile.ps1)
 
-## \>_ Terminal & Shell Setup
+</details>
 
-### 🖥️ Windows Terminal
+<details>
+<summary><strong>🎨 Oh My Posh</strong></summary><br>
 
-- **Install** [**Windows Terminal**](https://github.com/microsoft/terminal)
+- Install:
+  ```bash
+  winget install JanDeDobbeleer.OhMyPosh -s winget
+  ```
 
-- [`windots/.config/terminal/settings.json`](.config/terminal/settings.json) → `%LOCALAPPDATA%\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json`
+- [`.config/ohmyposh/zen.toml`](.config/ohmyposh/zen.toml)
 
-- **Restart Windows Terminal** to see the updated config.
+Theme init is already included in the PowerShell profile.
 
-### 🐚 PowerShell
+</details> 
 
-- [`windots/.config/WindowsPowershell/Microsoft.PowerShell_profile.ps1`](.config/WindowsPowershell/Microsoft.PowerShell_profile.ps1) → `%USERPROFILE%\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1`
+<details> 
+<summary><strong>⚙️ Fastfetch</strong></summary><br>
 
-- Restart PowerShell to apply the changes.
+- Install:
+  ```bash
+  winget install fastfetch
+  ```
 
-### 🎨 Oh My Posh
+- [`.config/fastfetch/config.jsonc`](.config/fastfetch/config.jsonc)
+- [`.config/fastfetch/windows.txt`](.config/fastfetch/windows.txt)
 
-- **Install** [**Oh My Posh**](https://ohmyposh.dev/docs/installation/windows) using winget:
-
-```bash
-winget install JanDeDobbeleer.OhMyPosh -s winget
-```
-
-- [`windots/.config/ohmyposh/zen.toml`](.config/ohmyposh/zen.toml) → `%USERPROFILE%\.config\ohmyposh\zen.toml`
-
-- **Optional Step:** Skip this if you applied my PowerShell config.
-	- I have already included the command to set the theme in the PowerShell profile, so there's no need to do it manually. The following command is automatically applied when PowerShell starts:
-
-```bash
-oh-my-posh init pwsh --config "$env:USERPROFILE\.config\ohmyposh\zen.toml" | Invoke-Expression
-```
-
-### ⚙️ Fastfetch
-
-- **Install** [**fastfetch**](https://github.com/fastfetch-cli/fastfetch) using **winget**:
-
-```bash
-winget install fastfetch
-```
-
-- [`windots/.config/fastfetch/config.jsonc`](.config/fastfetch/config.jsonc) → `%USERPROFILE%\.config\fastfetch\config.conf`
-- [`windots/.config/fastfetch/windows.txt`](.config/fastfetch/windows.txt) → `%USERPROFILE%\.config\fastfetch\windows.txt`
-
-- **Run fastfetch**.
+</details>
 
 ---
 
-## ⌨️ GlazeWM keybindings 
+## ⌨️ Keybindings 
 
 You can always change these in your `.glzr\glazewm\config.yaml`
 
@@ -278,8 +299,6 @@ You can always change these in your `.glzr\glazewm\config.yaml`
 
 ### 🚀 Custom App & Browser Shortcuts
 
-> **Note:** All browser links open in new browser windows for isolated sessions
-
 | Keys                              | Action              | Keys                          | Action                     |
 | --------------------------------- | ------------------- | ----------------------------- | -------------------------- |
 | <kbd>alt</kbd> + <kbd>enter</kbd> | Open Terminal (WSL) | <kbd>alt</kbd> + <kbd>p</kbd> | Open Terminal (PowerShell) |
@@ -289,7 +308,6 @@ You can always change these in your `.glzr\glazewm\config.yaml`
 | <kbd>alt</kbd> + <kbd>n</kbd>     | Open Neovim         | <kbd>alt</kbd> + <kbd>s</kbd> | Open btop                  |
 | <kbd>alt</kbd> + <kbd>b</kbd>     | Open Zen Browser    | <kbd>alt</kbd> + <kbd>y</kbd> | Open YouTube               |
 | <kbd>alt</kbd> + <kbd>x</kbd>     | Open X (Twitter)    | <kbd>alt</kbd> + <kbd>a</kbd> | Open ChatGPT               |
-| <kbd>alt</kbd> + <kbd>g</kbd>     | Open GitHub Profile | <kbd>alt</kbd> + <kbd>l</kbd> | Open LeetCode Profile      |
 
 ---
 
