@@ -382,13 +382,7 @@ This is optional, but it's always appreciated.
 
 Thank you! 💖
 
----
-
-## 💫 Star History
-
-[![Stargazers over time](https://starchart.cc/ashish0kumar/windots.svg?background=%231e1e2e&axis=%23cdd6f4&line=%23cba6f7)](https://starchart.cc/ashish0kumar/windots)
-
-<br>
+<br><br>
 
 <p align="center">
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/footers/gray0_ctp_on_line.svg?sanitize=true" />
