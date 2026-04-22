@@ -1,0 +1,99 @@
+# i totally didn't use AI for this
+theme: "mocha"
+
+controlStyles:
+  - target: Grid#NotificationCenterGrid
+    styles:
+      - Background:=<AcrylicBrush TintColor="#1e1e2e" TintLuminosityOpacity="0.75" TintOpacity="0.85" Opacity="1" FallbackColor="#1e1e2e"/>
+      - BorderThickness=1.5
+      - CornerRadius=12
+      - BorderBrush:=<SolidColorBrush Color="#313244" Opacity="0.8" />
+
+  - target: Grid#CalendarCenterGrid
+    styles:
+      - Background:=<AcrylicBrush TintColor="#1e1e2e" TintLuminosityOpacity="0.75" TintOpacity="0.85" Opacity="1" FallbackColor="#1e1e2e"/>
+      - BorderThickness=1.5
+      - CornerRadius=12
+      - BorderBrush:=<SolidColorBrush Color="#313244" Opacity="0.8" />
+
+  - target: Grid#ControlCenterRegion
+    styles:
+      - Background:=<AcrylicBrush TintColor="#181825" TintLuminosityOpacity="0.7" TintOpacity="0.85" Opacity="1" FallbackColor="#181825"/>
+      - BorderThickness=1.5
+      - CornerRadius=12
+      - BorderBrush:=<SolidColorBrush Color="#313244" Opacity="0.8" />
+
+  - target: ContentPresenter#PageContent
+    styles:
+      - Background:=<SolidColorBrush Color="#181825"/>
+
+  - target: ScrollViewer#ListContent
+    styles:
+      - Background:=<SolidColorBrush Color="#181825"/>
+
+  - target: QuickActions.ControlCenterButton
+    styles:
+      - Background:=<SolidColorBrush Color="#313244"/>
+      - CornerRadius=10
+
+  - target: QuickActions.ControlCenterButton:pointerover
+    styles:
+      - Background:=<SolidColorBrush Color="#45475a"/>
+
+  - target: QuickActions.ControlCenterButton:pressed
+    styles:
+      - Background:=<SolidColorBrush Color="#b4befe"/>
+
+  - target: QuickActions.ControlCenterButton:checked
+    styles:
+      - Background:=<SolidColorBrush Color="#b4befe"/>
+
+  - target: Windows.UI.Xaml.Controls.FontIcon
+    styles:
+      - Foreground:=<SolidColorBrush Color="#cdd6f4"/>
+
+  - target: Windows.UI.Xaml.Controls.TextBlock
+    styles:
+      - Foreground:=<SolidColorBrush Color="#cdd6f4"/>
+
+  # sliders
+  - target: Windows.UI.Xaml.Controls.Slider
+    styles:
+      - Foreground:=<SolidColorBrush Color="#b4befe"/>
+      - Background:=<SolidColorBrush Color="#313244"/>
+
+  - target: Grid#MediaTransportControlsRegion
+    styles:
+      - Background:=<AcrylicBrush TintColor="#181825" TintLuminosityOpacity="0.65" TintOpacity="0.9" Opacity="1" FallbackColor="#181825"/>
+      - CornerRadius=10
+
+  - target: Grid#ThumbnailImage
+    styles:
+      - CornerRadius=8
+      - Height=130
+      - Width=130
+
+  - target: Border#ToastBackgroundBorder2
+    styles:
+      - Background:=<AcrylicBrush TintColor="#181825" TintLuminosityOpacity="0.65" TintOpacity="0.9" Opacity="1" FallbackColor="#181825"/>
+      - CornerRadius=8
+      - BorderThickness=1
+      - BorderBrush:=<SolidColorBrush Color="#313244" Opacity="0.6" />
+
+  - target: ActionCenter.FocusSessionControl
+    styles:
+      - Height=0
+
+  - target: Windows.UI.Xaml.Controls.GridViewItem
+    styles:
+      - Background:=<SolidColorBrush Color="#313244"/>
+      - CornerRadius=8
+      - Margin=4
+
+  - target: Windows.UI.Xaml.Controls.GridViewItem:pointerover
+    styles:
+      - Background:=<SolidColorBrush Color="#45475a"/>
+
+  - target: Windows.UI.Xaml.Controls.GridViewItem:pressed
+    styles:
+      - Background:=<SolidColorBrush Color="#b4befe"/>

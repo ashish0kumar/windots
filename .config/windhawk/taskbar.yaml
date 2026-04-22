@@ -1,0 +1,25 @@
+theme: Oversimplified&Accentuated
+styleConstants:
+  - ""
+controlStyles:
+  - target: Taskbar.TaskbarFrame#TaskbarFrame > Grid#RootGrid
+    styles:
+      - BorderBrush:=<SolidColorBrush Color="#313244" Opacity="0.7" />
+      - Background:=<AcrylicBrush TintColor="#1e1e2e" TintLuminosityOpacity="0.75" TintOpacity="0.85" Opacity="1" FallbackColor="#1e1e2e"/>
+      - BorderThickness=1.5
+      - CornerRadius=0
+  - target: Rectangle#BackgroundFill
+    styles:
+      - Visibility=Collapsed
+  - target: Rectangle#BackgroundStroke
+    styles:
+      - Visibility=Collapsed
+  - target: Taskbar.AugmentedEntryPointButton#AugmentedEntryPointButton > Taskbar.TaskListButtonPanel#ExperienceToggleButtonRootPanel
+    styles:
+      - Margin=0
+  - target: Grid#SystemTrayFrameGrid
+    styles:
+      - Background:=#00000000
+themeResourceVariables:
+  - ""
+xamlDiagnosticsHandling: ""
