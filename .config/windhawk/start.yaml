@@ -1,0 +1,130 @@
+theme: Oversimplified&Accentuated
+disableNewStartMenuLayout: ''
+
+styleConstants:
+  - ''
+
+controlStyles:
+  # hiding clutter
+  - target: Windows.UI.Xaml.Controls.Grid#ShowMoreSuggestions
+    styles:
+      - Visibility=Collapsed
+
+  - target: Windows.UI.Xaml.Controls.Grid#SuggestionsParentContainer
+    styles:
+      - Visibility=Collapsed
+
+  - target: Windows.UI.Xaml.Controls.Grid#TopLevelSuggestionsListHeader
+    styles:
+      - Visibility=Collapsed
+
+  - target: Windows.UI.Xaml.Controls.Grid#TopLevelRoot > Windows.UI.Xaml.Controls.Border
+    styles:
+      - Visibility=Collapsed
+
+  - target: Windows.UI.Xaml.Controls.Button#CloseAllAppsButton
+    styles:
+      - Visibility=Collapsed
+
+  - target: StartDocked.NavigationPaneView#Margin
+    styles:
+      - Visibility=Collapsed
+
+  - target: Windows.UI.Xaml.Controls.TextBlock#DisplayName
+    styles:
+      - Visibility=Collapsed
+
+  - target: Windows.UI.Xaml.Controls.TextBlock#PinnedListHeaderText
+    styles:
+      - Visibility=Collapsed
+
+  - target: Windows.UI.Xaml.Controls.TextBlock#AllAppsHeading
+    styles:
+      - Visibility=Collapsed
+
+  - target: Windows.UI.Xaml.Controls.Grid#UserTileIcon
+    styles:
+      - Visibility=Collapsed
+
+  - target: Windows.UI.Xaml.Controls.TextBlock#UserTileNameText
+    styles:
+      - Visibility=Collapsed
+
+  - target: Windows.UI.Xaml.Controls.Viewbox
+    styles:
+      - MaxWidth=32
+      - MaxHeight=32
+      - HorizontalAlignment=Center
+      - VerticalAlignment=Center
+
+  - target: StartMenu.PinnedListTile
+    styles:
+      - HorizontalContentAlignment=Center
+      - VerticalContentAlignment=Center
+
+  - target: Windows.UI.Xaml.Controls.Border#AcrylicBorder
+    styles:
+      - BorderThickness=1.5
+      - CornerRadius=8
+      - BorderBrush=#313244
+      - Background:=<AcrylicBrush TintColor="#1e1e2e" TintLuminosityOpacity="0.75" TintOpacity="0.85" Opacity="1" FallbackColor="#1e1e2e"/>
+
+  - target: Windows.UI.Xaml.Controls.Grid#ContentBorder > Windows.UI.Xaml.Controls.Border#BackgroundBorder
+    styles:
+      - Background=#181825
+      - CornerRadius=10
+
+  - target: Windows.UI.Xaml.Controls.Border#AppBorder
+    styles:
+      - Background=#181825
+      - BorderThickness=1.5
+      - BorderBrush=#313244
+      - CornerRadius=10
+
+  - target: Windows.UI.Xaml.Controls.Border#TaskbarSearchBackground
+    styles:
+      - Background=#181825
+      - BorderBrush=#313244
+      - BorderThickness=1
+      - CornerRadius=20
+
+  - target: Windows.UI.Xaml.Controls.FontIcon
+    styles:
+      - Foreground=#b4befe
+
+  - target: StartDocked.NavigationPaneButton#PowerButton
+    styles:
+      - MinWidth=70
+      - HorizontalAlignment=Stretch
+
+  - target: StartDocked.NavigationPaneButton#PowerButton > Windows.UI.Xaml.Controls.Grid > Windows.UI.Xaml.Controls.Border#BackgroundBorder
+    styles:
+      - Background=#181825
+
+  - target: Windows.UI.Xaml.Controls.Border#AcrylicOverlay
+    styles:
+      - Opacity=0
+
+  - target: Windows.UI.Xaml.Controls.FontIcon
+    styles:
+      - Margin=0,0,0,0
+      - Opacity=1
+
+  - target: Windows.UI.Xaml.Controls.TextBlock
+    styles:
+      - Padding=5,5,5,5
+
+  # force fonticons visible (redundant)
+  - target: Windows.UI.Xaml.Controls.StackPanel > Windows.UI.Xaml.Controls.FontIcon
+    styles:
+      - Opacity=1
+
+themeResourceVariables:
+  - ''
+
+webContentStyles:
+  - target: ''
+    styles:
+      - ''
+
+webContentCustomJs: ''
